@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T02:12:58.504Z",
+  "generatedAt": "2026-09-18T09:49:41.152Z",
   "queries": [
     "agentic AI",
     "payment systems",
@@ -41,7 +41,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -70,36 +70,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
-      }
-    },
-    {
-      "id": "openreview:zq358GWXyM",
-      "title": "Prompted Publics: Generative AI, Agentic Auditing, and Representational Bias in Indian Social Media Literature",
-      "authors": [
-        "Aditi Kuila",
-        "Suman Roy"
-      ],
-      "year": 2026,
-      "venue": "JEN-AI 2026",
-      "abstract": "Generative AI and Large Language Models (LLMs) are increasingly deployed in computational journalism and digital humanities, yet their application to Global South literatures raises critical concerns about representational bias and algorithmic erasure. This paper introduces the Prompted Publics framework, which reconceptualizes prompts, system instructions, and adversarial jailbreaks not as neutral technical inputs but as ideological interpretive acts that shape how marginalized digital publics are rendered legible by AI systems. We operationalize this framework through a mixed-method pipeline that combines Multilingual Retrieval-Augmented Generation (mRAG) with Agentic Auditing protocols, evaluated on a curated multilingual corpus of Indian social media literature spanning Hindi, Bengali, Hinglish, and English. Our experiments demonstrate that commercial LLMs exhibit severe caste-marker erasure under default prompting (retention rates as low as 25.0%), while sovereign Indian models combined with positional prompting significantly improve retention (up to 50.9%). Topic modeling identifies four coherent thematic clusters capturing caste resistance, intersectional feminism, AI fairness discourse, and vernacular literary movements. These findings underscore the urgent need for culturally grounded auditing frameworks in AI-assisted journalism.",
-      "keywords": [
-        "Generative AI",
-        "Computational Journalism",
-        "Representational Bias",
-        "Multilingual NLP",
-        "Agentic Auditing",
-        "Digital Humanities"
-      ],
-      "citations": 0,
-      "doi": null,
-      "url": "https://openreview.net/forum?id=zq358GWXyM",
-      "type": "reviewed work",
-      "source": {
-        "name": "OpenReview",
-        "authority": "OpenReview public scholarly review infrastructure",
-        "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -129,7 +100,36 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
+      }
+    },
+    {
+      "id": "openreview:zq358GWXyM",
+      "title": "Prompted Publics: Generative AI, Agentic Auditing, and Representational Bias in Indian Social Media Literature",
+      "authors": [
+        "Aditi Kuila",
+        "Suman Roy"
+      ],
+      "year": 2026,
+      "venue": "JEN-AI 2026",
+      "abstract": "Generative AI and Large Language Models (LLMs) are increasingly deployed in computational journalism and digital humanities, yet their application to Global South literatures raises critical concerns about representational bias and algorithmic erasure. This paper introduces the Prompted Publics framework, which reconceptualizes prompts, system instructions, and adversarial jailbreaks not as neutral technical inputs but as ideological interpretive acts that shape how marginalized digital publics are rendered legible by AI systems. We operationalize this framework through a mixed-method pipeline that combines Multilingual Retrieval-Augmented Generation (mRAG) with Agentic Auditing protocols, evaluated on a curated multilingual corpus of Indian social media literature spanning Hindi, Bengali, Hinglish, and English. Our experiments demonstrate that commercial LLMs exhibit severe caste-marker erasure under default prompting (retention rates as low as 25.0%), while sovereign Indian models combined with positional prompting significantly improve retention (up to 50.9%). Topic modeling identifies four coherent thematic clusters capturing caste resistance, intersectional feminism, AI fairness discourse, and vernacular literary movements. These findings underscore the urgent need for culturally grounded auditing frameworks in AI-assisted journalism.",
+      "keywords": [
+        "Generative AI",
+        "Computational Journalism",
+        "Representational Bias",
+        "Multilingual NLP",
+        "Agentic Auditing",
+        "Digital Humanities"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=zq358GWXyM",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -157,31 +157,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
-      }
-    },
-    {
-      "id": "openreview:9t5YCmpeiC",
-      "title": "Beyond Engagement: A Multidimensional Framework to Evaluate the Safe Development of Agentic AI in Mental Health",
-      "authors": [
-        "Beatriz Garcia Santa Cruz",
-        "Carlos Vega",
-        "Philip Santangelo",
-        "Venkata P. Satagopam"
-      ],
-      "year": 2025,
-      "venue": "Agentic AI/CREATE/Clinical MLLMs@MICCAI 2025",
-      "abstract": "The rapid rise of agentic AI in mental health exposes a misalignment between conversational fluency and user safety. We present a multidimensional framework spanning nine evaluation domains—from clinical validity to relational risk and regulatory compliance—designed to assess agentic systems beyond surface metrics. Applying it to eight real-world tools reveals that the most popular agents often lack basic safeguards, while clinically validated solutions remain underutilized. These findings highlight the need for structured oversight and public awareness. Our framework offers a foundation for safer deployment, informed regulation, and design practices grounded in mental health ethics.",
-      "keywords": [],
-      "citations": 0,
-      "doi": "10.1007/978-3-032-06004-4_8",
-      "url": "https://openreview.net/forum?id=9t5YCmpeiC",
-      "type": "reviewed work",
-      "source": {
-        "name": "OpenReview",
-        "authority": "OpenReview public scholarly review infrastructure",
-        "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -209,7 +185,31 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
+      }
+    },
+    {
+      "id": "openreview:9t5YCmpeiC",
+      "title": "Beyond Engagement: A Multidimensional Framework to Evaluate the Safe Development of Agentic AI in Mental Health",
+      "authors": [
+        "Beatriz Garcia Santa Cruz",
+        "Carlos Vega",
+        "Philip Santangelo",
+        "Venkata P. Satagopam"
+      ],
+      "year": 2025,
+      "venue": "Agentic AI/CREATE/Clinical MLLMs@MICCAI 2025",
+      "abstract": "The rapid rise of agentic AI in mental health exposes a misalignment between conversational fluency and user safety. We present a multidimensional framework spanning nine evaluation domains—from clinical validity to relational risk and regulatory compliance—designed to assess agentic systems beyond surface metrics. Applying it to eight real-world tools reveals that the most popular agents often lack basic safeguards, while clinically validated solutions remain underutilized. These findings highlight the need for structured oversight and public awareness. Our framework offers a foundation for safer deployment, informed regulation, and design practices grounded in mental health ethics.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1007/978-3-032-06004-4_8",
+      "url": "https://openreview.net/forum?id=9t5YCmpeiC",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -240,7 +240,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -269,7 +269,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -300,7 +300,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -325,7 +325,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -359,7 +359,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -382,7 +382,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -407,7 +407,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -428,7 +428,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -453,7 +453,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -478,7 +478,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -500,7 +500,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -524,7 +524,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -549,7 +549,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -575,7 +575,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -599,7 +599,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -624,7 +624,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -649,7 +649,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -673,7 +673,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -696,7 +696,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -719,7 +719,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -742,7 +742,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -763,7 +763,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -788,7 +788,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -813,7 +813,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -835,7 +835,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -856,7 +856,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -878,7 +878,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -904,7 +904,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -926,7 +926,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -952,7 +952,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -974,7 +974,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1004,7 +1004,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1034,7 +1034,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1064,7 +1064,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1091,7 +1091,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1124,7 +1124,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1153,7 +1153,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1178,7 +1178,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1205,7 +1205,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1243,7 +1243,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1274,7 +1274,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1302,7 +1302,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1331,7 +1331,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1363,7 +1363,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1388,7 +1388,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1415,7 +1415,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1448,7 +1448,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1480,7 +1480,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1509,7 +1509,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1539,7 +1539,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1565,7 +1565,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1598,7 +1598,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1629,7 +1629,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1655,7 +1655,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1688,7 +1688,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1712,7 +1712,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1737,7 +1737,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1764,7 +1764,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1790,7 +1790,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1816,7 +1816,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1840,7 +1840,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1867,7 +1867,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1892,7 +1892,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1917,7 +1917,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     },
     {
@@ -1943,7 +1943,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T02:12:58.504Z"
+        "retrievedAt": "2026-09-18T09:49:41.152Z"
       }
     }
   ]
