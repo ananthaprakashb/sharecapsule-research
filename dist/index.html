@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071d23">
+  <meta name="description" content="A community platform for discovering opportunities, producing credible research, developing skills, and documenting measurable contribution.">
+  <title>Impact Commons</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23071d23'/%3E%3Cpath d='M18 44V21h9v23zm10-13h9v13h-9zm10-8h9v21h-9z' fill='%235ee1b6'/%3E%3Ccircle cx='42' cy='18' r='5' fill='%23ffbd66'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Primary navigation">
+      <div class="brand" aria-label="Impact Commons home">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span><strong>Impact</strong><small>Commons</small></span>
+      </div>
+      <nav class="nav-list">
+        <button class="nav-item active" data-view="overview"><span aria-hidden="true">◫</span>Overview</button>
+        <button class="nav-item" data-view="opportunities"><span aria-hidden="true">⌁</span>Opportunities</button>
+        <button class="nav-item" data-view="proposal"><span aria-hidden="true">✦</span>Proposal Studio</button>
+        <button class="nav-item" data-view="research"><span aria-hidden="true">⌕</span>Research Studio</button>
+        <button class="nav-item" data-view="skills"><span aria-hidden="true">↗</span>Skill Lab</button>
+        <button class="nav-item" data-view="community"><span aria-hidden="true">◎</span>Community</button>
+        <button class="nav-item" data-view="evidence"><span aria-hidden="true">▣</span>Evidence Vault</button>
+      </nav>
+      <div class="sidebar-note">
+        <span class="eyebrow">Community principle</span>
+        <p>Credibility grows when learning produces useful, verifiable work.</p>
+      </div>
+      <button class="profile-button" id="profile-button" aria-label="Open profile summary">
+        <span class="avatar">AP</span>
+        <span><strong>Anantha Prakash</strong><small>Systems & payments</small></span>
+        <span aria-hidden="true">•••</span>
+      </button>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <button class="mobile-menu" id="mobile-menu" aria-label="Open navigation" aria-expanded="false">☰</button>
+        <div>
+          <p class="breadcrumb">Workspace / <span id="crumb">Overview</span></p>
+          <h1 id="page-title">Your impact workspace</h1>
+        </div>
+        <div class="top-actions">
+          <button class="icon-button" id="reset-demo" title="Reset demo data" aria-label="Reset demo data">↻</button>
+          <button class="button secondary" data-go="proposal">Create with AI</button>
+          <button class="button primary" data-go="opportunities">Find an opportunity</button>
+        </div>
+      </header>
+
+      <div class="content">
+        <section class="view active" id="view-overview" aria-labelledby="page-title">
+          <div class="mission-strip">
+            <div>
+              <span class="eyebrow mint">90-day mission</span>
+              <h2>Turn payment expertise into published, community-tested knowledge.</h2>
+              <p>One research artifact, two public talks, and one mentored student project.</p>
+            </div>
+            <div class="mission-meter" aria-label="Mission progress 42 percent">
+              <div class="ring"><span>42<small>%</small></span></div>
+              <div><strong>6 of 14 milestones</strong><small>18 days left in sprint</small></div>
+            </div>
+          </div>
+
+          <div class="metric-grid">
+            <article class="metric-card"><span class="metric-icon coral">⌁</span><div><small>Matched opportunities</small><strong>18</strong><em>+6 this week</em></div></article>
+            <article class="metric-card"><span class="metric-icon violet">⌕</span><div><small>Research readiness</small><strong>68%</strong><em>3 evidence gaps</em></div></article>
+            <article class="metric-card"><span class="metric-icon blue">↗</span><div><small>Applied skill hours</small><strong id="skill-hours">24</strong><em>4 verified artifacts</em></div></article>
+            <article class="metric-card"><span class="metric-icon mint-bg">◎</span><div><small>Community impact</small><strong id="impact-points">340</strong><em>12 people helped</em></div></article>
+          </div>
+
+          <div class="dashboard-grid">
+            <section class="panel span-2">
+              <div class="panel-head">
+                <div><span class="eyebrow">Opportunity radar</span><h3>Best next moves</h3></div>
+                <button class="text-button" data-go="opportunities">See all 18 →</button>
+              </div>
+              <div id="overview-opportunities" class="opportunity-list compact"></div>
+            </section>
+            <section class="panel">
+              <div class="panel-head"><div><span class="eyebrow">Evidence health</span><h3>Portfolio strength</h3></div><span class="score">B+</span></div>
+              <div class="evidence-bars">
+                <div><span>Original contribution <b>78%</b></span><i><u style="width:78%"></u></i></div>
+                <div><span>Published material <b>54%</b></span><i><u style="width:54%"></u></i></div>
+                <div><span>Judging & review <b>83%</b></span><i><u style="width:83%"></u></i></div>
+                <div><span>Leading role <b>70%</b></span><i><u style="width:70%"></u></i></div>
+              </div>
+              <div class="callout"><strong>Most valuable next proof</strong><p>Publish an independently reviewed artifact that connects agentic payments to operational reliability.</p></div>
+              <button class="button secondary full" data-go="evidence">Open evidence vault</button>
+            </section>
+            <section class="panel span-2">
+              <div class="panel-head"><div><span class="eyebrow">Research pipeline</span><h3>From question to contribution</h3></div><button class="text-button" data-go="research">Open studio →</button></div>
+              <div class="pipeline">
+                <div class="pipeline-step done"><b>01</b><span><strong>Frame</strong><small>Question defined</small></span></div>
+                <div class="pipeline-step done"><b>02</b><span><strong>Discover</strong><small>16 sources mapped</small></span></div>
+                <div class="pipeline-step current"><b>03</b><span><strong>Challenge</strong><small>Test 3 assumptions</small></span></div>
+                <div class="pipeline-step"><b>04</b><span><strong>Build</strong><small>Prototype & evaluate</small></span></div>
+                <div class="pipeline-step"><b>05</b><span><strong>Share</strong><small>Review & publish</small></span></div>
+              </div>
+            </section>
+            <section class="panel">
+              <div class="panel-head"><div><span class="eyebrow">Today</span><h3>Contribution queue</h3></div></div>
+              <label class="task"><input type="checkbox" data-task="review"><span><strong>Review student architecture</strong><small>Community · 20 min</small></span></label>
+              <label class="task"><input type="checkbox" data-task="source"><span><strong>Validate BIS paper claim</strong><small>Research · 30 min</small></span></label>
+              <label class="task"><input type="checkbox" data-task="abstract"><span><strong>Refine conference abstract</strong><small>Opportunity · 25 min</small></span></label>
+            </section>
+          </div>
+        </section>
+
+        <section class="view" id="view-opportunities">
+          <div class="workspace-intro"><div><span class="eyebrow mint">Curated & explainable</span><h2>Opportunity radar</h2><p>Every match explains why it fits, what proof it can create, and the effort required.</p></div><div class="mini-stat"><strong>18</strong><span>matches</span></div></div>
+          <div class="toolbar">
+            <label class="search"><span aria-hidden="true">⌕</span><input id="opportunity-search" type="search" placeholder="Search topics, organizations, or formats"></label>
+            <div class="filter-pills" role="group" aria-label="Opportunity type">
+              <button class="filter active" data-filter="All">All</button><button class="filter" data-filter="Speaking">Speaking</button><button class="filter" data-filter="Judging">Judging</button><button class="filter" data-filter="Peer review">Peer review</button><button class="filter" data-filter="Research">Research</button><button class="filter" data-filter="Media">Media</button>
+            </div>
+          </div>
+          <div class="opportunity-layout"><div id="opportunity-grid" class="opportunity-grid"></div><aside class="insight-rail"><span class="eyebrow">Match intelligence</span><h3>Your strongest themes</h3><div class="topic-cloud"><span>Agentic payments</span><span>SRE</span><span>PCI DSS</span><span>Distributed systems</span><span>AI safety</span></div><hr><h3>Ethical guardrail</h3><p>Recommendations optimize for genuine expertise and public value—not credential collection.</p></aside></div>
+        </section>
+
+        <section class="view" id="view-proposal">
+          <div class="workspace-intro"><div><span class="eyebrow mint">Human-led AI</span><h2>Proposal Studio</h2><p>Develop an original pitch from your evidence. The assistant structures; you remain the author.</p></div><span class="draft-status">Draft saved locally</span></div>
+          <div class="studio-grid">
+            <form class="panel form-panel" id="proposal-form">
+              <div class="form-row"><label>Target opportunity<select id="proposal-event"><option>Fintech Reliability Summit — Call for Speakers</option><option>Open Source Security Forum — Judge application</option><option>Journal of Digital Payments — Practitioner review</option></select></label><label>Format<select id="proposal-format"><option>Conference abstract</option><option>Judge statement</option><option>Media pitch</option><option>Research synopsis</option></select></label></div>
+              <label>Working title<input id="proposal-title" value="The Transaction Boundary AI Agents Cannot See"></label>
+              <label>Core idea<textarea id="proposal-idea" rows="4">Autonomous agents need durable, inspectable receipts that connect intent, authorization, side effects, and reconciliation across unreliable third-party boundaries.</textarea></label>
+              <label>Evidence from your work<textarea id="proposal-evidence" rows="4">17+ years in payment platforms; production incident analysis; open-source capability-token proxy; ongoing transaction-boundary research.</textarea></label>
+              <div class="form-row"><label>Audience<select id="proposal-audience"><option>Senior engineers and architects</option><option>Researchers</option><option>Engineering students</option><option>Executives and policy leaders</option></select></label><label>Tone<select id="proposal-tone"><option>Technical and direct</option><option>Accessible and practical</option><option>Research-oriented</option><option>Provocative</option></select></label></div>
+              <button class="button primary full" type="submit">Generate structured draft ✦</button>
+              <p class="form-note">No invented achievements. Verify every claim before submission.</p>
+            </form>
+            <section class="panel output-panel">
+              <div class="panel-head"><div><span class="eyebrow">Editable output</span><h3>Your proposal</h3></div><div class="quality-badge">Quality <strong id="quality-score">—</strong></div></div>
+              <textarea id="proposal-output" aria-label="Generated proposal" placeholder="Complete the evidence-led brief to generate a proposal."></textarea>
+              <div class="quality-checks" id="quality-checks"><span>○ Clear problem</span><span>○ Original insight</span><span>○ Verifiable evidence</span><span>○ Audience value</span></div>
+              <div class="output-actions"><button class="button secondary" id="copy-proposal">Copy draft</button><button class="button secondary" id="save-evidence">Add to evidence vault</button></div>
+            </section>
+          </div>
+        </section>
+
+        <section class="view" id="view-research">
+          <div class="workspace-intro"><div><span class="eyebrow mint">Research integrity by design</span><h2>Research Studio</h2><p>Separate claims, evidence, assumptions, and open questions before AI turns them into prose.</p></div><button class="button primary" id="analyze-gap">Analyze the gap ✦</button></div>
+          <div class="research-question panel"><span class="eyebrow">Active question</span><textarea id="research-question" rows="2">How can an autonomous payment agent prove that an external side effect was authorized, completed, and reconciled when the provider lacks idempotency?</textarea><div class="question-meta"><span>Scope: Agentic commerce</span><span>Method: Design science</span><span>Risk: High-stakes systems</span></div></div>
+          <div class="research-grid">
+            <section class="panel span-2"><div class="panel-head"><div><span class="eyebrow">Evidence ledger</span><h3>Claims under examination</h3></div><button class="text-button" id="add-claim">+ Add claim</button></div><div class="table-wrap"><table><thead><tr><th>Claim</th><th>Source strength</th><th>State</th><th>Next action</th></tr></thead><tbody id="claims-body"></tbody></table></div></section>
+            <aside class="panel"><span class="eyebrow">Gap analysis</span><div id="gap-output" class="gap-empty"><span>⌁</span><h3>Run a structured challenge</h3><p>We will look for unsupported causality, missing stakeholders, and testable novelty.</p></div></aside>
+          </div>
+          <section class="panel method-panel"><div><span class="eyebrow">Integrity gates</span><h3>Before this becomes a paper</h3></div><div class="gate-grid"><label><input type="checkbox" checked> Primary sources separated from commentary</label><label><input type="checkbox"> Counter-evidence actively searched</label><label><input type="checkbox"> Experiment can be reproduced</label><label><input type="checkbox"> Community impact is measurable</label></div></section>
+        </section>
+
+        <section class="view" id="view-skills">
+          <div class="workspace-intro"><div><span class="eyebrow mint">Learn by contributing</span><h2>Skill Lab</h2><p>Build capability through short learning loops that end in a reviewed artifact—not a completion badge.</p></div><button class="button primary" id="create-sprint">Build my next sprint</button></div>
+          <div class="skill-layout">
+            <section class="panel skill-map"><div class="panel-head"><div><span class="eyebrow">Capability map</span><h3>Research-to-impact path</h3></div><span class="score">Level 6</span></div><div id="skill-nodes" class="skill-nodes"></div></section>
+            <section class="panel sprint-panel"><span class="eyebrow">7-day applied sprint</span><h3 id="sprint-title">Choose “Build my next sprint”</h3><div id="sprint-tasks" class="sprint-tasks"><div class="empty-state">Your sprint will connect the weakest skill to a useful community artifact.</div></div></section>
+          </div>
+          <section class="panel"><div class="panel-head"><div><span class="eyebrow">Peer learning exchange</span><h3>Teach one thing. Learn one thing.</h3></div></div><div class="exchange-grid"><article><span class="avatar small">MK</span><div><strong>Maya needs</strong><p>Idempotency patterns for payment APIs</p><small>You can mentor · 30 min</small></div><button class="button secondary contribute" data-points="25">Offer help</button></article><article><span class="avatar small gold">JR</span><div><strong>Jon can teach</strong><p>Designing reproducible experiments</p><small>Matches your research gap · 45 min</small></div><button class="button secondary">Request session</button></article></div></section>
+        </section>
+
+        <section class="view" id="view-community">
+          <div class="workspace-intro"><div><span class="eyebrow mint">Shared progress</span><h2>Community projects</h2><p>Discover specific needs, contribute work, and let beneficiaries verify the change created.</p></div><div class="mini-stat"><strong id="community-total">27</strong><span>active contributors</span></div></div>
+          <div class="community-grid" id="community-grid"></div>
+          <section class="panel impact-model"><div><span class="eyebrow">Contribution protocol</span><h3>Effort alone is not impact</h3></div><div class="impact-flow"><span><b>1</b>Need defined<small>By the community</small></span><i>→</i><span><b>2</b>Work submitted<small>With evidence</small></span><i>→</i><span><b>3</b>Peer reviewed<small>Quality checked</small></span><i>→</i><span><b>4</b>Outcome verified<small>By beneficiary</small></span></div></section>
+        </section>
+
+        <section class="view" id="view-evidence">
+          <div class="workspace-intro"><div><span class="eyebrow mint">One source of truth</span><h2>Evidence Vault</h2><p>Capture authentic work once, then shape it for talks, publications, professional profiles, and immigration review.</p></div><button class="button primary" id="export-evidence">Export evidence summary</button></div>
+          <div class="evidence-layout">
+            <section class="panel"><div class="panel-head"><div><span class="eyebrow">Evidence timeline</span><h3>Documented contributions</h3></div><button class="text-button" id="add-evidence">+ Add evidence</button></div><div id="evidence-timeline" class="timeline"></div></section>
+            <aside class="panel"><span class="eyebrow">Reuse map</span><h3>One contribution, many legitimate uses</h3><div class="reuse-map"><div><strong>Transaction Boundary Model</strong><span>Research article</span><span>Conference proposal</span><span>Student workshop</span><span>Original contribution evidence</span></div></div><div class="callout warning"><strong>Legal boundary</strong><p>This workspace organizes facts and evidence. It does not determine visa eligibility or replace an attorney.</p></div></aside>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <dialog id="detail-dialog">
+    <button class="dialog-close" aria-label="Close dialog">×</button>
+    <div id="dialog-content"></div>
+  </dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="./app.js"></script>
+</body>
+</html>
