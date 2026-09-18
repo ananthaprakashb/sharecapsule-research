@@ -18,6 +18,24 @@
       documentation: "https://openalex.org/about",
       method: "Live REST API",
     },
+    openReview: {
+      name: "OpenReview",
+      authority: "OpenReview public scholarly review infrastructure",
+      documentation: "https://docs.openreview.net/reference/api-v2",
+      method: "Daily official API ingestion",
+    },
+    usaGov: {
+      name: "USA.gov",
+      authority: "U.S. General Services Administration",
+      documentation: "https://www.usa.gov/challenges",
+      method: "Scheduled official directory ingestion",
+    },
+    sessionize: {
+      name: "Sessionize",
+      authority: "Organizer-published public CFP pages",
+      documentation: "https://sessionize.com/",
+      method: "Scheduled allowlisted page verification",
+    },
   };
 
   const clean = (value) => String(value || "").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
@@ -40,6 +58,23 @@
     const payload = await fetchJson("./data/opportunities.json", { cache: "no-store" });
     if (!payload?.records || !Array.isArray(payload.records)) throw new Error("Invalid opportunity cache");
     return payload;
+  }
+
+  async function searchCachedOpenReview(query, rows = 8) {
+    const payload = await fetchJson("./data/openreview.json", { cache: "no-store" });
+    if (!payload?.records || !Array.isArray(payload.records)) throw new Error("Invalid OpenReview cache");
+    const tokens = query.toLowerCase().split(/[^a-z0-9]+/).filter((token) => token.length > 2 && !["and", "the", "for", "with", "from", "into", "that", "this"].includes(token));
+    return payload.records
+      .map((record) => {
+        const title = clean(record.title).toLowerCase();
+        const haystack = `${title} ${record.abstract || ""} ${record.venue || ""} ${(record.keywords || []).join(" ")}`.toLowerCase();
+        const score = tokens.reduce((total, token) => total + (title.includes(token) ? 4 : haystack.includes(token) ? 1 : 0), 0);
+        return { ...record, score, source: SOURCE_REGISTRY.openReview };
+      })
+      .filter((record) => record.score > 0)
+      .sort((a, b) => b.score - a.score || (b.year || 0) - (a.year || 0))
+      .slice(0, rows)
+      .map(({ score, abstract, keywords, ...record }) => record);
   }
 
   async function searchCrossref(query, rows = 8) {
@@ -81,10 +116,11 @@
   }
 
   async function searchResearch(query) {
-    const settled = await Promise.allSettled([searchCrossref(query), searchOpenAlex(query)]);
+    const sources = [SOURCE_REGISTRY.crossref, SOURCE_REGISTRY.openAlex, SOURCE_REGISTRY.openReview];
+    const settled = await Promise.allSettled([searchCrossref(query), searchOpenAlex(query), searchCachedOpenReview(query)]);
     const records = settled.flatMap((result) => result.status === "fulfilled" ? result.value : []);
     const errors = settled.flatMap((result, index) => result.status === "rejected" ? [{
-      source: index === 0 ? SOURCE_REGISTRY.crossref.name : SOURCE_REGISTRY.openAlex.name,
+      source: sources[index].name,
       message: result.reason?.message || "Source unavailable",
     }] : []);
     const merged = unique(records, (record) => record.doi?.toLowerCase() || record.title.toLowerCase());
