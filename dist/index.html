@@ -65,7 +65,7 @@
           </div>
 
           <div class="metric-grid">
-            <article class="metric-card"><span class="metric-icon coral">⌁</span><div><small>Verified opportunities</small><strong id="matched-count">—</strong><em id="opportunity-freshness">Loading official source</em></div></article>
+            <article class="metric-card"><span class="metric-icon coral">⌁</span><div><small>Profile-fit opportunities</small><strong id="matched-count">—</strong><em id="opportunity-freshness">Loading official source</em></div></article>
             <article class="metric-card"><span class="metric-icon violet">⌕</span><div><small>Research readiness</small><strong>68%</strong><em>3 evidence gaps</em></div></article>
             <article class="metric-card"><span class="metric-icon blue">↗</span><div><small>Applied skill hours</small><strong id="skill-hours">24</strong><em>4 verified artifacts</em></div></article>
             <article class="metric-card"><span class="metric-icon mint-bg">◎</span><div><small>Community impact</small><strong id="impact-points">340</strong><em>12 people helped</em></div></article>
@@ -116,6 +116,7 @@
             <div><strong>Loading verified sources</strong><small>Retrieving the latest normalized official-source cache.</small></div>
             <button class="text-button" id="refresh-opportunities">Refresh</button>
           </div>
+          <div class="profile-match-banner"><div><span class="profile-match-icon">AP</span><p><strong><span id="profile-match-count">—</span> opportunities match the public engineering profile</strong><small id="profile-match-summary">Loading profile signals for payments, reliability, security, AI, software, education, and open knowledge.</small></p></div><a id="profile-source-link" href="https://ananthaprakashb.github.io/profile/" target="_blank" rel="noopener noreferrer">View matching profile ↗</a></div>
           <div class="source-coverage" aria-label="Source coverage">
             <article><span>Funding</span><strong>Grants.gov</strong><small class="coverage-live" id="coverage-funding">Loading</small></article>
             <article><span>Challenges</span><strong>USA.gov</strong><small class="coverage-live" id="coverage-challenge">Loading</small></article>
@@ -126,10 +127,10 @@
           <div class="toolbar">
             <label class="search"><span aria-hidden="true">⌕</span><input id="opportunity-search" type="search" placeholder="Search official records by topic or agency"></label>
             <div class="filter-pills" role="group" aria-label="Opportunity type">
-              <button class="filter active" data-filter="All">All</button><button class="filter saved-filter" data-filter="Saved">★ Saved <span id="saved-filter-count">0</span></button><button class="filter" data-filter="Funding">Funding</button><button class="filter" data-filter="Challenge">Challenges</button><button class="filter" data-filter="Speaking">Speaking</button><button class="filter" data-filter="Judging">Judging</button><button class="filter" data-filter="Peer review">Peer review</button>
+              <button class="filter active" data-filter="Profile matches">Profile matches</button><button class="filter" data-filter="All">All verified</button><button class="filter saved-filter" data-filter="Saved">★ Saved <span id="saved-filter-count">0</span></button><button class="filter" data-filter="Funding">Funding</button><button class="filter" data-filter="Challenge">Challenges</button><button class="filter" data-filter="Speaking">Speaking</button><button class="filter" data-filter="Judging">Judging</button><button class="filter" data-filter="Peer review">Peer review</button>
             </div>
           </div>
-          <div class="opportunity-layout"><div id="opportunity-grid" class="opportunity-grid"></div><aside class="insight-rail"><span class="eyebrow">Your opportunity plan</span><div class="shortlist-summary"><strong id="saved-count">0</strong><span>saved opportunities</span></div><p id="saved-summary">Save official opportunities to build a focused shortlist on this device.</p><button class="button shortlist-export" id="export-shortlist" type="button" disabled>Export shortlist</button><hr><span class="eyebrow">Match intelligence</span><h3>Your strongest themes</h3><div class="topic-cloud"><span>Agentic payments</span><span>SRE</span><span>PCI DSS</span><span>Distributed systems</span><span>AI safety</span></div><hr><h3>Ethical guardrail</h3><p>Recommendations optimize for genuine expertise and public value—not credential collection.</p></aside></div>
+          <div class="opportunity-layout"><div id="opportunity-grid" class="opportunity-grid"></div><aside class="insight-rail"><span class="eyebrow">Your opportunity plan</span><div class="shortlist-summary"><strong id="saved-count">0</strong><span>saved opportunities</span></div><p id="saved-summary">Save official opportunities to build a focused shortlist on this device.</p><button class="button shortlist-export" id="export-shortlist" type="button" disabled>Export shortlist</button><hr><span class="eyebrow">Profile match signals</span><h3>Experience used for ranking</h3><div class="topic-cloud" id="profile-theme-cloud"><span>Loading profile…</span></div><hr><h3>Eligibility guardrail</h3><p>Profile alignment is not applicant eligibility. Confirm individual, institutional, citizenship, location, and submission requirements on the official source.</p></aside></div>
         </section>
 
         <section class="view" id="view-proposal">

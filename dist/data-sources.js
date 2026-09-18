@@ -60,6 +60,12 @@
     return payload;
   }
 
+  async function loadProfileSignals() {
+    const payload = await fetchJson("./data/profile-signals.json", { cache: "no-store" });
+    if (!payload?.domains || !Array.isArray(payload.domains)) throw new Error("Invalid profile signal cache");
+    return payload;
+  }
+
   async function searchCachedOpenReview(query, rows = 8) {
     const payload = await fetchJson("./data/openreview.json", { cache: "no-store" });
     if (!payload?.records || !Array.isArray(payload.records)) throw new Error("Invalid OpenReview cache");
@@ -128,5 +134,5 @@
     return { records: merged, errors, retrievedAt: new Date().toISOString() };
   }
 
-  window.AuthenticData = { SOURCE_REGISTRY, loadCachedOpportunities, searchResearch };
+  window.AuthenticData = { SOURCE_REGISTRY, loadCachedOpportunities, loadProfileSignals, searchResearch };
 })();

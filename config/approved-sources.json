@@ -2,9 +2,15 @@
   "grantsGovQueries": [
     "artificial intelligence research",
     "cybersecurity research",
+    "zero trust security",
+    "software supply chain security",
+    "open source security",
     "financial technology",
+    "payment systems",
+    "site reliability engineering",
     "distributed systems",
-    "STEM education technology"
+    "STEM education technology",
+    "engineering education mentoring"
   ],
   "sessionizeCalls": [
     {
@@ -19,8 +25,11 @@
   "openReviewQueries": [
     "agentic AI",
     "payment systems",
+    "site reliability engineering",
     "distributed systems",
     "cybersecurity",
+    "zero trust",
+    "software supply chain security",
     "AI safety",
     "STEM education"
   ]
