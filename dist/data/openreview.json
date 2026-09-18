@@ -1,0 +1,1950 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-18T02:12:58.504Z",
+  "queries": [
+    "agentic AI",
+    "payment systems",
+    "distributed systems",
+    "cybersecurity",
+    "AI safety",
+    "STEM education"
+  ],
+  "source": {
+    "name": "OpenReview",
+    "endpoint": "https://api2.openreview.net/notes/search",
+    "documentation": "https://docs.openreview.net/reference/api-v2"
+  },
+  "records": [
+    {
+      "id": "openreview:1KxDazvI6L",
+      "title": "”TINY” SILENT HALLUCINATIONS IN AGENTIC AI: HIDDEN FAILURE MODES IN AUTONOMOUS SYSTEMS",
+      "authors": [
+        "Mahule Roy",
+        "Subhas Roy"
+      ],
+      "year": 2026,
+      "venue": "Agentic AI in the Wild: From Hallucinations to Reliable Autonomy Poster",
+      "abstract": "Agentic AI systems extend large language models beyond static content generation to autonomous planning, tool use, memory management, and long-horizon decision-making. In such systems, reliability is a prerequisite rather than a convenience. While hallucinations in foundation models are typically studied as errors in generated outputs, we identify a distinct and underexplored failure mode that arises within agentic architectures: Silent Hallucinations. Silent hallucinations are internally generated false beliefs, assumptions, or intermediate representations that influence an agent’s decisions and actions without being explicitly surfaced to users. Their invisibility renders them difficult to detect, evaluate, or correct, despite their potential to cause compounding downstream errors. This paper formalizes silent hallucinations as a system-level reliability problem, situates them within existing hallucination and uncertainty literature, proposes a taxonomy of their manifestations in agentic workflows, and discusses implications for evaluation, oversight, and human–AI collaboration. Our analysis reveals that silent hallucinations represent a fundamental reliability gap in autonomous AI that requires new evaluation paradigms and architectural approaches.",
+      "keywords": [
+        "agentic AI",
+        "silent hallucinations",
+        "internal reasoning",
+        "reliability",
+        "introspection",
+        "evaluation metrics"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=1KxDazvI6L",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:zx5FnfoB8E",
+      "title": "ReflexBench: Evaluating Observer-Participant Failures and Counterfactual Trustworthiness in Agentic AI",
+      "authors": [
+        "Mian Zhang"
+      ],
+      "year": 2026,
+      "venue": "Agentic AI Evaluation and Trustworthiness KDD2026",
+      "abstract": "Agentic AI evaluations usually assume that the agent is an external observer of a fixed task. This assumption breaks in deployed systems: a recommendation changes user behavior, a forecast changes incentives, an intervention changes future data, and a benchmark can change the agent being benchmarked. We call this the observer-participant failure mode. We introduce ReflexBench, an evaluation protocol for measuring whether language agents reason about their own causal footprint under recursive feedback. ReflexBench organizes 20 scenarios across six domains into four observer-depth levels: fixed-world decision making, first-order self-impact, multi-agent adaptation, and recursive or equilibrium reasoning. A public-model panel of nine models and 720 scored responses shows systematic degradation at higher observer depths, with a rounded mean degradation about -0.44 from shallow to deep reflexive conditions. We extend the short benchmark formulation into a lifecycle evaluation framework for agentic AI: pre-deployment stress testing, runtime monitoring, post-deployment drift checks, and model-update regression tests. We also specify an evidence-integrity audit layer for counterfactual trustworthiness: when an agent knows it is being evaluated, or when its output changes the evidence stream, the evaluation itself becomes part of the system. ReflexBench is not a certification claim and not a replacement for domain simulation or human review. Its purpose is narrower and falsifiable: to make observer-participant failures measurable before agentic systems are trusted in feedback-sensitive environments.",
+      "keywords": [
+        "agentic AI evaluation",
+        "trustworthiness",
+        "reflexive reasoning",
+        "observer-participant systems",
+        "counterfactual evaluation",
+        "lifecycle monitoring",
+        "benchmark integrity"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=zx5FnfoB8E",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:zq358GWXyM",
+      "title": "Prompted Publics: Generative AI, Agentic Auditing, and Representational Bias in Indian Social Media Literature",
+      "authors": [
+        "Aditi Kuila",
+        "Suman Roy"
+      ],
+      "year": 2026,
+      "venue": "JEN-AI 2026",
+      "abstract": "Generative AI and Large Language Models (LLMs) are increasingly deployed in computational journalism and digital humanities, yet their application to Global South literatures raises critical concerns about representational bias and algorithmic erasure. This paper introduces the Prompted Publics framework, which reconceptualizes prompts, system instructions, and adversarial jailbreaks not as neutral technical inputs but as ideological interpretive acts that shape how marginalized digital publics are rendered legible by AI systems. We operationalize this framework through a mixed-method pipeline that combines Multilingual Retrieval-Augmented Generation (mRAG) with Agentic Auditing protocols, evaluated on a curated multilingual corpus of Indian social media literature spanning Hindi, Bengali, Hinglish, and English. Our experiments demonstrate that commercial LLMs exhibit severe caste-marker erasure under default prompting (retention rates as low as 25.0%), while sovereign Indian models combined with positional prompting significantly improve retention (up to 50.9%). Topic modeling identifies four coherent thematic clusters capturing caste resistance, intersectional feminism, AI fairness discourse, and vernacular literary movements. These findings underscore the urgent need for culturally grounded auditing frameworks in AI-assisted journalism.",
+      "keywords": [
+        "Generative AI",
+        "Computational Journalism",
+        "Representational Bias",
+        "Multilingual NLP",
+        "Agentic Auditing",
+        "Digital Humanities"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=zq358GWXyM",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:GVOj9Flpan",
+      "title": "A Taxonomy of Agentic Errors: A systematic review of how agentic AI systems can fail",
+      "authors": [
+        "David Piorkowski",
+        "Michelle Brachman",
+        "Naim Zierau",
+        "Adriana Alvarado Garcia",
+        "Jessica He"
+      ],
+      "year": 2026,
+      "venue": "Submitted to ICML 2026",
+      "abstract": "Agentic AI extends generative AI by enabling AI systems to select and take actions in the physical or digital world. With new capabilities and greater autonomy, new errors can occur in agentic AI systems. Addressing these errors requires a more comprehensive understanding of the types of possible errors. To address this gap, we performed a systematic literature review of agentic AI errors. We surveyed 1,379 agentic AI research papers. Of those, we identified 123 papers that discussed errors that occurred in their agentic AI systems. Then, we extracted 652 errors which we qualitatively classified into a formal taxonomy. Our goal is to provide a foundational understanding of agentic AI errors to enable a more systematic approach to identifying and addressing these errors.",
+      "keywords": [
+        "Agentic AI",
+        "Agentic AI Errors",
+        "Agentic AI Failures",
+        "Taxonomy"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=GVOj9Flpan",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:YzSktR6p3y",
+      "title": "With Great Capabilities Come Great Responsibilities: Introducing the Agentic Risk & Capability Framework for Governing Agentic AI Systems",
+      "authors": [
+        "Shaun Khoo",
+        "Jessica Foo",
+        "Roy Ka-Wei Lee"
+      ],
+      "year": 2025,
+      "venue": "DAI Poster",
+      "abstract": "Agentic AI systems present both significant opportunities and novel risks due to their capacity for autonomous action, encompassing tasks such as code execution, internet interaction, and file modification. This poses considerable challenges for effective organizational governance, particularly in comprehensively identifying, assessing, and mitigating diverse and evolving risks. To tackle this, we introduce the Agentic Risk & Capability (ARC) Framework, a technical governance framework designed to help organizations identify, assess, and mitigate risks arising from agentic AI systems. The framework's core contributions are: (1) it develops a novel capability-centric perspective to analyze a wide range of agentic AI systems; (2) it distills three primary sources of risk intrinsic to agentic AI systems - components, design, and capabilities; (3) it establishes a clear nexus between each risk source, specific materialized risks, and corresponding technical controls; and (4) it provides a structured and practical approach to help organizations implement the framework. This framework provides a robust and adaptable methodology for organizations to navigate the complexities of agentic AI, enabling rapid and effective innovation while ensuring the safe, secure, and responsible deployment of agentic AI systems.",
+      "keywords": [
+        "agentic AI",
+        "governance",
+        "capabilities",
+        "practical"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=YzSktR6p3y",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:9t5YCmpeiC",
+      "title": "Beyond Engagement: A Multidimensional Framework to Evaluate the Safe Development of Agentic AI in Mental Health",
+      "authors": [
+        "Beatriz Garcia Santa Cruz",
+        "Carlos Vega",
+        "Philip Santangelo",
+        "Venkata P. Satagopam"
+      ],
+      "year": 2025,
+      "venue": "Agentic AI/CREATE/Clinical MLLMs@MICCAI 2025",
+      "abstract": "The rapid rise of agentic AI in mental health exposes a misalignment between conversational fluency and user safety. We present a multidimensional framework spanning nine evaluation domains—from clinical validity to relational risk and regulatory compliance—designed to assess agentic systems beyond surface metrics. Applying it to eight real-world tools reveals that the most popular agents often lack basic safeguards, while clinically validated solutions remain underutilized. These findings highlight the need for structured oversight and public awareness. Our framework offers a foundation for safer deployment, informed regulation, and design practices grounded in mental health ethics.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1007/978-3-032-06004-4_8",
+      "url": "https://openreview.net/forum?id=9t5YCmpeiC",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:b5V0Sr6jRZ",
+      "title": "Auditing Construct Validity in Agentic Decision Support with Sports Analytics Case Study",
+      "authors": [
+        "Pegah Rahimian"
+      ],
+      "year": 2026,
+      "venue": "Agentic AI Evaluation and Trustworthiness KDD2026",
+      "abstract": "Most agent benchmarks ask whether a task finished. A growing class of agentic systems produces something different: an analytical claim for a human decision-maker – a clinical decision-support note, a portfolio risk attribution, a tactical analytics report for a football head coach. For these systems there is no oracle. A recent Brookings–CMU workshop recap with NIST authorship recom- mends measurement science – specifically construct validity – as a foundation for agentic-AI evaluation, but stops short of operational- ising it. We propose TRACE, a four-threat audit framework that takes this step. The threats are construct misspecification, verdict unreliability under multiple judges, stochastic instability across re-runs, and regression under model upgrades; each is paired with a measurable audit instrument (APCR, IAJA, SRI, MERS). We in- stantiate TRACE on PressureBench, a 38-proposal seeded-error benchmark for football tactical analytics in which every anti-pattern is anchored to a published methodological error and four hard dis- tractors guard against trivial pattern-matching. Four deployment- relevant findings emerge. (i) In our setting, capability tier was not a reliable proxy for audit precision: the smallest model in our panel (Haiku 4.5) reaches a false-positive rate of 0.17 (95% bootstrap CI [0.00, 0.50]) on valid anchors versus 0.67 [0.33, 1.00] for Opus 4.7, and a clean non-overlap on hard distractors (0.00 vs 0.75). (ii) A single producer call is unsafe: only 17% of 𝑁 =5 producer replication pairs receive the same audit verdict, and this rate replicates exactly under a different producer (Sonnet 4.6 also gives 0.17), showing the instability is not Opus-specific. (iii) Per-anti-pattern regres- sion under model upgrade ranges from 0 (E1, evergreen) to 0.35 in 𝐹1 (E3, regression-prone), motivating per-anti-pattern rather than global alert thresholds. (iv) An adversarial-producer stress test in which an Opus producer is instructed to commit each anti-pattern while avoiding obvious trigger words shows the audit pipeline still catches 10/12 = 83% of the adversarial proposals. We are explicit about what TRACE catches and what it does not, and release the benchmark, prompts, judge outputs, event log, and experiment scripts. Total API spend for the full empirical evaluation is $10.90 across 276 LLM calls.",
+      "keywords": [
+        "agentic AI",
+        "evaluation",
+        "trustworthiness",
+        "construct validity",
+        "industrial decision support",
+        "sports analytics"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=b5V0Sr6jRZ",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:EDr8rXrtPt",
+      "title": "Towards Agentic AI for Science: Hypothesis Generation, Comprehension, Quantification, and Validation",
+      "authors": [
+        "Danai Koutra",
+        "Lifu Huang",
+        "Adithya Kulkarni",
+        "Temiloluwa Prioleau",
+        "Beatrice Wan Yuan Soh",
+        "Qingyun Wu",
+        "Yujun Yan",
+        "Yaoqing Yang"
+      ],
+      "year": 2024,
+      "venue": "ICLR 2025 Workshop Proposals",
+      "abstract": "AI models for science have the potential to harness large datasets, accelerate scientific discoveries and transform numerous fields. Through this workshop, our mission is to foster interdisciplinary collaboration to develop fully autonomous AI systems, addressing challenges like benchmark datasets, human-AI collaboration, robust tools and methods for validating AI outputs, and trustworthiness. By tackling these issues, we can unlock AI's transformative potential in research. In this workshop, themed Agentic AI for Science, we will explore these critical topics and welcome diverse perspectives. We will focus on integrating agentic AI systems to enhance scientific discovery while upholding rigorous standards. For AI to contribute effectively, it must generate novel hypotheses, comprehend their applications, quantify testing resources, and validate feasibility through well-designed experiments. This workshop serves as a vital forum for collaboration and knowledge-sharing aimed at redefining the landscape of scientific discovery.",
+      "keywords": [
+        "Agentic AI",
+        "HCI"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=EDr8rXrtPt",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:XcWTS5iVvY",
+      "title": "SolarChain-Eval: A Physics-Constrained Benchmark for Trustworthy Economic Agents in Decentralized Energy Markets",
+      "authors": [
+        "Shilin Ou",
+        "Yifan Xu",
+        "Luyao Zhang"
+      ],
+      "year": 2026,
+      "venue": "Agentic AI Evaluation and Trustworthiness KDD2026",
+      "abstract": "As agentic AI systems are increasingly applied to cyber-physical environments, their evaluation requires assessment of both task performance and trustworthiness. In decentralized energy markets, autonomous agents may improve market utility, but may also exploit invalid physical data, create artificial liquidity, and produce unstable governance decisions. Therefore, we propose SolarChain-Eval, a physics-constrained benchmark for evaluating trustworthy economic agents. It formulates market governance as a Gymnasium-compatible Markov Decision Process, where agents make hourly decisions. SolarChain-Eval evaluates each policy across multiple dimensions, including market utility, physical safety, slippage, action smoothness, spatial fairness, and auditability. To support agentic evaluation, SolarChain-Eval incorporates an LLM-based Planner/Auditor layer. The Planner defines episode-level action bounds and audit rules, while the Auditor reviews and revises high-risk actions. All interventions are recorded through structured logs, including trigger signals, proposed actions, revised actions, and audit rationales. Experiments with static, random, myopic, RL, and RL+LLM policies reveal a clear utility-safety trade-off. RL agents improve market utility but can still produce unsafe behavior. When the physics penalty is removed, reward-maximizing agents exploit invalid generation and increase artificial liquidity. The LLM Planner/Auditor improves auditability and mitigates selected risks, but it cannot fully compensate for a misspecified reward function. These results indicate that trustworthy agentic AI evaluation requires both physical constraints and transparent intervention traces. We release data and code as open access on GitHub for replicability.",
+      "keywords": [
+        "Agentic AI",
+        "reinforcement learning",
+        "trustworthiness evaluation",
+        "tokenomics",
+        "decentralized energy markets"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=XcWTS5iVvY",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:UqikLa3MVw",
+      "title": "PAME-AI: Patient Messaging Creation and Optimization using Agentic AI",
+      "authors": [
+        "Junjie Luo",
+        "Yihong Guo",
+        "Anqi Liu",
+        "Ritu Agarwal",
+        "Guodong Gordon Gao"
+      ],
+      "year": 2025,
+      "venue": "GenAI4Health 2025 Poster",
+      "abstract": "Messaging patients is a critical part of healthcare communication, helping to improve outcomes such as medication adherence and healthy behaviors. However, traditional mobile message design has significant limitations due to its inability to explore the high-dimensional design space. We develop PAME-AI, a novel approach for Patient Messaging Creation and Optimization using Agentic AI. Built on the Data-Information-Knowledge-Wisdom (DIKW) hierarchy, PAME-AI offers a structured framework to move from raw data to actionable insights for high-performance messaging design. PAME-AI is composed of a system of specialized computational agents that progressively transform raw experimental data into actionable message design strategies. We demonstrate the approach’s effectiveness through a two-stage experiment involving 444,691 patient encounters in Stage 1 and 74,908 in Stage 2. The best-performing generated message achieved 68.76% engagement compared to the 61.27% baseline, representing a 12.2% relative improvement in click-through rates. This agentic architecture enables parallel processing, hypothesis validation, and continuous learning, making it particularly suitable for large-scale healthcare communication optimization.",
+      "keywords": [
+        "agentic ai",
+        "multi-agent",
+        "medication adherence",
+        "digital health interventions",
+        "DIKW"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=UqikLa3MVw",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:X7Le0qTAHp",
+      "title": "DRIFT-Bench: Dynamic Red-teaming For Agentic AI Systems",
+      "authors": [],
+      "year": 2026,
+      "venue": "ACL ARR 2026 May Submission",
+      "abstract": "Agentic AI systems powered by large language models (LLMs) are rapidly evolving into autonomous decision-making systems, exposing attack vectors beyond those of traditional LLM vulnerabilities. Existing security evaluations are often tied to specific implementations or domains, limiting unified comparison across heterogeneous systems. To address this gap, we introduce DRIFT-Bench, a graph representation-driven methodology for dynamic red-teaming that enables unified evaluations across diverse agentic architectures. Building on a novel hierarchical representation, DRIFT-Bench operates in two automated phases: Discovery, which extracts system structure, and Scanning, which deploys adaptive adversarial attacks and produces a comprehensive evaluation report. It evaluates the examined system itself, leveraging a broad set of dynamically adaptable adversarial probes across diverse attack vectors and objectives. We demonstrate the effectiveness of the proposed evaluation pipeline across 45 agentic systems spanning a diverse range of implementations, showing that the approach generalizes effectively to heterogeneous agentic architectures. Beyond systems and attacks, DRIFT-Bench also supports direct evaluation of mitigation strategies. These key capabilities make DRIFT-Bench a scalable foundation for security evaluation of agentic AI systems.",
+      "keywords": [
+        "Agentic AI",
+        "LLM-based Agents",
+        "Security",
+        "Evaluations",
+        "Red Teaming."
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=X7Le0qTAHp",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:7FM8ixHTOn",
+      "title": "Position: Collaborative Agentic AI Needs Interoperability Across Ecosystems",
+      "authors": [
+        "Rishi Sharma",
+        "Martijn de Vos",
+        "Pradyumna Chari",
+        "Ramesh Raskar",
+        "Anne-Marie Kermarrec"
+      ],
+      "year": 2026,
+      "venue": "ICML 2026 Position Paper Track regular",
+      "abstract": "Collaborative agentic AI is projected to transform entire industries by enabling AI-powered agents to autonomously perceive, plan, and act within digital environments. Yet, current solutions in this field are all built in isolation, and we are rapidly heading toward a landscape of fragmented, incompatible ecosystems. In this position paper, we argue that interoperability, achieved by the adoption of minimal standards, is essential to ensure open, secure, web-scale, and widely-adopted agentic ecosystems. To this end, we devise a minimal architectural foundation for collaborative agentic AI, named Web of Agents, which is composed of four components: agent-to-agent messaging, interaction interoperability, state management, and agent discovery. Web of Agents adopts existing standards and reuses existing infrastructure where possible. With Web of Agents, we take a first but critical step toward interoperable agentic systems and offer a pragmatic path forward before ecosystem fragmentation becomes the norm.",
+      "keywords": [
+        "Agents",
+        "Agentic AI",
+        "Collaborative AI",
+        "Web",
+        "Web of Agents",
+        "Decentralized AI",
+        "Interoperability",
+        "Communication"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=7FM8ixHTOn",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:VPgo0SBsO8",
+      "title": "Internet Payment System: A New Payment System for Internet Transactions",
+      "authors": [
+        "Zoran Duric",
+        "Ognjen Maric",
+        "Dragan Gasevic"
+      ],
+      "year": 2007,
+      "venue": "J. Univers. Comput. Sci. 2007",
+      "abstract": "Payment systems need to address a number of security issues in order to be an effective and secure means of transferring payments across the Internet. To be accessible to a wider audience, they also need to be easy to use for their end-users (customers and merchants). Trying to address these issues, we created the Internet Payment System (IPS). IPS tries to combine the advantages of several existing payment systems. While strong emphasis is made on the mobility and ease of use for its customers, IPS still retains strong security properties. It achieves privacy, integrity, authentication and non-repudiation by using different cryptographic algorithms and techniques. To demonstrate that the protocol satisfies the desired security properties, we use a recently proposed tool for formal verification, called AVISPA.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.3217/jucs-013-04-0479",
+      "url": "https://openreview.net/forum?id=VPgo0SBsO8",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:WIZ9Ay3AtA",
+      "title": "An Innovative Study of E-Payment Systems Adoption in Higher Education: Theoretical Constructs and Empirical Analysis",
+      "authors": [
+        "Said A. Salloum",
+        "Mostafa Al-Emran",
+        "Rifat Khalaf",
+        "Mohammed Habes",
+        "Khaled Shaalan"
+      ],
+      "year": 2019,
+      "venue": "Int. J. Interact. Mob. Technol. 2019",
+      "abstract": "Examining the adoption of e-payment systems is not a new research topic. Nevertheless, studying the factors affecting the adoption of e-payment systems in higher educational institutions is a new research trend. Thus, this study is considered one of the few that attempts to investigate the factors affecting the e-payment systems adoption in six different universities in the United Arab of Emirates (UAE). A total number of 289 students took part in the study. This study proposed a new research model in which the students’ intention to use the e-payment systems are affected by five different factors including perceived benefit, performance expectancy, perceived risk, perceived security/privacy, and trust. The partial least squares-structural equation modeling (PLS-SEM) approach was used to validate the research model. The empirical results suggested that perceived benefit and performance expectancy have a significant positive relationship with the students’ intention to use e-payment systems, whereas perceived security/privacy and perceived risk exhibited a significant negative relationship. However, the results triggered out that trust has an insignificant relationship with the students’ intention to use e-payment systems. The results acquired from this research provide a fresh and an up-to-date information on the e-payment systems adoption in the higher educational institutions.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.3991/ijim.v13i06.9875",
+      "url": "https://openreview.net/forum?id=WIZ9Ay3AtA",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:e0Rv12U6qf",
+      "title": "IPS - Secure Internet Payment System",
+      "authors": [
+        "Zoran Duric"
+      ],
+      "year": 2005,
+      "venue": "ITCC (1) 2005",
+      "abstract": "There are a number of questions one might ask about security of money transactions on the Internet. A first question might be: \"Why do we need to protect money transaction on the Internet?\" The Internet is an insecure and unreliable communication medium - thus protection of sensitive data is needed. E-business systems inherently possess a higher degree of risk than mainstream applications, and thus require greater degree of security. Because of this risk, security should be considered a fundamental aspect of e-business system design. Especially big attention is dedicated to money transactions protection. There are dozens of electronic payment systems being developed to facilitate secure money transactions. The paper presents IPS (Internet payment system) software implementation. Distributed system architecture allowed us to watch system segments as independent systems connected by corresponding communication protocol. Segments are: Web shop, payment Web segment, merchant server, payment gateway server and bank server. They communicate through secure communication tunnel, which consists of SSL tunnel and nested crypto tunnel. IPS use different cryptographic algorithms and techniques to achieve: privacy, integrity, authentication and non-repudiation.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1109/ITCC.2005.181",
+      "url": "https://openreview.net/forum?id=e0Rv12U6qf",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:de1Gg4NTIC",
+      "title": "SoK: Security of EMV Contactless Payment Systems",
+      "authors": [
+        "Mahshid Mehr Nezhad",
+        "Feng Hao",
+        "Gregory Epiphaniou",
+        "Carsten Maple",
+        "Timur Yunusov"
+      ],
+      "year": 2025,
+      "venue": "EuroS&P 2025",
+      "abstract": "The widespread adoption of EMV (Europay, Mastercard, and Visa) contactless payment systems has greatly improved convenience for both users and merchants. However, this growth has also exposed significant security challenges. This SoK provides a comprehensive analysis of security vulnerabilities in EMV contactless payments, particularly within the open-loop systems used by Visa and Mastercard. We categorize attacks into seven attack vectors across three key areas: application selection, cardholder authentication, and transaction authorization. We replicate the attacks on Visa and Mastercard protocols using our experimental platform to determine their practical feasibility and offer insights into the current security landscape of contactless payments. Our study also includes a detailed evaluation of the underlying protocols, along with a comparative analysis of Visa and Mastercard, highlighting vulnerabilities and recommending countermeasures.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1109/EuroSP63326.2025.00033",
+      "url": "https://openreview.net/forum?id=de1Gg4NTIC",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:EO9Jgp40lj",
+      "title": "SoK: Security of EMV Contactless Payment Systems",
+      "authors": [
+        "Mahshid Mehr Nezhad",
+        "Feng Hao",
+        "Gregory Epiphaniou",
+        "Carsten Maple",
+        "Timur Yunusov"
+      ],
+      "year": 2025,
+      "venue": "CoRR 2025",
+      "abstract": "The widespread adoption of EMV (Europay, Mastercard, and Visa) contactless payment systems has greatly improved convenience for both users and merchants. However, this growth has also exposed significant security challenges. This SoK provides a comprehensive analysis of security vulnerabilities in EMV contactless payments, particularly within the open-loop systems used by Visa and Mastercard. We categorize attacks into seven attack vectors across three key areas: application selection, cardholder authentication, and transaction authorization. We replicate the attacks on Visa and Mastercard protocols using our experimental platform to determine their practical feasibility and offer insights into the current security landscape of contactless payments. Our study also includes a detailed evaluation of the underlying protocols, along with a comparative analysis of Visa and Mastercard, highlighting vulnerabilities and recommending countermeasures.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.48550/arXiv.2504.12812",
+      "url": "https://openreview.net/forum?id=EO9Jgp40lj",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:SLatK5Rh5W",
+      "title": "Interpretable Multimodal Learning for Intelligent Regulation in Online Payment Systems",
+      "authors": [
+        "Shuoyao Wang",
+        "Diwei Zhu"
+      ],
+      "year": 2020,
+      "venue": "CoRR 2020",
+      "abstract": "With the explosive growth of transaction activities in online payment systems, effective and realtime regulation becomes a critical problem for payment service providers. Thanks to the rapid development of artificial intelligence (AI), AI-enable regulation emerges as a promising solution. One main challenge of the AI-enabled regulation is how to utilize multimedia information, i.e., multimodal signals, in Financial Technology (FinTech). Inspired by the attention mechanism in nature language processing, we propose a novel cross-modal and intra-modal attention network (CIAN) to investigate the relation between the text and transaction. More specifically, we integrate the text and transaction information to enhance the text-trade jointembedding learning, which clusters positive pairs and push negative pairs away from each other. Another challenge of intelligent regulation is the interpretability of complicated machine learning models. To sustain the requirements of financial regulation, we design a CIAN-Explainer to interpret how the attention mechanism interacts the original features, which is formulated as a low-rank matrix approximation problem. With the real datasets from the largest online payment system, WeChat Pay of Tencent, we conduct experiments to validate the practical application value of CIAN, where our method outperforms the state-of-the-art methods.",
+      "keywords": [],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=SLatK5Rh5W",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:DkH4D0VHQq",
+      "title": "Rapido: Scaling blockchain with multi-path payment channels",
+      "authors": [
+        "Changting Lin",
+        "Ning Ma",
+        "Xun Wang",
+        "Jianhai Chen"
+      ],
+      "year": 2020,
+      "venue": "Neurocomputing 2020",
+      "abstract": "One of the fundamental problems that hinders the current blockchain systems for industrial use is scalability. Lightning Network has been proposed to address this challenge, which executes massive amount of transactions off-chain via pre-constructed payment channels, and only records the final state when a payment channel is closed. However, current Lightning Network heavily rely on the single path payment. When the payment value exceeds the deposit of each individual path, the customer has to close all the existing payment channels and construct a new one from scratch, which we term as the overload issue. In addition, the single path payment bears the inherent risk of sensitive information (e.g., payment value) leaking.In this paper, we propose a multi-path off-chain payment mechanism, termed Rapido, which explicitly addresses the overload and privacy leaking issues by splitting and distributing payment to multiple paths. Specifically, a new smart contract, D-HTLC, is equipped with Rapido to encode multi-path payment protocol. We also theoretically prove that the VDP (Value Distributing Problem) is NP-hard. Finally, extensive experiments show that our approach not only resolves the overload issue but also mitigates the skewness of payment channels. Quantitative results further reveal that with the restriction of no adding new payment channels, the success rate of Rapido is more than 3 times higher than that of the Lightning Network. The implementation will be released upon acceptance.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1016/j.neucom.2019.09.114",
+      "url": "https://openreview.net/forum?id=DkH4D0VHQq",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:p8rGLuKL34",
+      "title": "FPS: Flexible Payment System",
+      "authors": [
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]"
+      ],
+      "year": 2025,
+      "venue": "IACR Cryptol. ePrint Arch. 2025",
+      "abstract": "Existing payment systems make fixed trade-offs between performance and security assumptions. Traditional centralized systems like Visa assume synchronous networks and crash faults to achieve high throughput, while blockchain-based systems (e.g., Algorand, Aptos) adopt Byzantine fault tolerance and partial synchrony for stronger security at the cost of performance. This rigid approach forces all users to accept the same security-performance trade-off regardless of their individual trust and threat models. We present a flexible payment system where clients independently choose assumptions about (i) network timing (bounded or partial synchrony), (ii) corruption (static or adaptive), and (iii) faults (crash or Byzantine), supporting eight assumption combinations simultaneously. Unlike traditional systems requiring consensus, our approach uses a novel flexible variant of consistent broadcast where clients external to the protocol verify delivery through cryptographic proofs, eliminating the need for global ordering. We implemented our system in Rust and demonstrated that clients choosing partially synchronous network and crash assumptions achieve $+242.1\\%$ higher throughput and $+70.4\\%$ better latency compared to clients with synchronous network and Byzantine assumptions, confirming that our system enables users to optimize their individual security-performance trade-offs.",
+      "keywords": [],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=p8rGLuKL34",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:uGJVF7LKkZ",
+      "title": "Cross-Chain Virtual Payment Channels",
+      "authors": [
+        "Xiaofeng Jia",
+        "Zhe Yu",
+        "Jun Shao",
+        "Rongxing Lu",
+        "Guiyi Wei",
+        "Zhenguang Liu"
+      ],
+      "year": 2023,
+      "venue": "IEEE Trans. Inf. Forensics Secur. 2023",
+      "abstract": "With the emergence of countless independent blockchain systems in recent years, cross-chain transactions have attracted considerable attention, and lots of solutions have been put forth by both industry and academia. However, most of the existing solutions suffer from either centralization or scalability issues. To mitigate these issues, in this paper, we propose the concept of cross-chain virtual payment channels, which allows two users in different blockchain systems to conduct limitless off-chain transactions with the help of an intermediate node, hence solving the centralization and scalability issues. Furthermore, as the intermediate node is only involved in the channel open and close operations, it further improves the efficiency of cross-chain transactions, and to a certain extent, it even enhances the privacy of the cross-chain transaction. Meanwhile, we also present the first concrete cross-chain virtual payment channel scheme, which only requires one of the blockchain systems supporting the Turing-complete scripting language. The corresponding detailed security analysis in the Universal Composability framework demonstrates that our proposal holds the Consensus on Open, Update, and Close. Finally, we implement and deploy our cross-chain virtual payment channel scheme on the Ethereum and Bitcoin test networks. The extensive experimental results show that our proposal dramatically improves the efficiency of cross-chain transactions, and the advantage becomes more pronounced as the number of transactions increases.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1109/TIFS.2023.3281064",
+      "url": "https://openreview.net/forum?id=uGJVF7LKkZ",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:TH18JXGloc",
+      "title": "Towards a Mobility Payment Service Based on Collaborative Open Systems",
+      "authors": [
+        "A. Luís Osório",
+        "Luis M. Camarinha-Matos",
+        "Hamideh Afsarmanesh",
+        "Adam Belloum"
+      ],
+      "year": 2019,
+      "venue": "PRO-VE 2019",
+      "abstract": "There is a need for a new strategy and approach to effectively develop mobility services in Europe. These services should be seen by customers as integrated services which are offered by a payment service provider using direct debit payments as established by the European Central Bank. The mobility service would enable a citizen to use multimodal transportation means including public transportation, tolling, parking lots, bicycle rental, etc. in Europe under a single contract. Competing mobility service providers need to be trusted and supervised by authorities based on digital supervision and auditing processes. Digital platforms need to smoothly deal with heterogeneous infrastructures of the different operators which validate utilizations using a variety of means such as card, mobile phone, or automatic vehicle identification systems. All transportation-related events need to be reliably communicated to the payment service providers. Detected failures need a clear and easy to follow resolution procedure. The variety of existing technologies and methodologies to develop informatics systems and processes automation make it difficult to reach such objectives and also an obstacle for authorities to effectively supervise the processes. An open system of systems framework approach combined with a collaborative network support infrastructure to facilitate information exchange and coordination among all involved stakeholders is proposed as a promising way to address these challenges. This paper further develops previous research in this area, better clarifying the challenges, and recommending a development strategy which has been proved in a number of partial implementations.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1007/978-3-030-28464-0_33",
+      "url": "https://openreview.net/forum?id=TH18JXGloc",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:fYymDvMO61",
+      "title": "Social Aware Mobile Payment Service Popularity Analysis: The Case of WeChat Payment in China",
+      "authors": [
+        "Yue Qu",
+        "Wenge Rong",
+        "Yuanxin Ouyang",
+        "Hui Chen",
+        "Zhang Xiong"
+      ],
+      "year": 2015,
+      "venue": "APSCC 2015",
+      "abstract": "Since its release in 2013, WeChat payment service has gradually become one of the most popular mobile payment services in China. Different from other mobile payment platforms, WeChat payment bundles with the most popular social network service in China, WeChat. It is then becoming interesting to investigate the reason beneath its popularity by combination of social network and mobile payment. In this research, we applied the technology acceptance model to predict the acceptability of WeChat payment and to identify the variables which attribute to the popularity of WeChat payment. Besides the primary explanatory variables of TAM, the proposed framework is further extended to include the constructs of Social Interaction, Trust, Perceived Enjoyment and Use Context. Online survey has been collected by respondents chosen randomly among users of WeChat payment. The results have shown that the proposed model is able to explain the variance in user’s behaviour intention to use WeChat payment services. We hope this study can provide insights to understand the adoption behaviour of social aware mobile payment and service and help further improve their services.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1007/978-3-319-26979-5_22",
+      "url": "https://openreview.net/forum?id=fYymDvMO61",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:hCATUxVgLF",
+      "title": "Super Payment Channel for Decentralized Cryptocurrencies",
+      "authors": [
+        "Shengmin Xu",
+        "Jiaming Yuan",
+        "Yingjiu Li",
+        "Ximeng Liu",
+        "Yinghui Zhang"
+      ],
+      "year": 2019,
+      "venue": "DSC 2019",
+      "abstract": "Payment channel with penalizing double-spending has been widely applied in cryptocurrencies for achieving fast payment. However, current payment channel solutions suffer at least one of the following problems: 1) large overheads and communication costs are incurred to thwart double-spending; 2) payees must be defined before building payment channels; 3) a single payment channel does not support multiple payees; 4) no formally theoretical proofs are provided for the security of payment channels (as an open problem mentioned in CCS'15). In this paper, we fill these gaps by introducing a new fast payment protocol named super payment channel. We provide detailed construction based on digital signatures and accountable assertions with formal security proofs. We also implement our proposed protocol in different circumstances and demonstrate that our proposed protocol incurs a small overhead compared to ordinary Bitcoin transactions.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1109/DSC47296.2019.8937619",
+      "url": "https://openreview.net/forum?id=hCATUxVgLF",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:vDgFivpxNs",
+      "title": "Preserving Model Privacy for Machine Learning in Distributed Systems",
+      "authors": [
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]"
+      ],
+      "year": 2018,
+      "venue": "IEEE Transactions on Parallel and Distributed Systems",
+      "abstract": "Machine Learning based data classification is a widely used data mining technique. By learning massive data collected from the real world, data classification helps learners discover hidden data patterns. These hidden data patterns are represented by the learned model in different machine learning schemes. Based on such models, a user can classify whether the new incoming data belongs to an existing class; or, multiple entities may test the similarity of their datasets. However, due to data locality and privacy concerns, it is infeasible for large-scale distributed systems to share each individual's datasets for classifying or testing. On the one hand, the learned model is an entity's private asset and may leak private information, which should be well protected from all other non-collaborative entities. On the other hand, the new incoming data may contain sensitive information which cannot be disclosed directly for classification. To address the above privacy issues, we propose an approach to preserve the model privacy of the data classification and similarity evaluation for distributed systems. With our scheme, neither new data nor learned models are directly revealed during the classification and similarity evaluation procedures. Based on extensive real-world experiments, we have evaluated the privacy preservation, feasibility, and efficiency of the proposed scheme.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1109/TPDS.2018.2809624",
+      "url": "https://openreview.net/forum?id=vDgFivpxNs",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:pa0rSv9hu1",
+      "title": "Request Redirection Algorithms for Distributed Web Systems",
+      "authors": [
+        "Valeria Cardellini",
+        "Michele Colajanni",
+        "Philip S. Yu"
+      ],
+      "year": 2003,
+      "venue": "IEEE Trans. Parallel Distributed Syst. 2003",
+      "abstract": "Replication of information among multiple servers is necessary to support high request rates to popular Web sites. We consider systems that maintain one interface to users, even it they consist of multiple nodes with visible IP addresses that are distributed among different networks. In these systems, first-level dispatching is achieved through the Domain Name System (DNS) during the address lookup phase. Distributed Web systems can use a request redirection mechanism as second-level dispatching because the DNS routing scheme has limited control on offered load. Redirection is always executed by the servers, but there are many alternatives that are worth investigating. We explore the combination of DNS dispatching with redirection schemes that use centralized or distributed control on the basis of global or local state information. In fully distributed schemes, DNS dispatching is carried out by simple algorithms because load sharing is taken by some redirection mechanisms that each server activates autonomously. On the other hand, in fully centralized schemes, redirection is used as a tool to enforce decisions taken by the same centralized entity that provides the first-level dispatching. We also investigate hybrid strategies. We conclude that distributed algorithms are preferable over their centralized counterpart because they provide stable performance, take content-aware dispatching decisions, limit the percentage of redirected requests, and their implementation is much simpler than that required by centralized schemes.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1109/TPDS.2003.1195408",
+      "url": "https://openreview.net/forum?id=pa0rSv9hu1",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:0JHsGyqgYu",
+      "title": "Resource discovery for distributed computing systems: A comprehensive survey",
+      "authors": [
+        "Javad Zarrin",
+        "Rui L. Aguiar",
+        "João Paulo Barraca"
+      ],
+      "year": 2018,
+      "venue": "J. Parallel Distributed Comput. 2018",
+      "abstract": "Highlights•We present a new taxonomy of resource discovery aspects for distributed systems.•We survey the literature from various viewpoints of resource discovery aspects.•We discuss a set of key performance indicators to evaluate discovery approaches.•An overall guideline to design novel discovery approaches for distributed systems.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1016/j.jpdc.2017.11.010",
+      "url": "https://openreview.net/forum?id=0JHsGyqgYu",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:z7fStAAASm",
+      "title": "DYFRAM: dynamic fragmentation and replica management in distributed database systems",
+      "authors": [
+        "Jon Olav Hauglid",
+        "Norvald H. Ryeng",
+        "Kjetil Nørvåg"
+      ],
+      "year": 2010,
+      "venue": "Distributed Parallel Databases 2010",
+      "abstract": "In distributed database systems, tables are frequently fragmented and replicated over a number of sites in order to reduce network communication costs. How to fragment, when to replicate and how to allocate the fragments to the sites are challenging problems that has previously been solved either by static fragmentation, replication and allocation, or based on a priori query analysis. Many emerging applications of distributed database systems generate very dynamic workloads with frequent changes in access patterns from different sites. In such contexts, continuous refragmentation and reallocation can significantly improve performance. In this paper we present DYFRAM, a decentralized approach for dynamic table fragmentation and allocation in distributed database systems based on observation of the access patterns of sites to tables. The approach performs fragmentation, replication, and reallocation based on recent access history, aiming at maximizing the number of local accesses compared to accesses from remote sites. We show through simulations and experiments on the DASCOSA distributed database system that the approach significantly reduces communication costs for typical access patterns, thus demonstrating the feasibility of our approach.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1007/s10619-010-7068-1",
+      "url": "https://openreview.net/forum?id=z7fStAAASm",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:pVRCICP745",
+      "title": "Monitoring and Managing Intelligence in Distributed Systems",
+      "authors": [
+        "H. Van Dyke Parunak"
+      ],
+      "year": 2007,
+      "venue": "AAAI Fall Symposium: Regarding the Intelligence in Distributed Intelligent Systems 2007",
+      "abstract": "Both the promise and the challenge of distributed systems often derive from emergent behavior, functionality that is not defined explicitly in the individual components of the system but results from their interactions. Effective use of these systems depends on techniques for monitoring and controlling such system-level behavior. A fruitful source of inspiration for such techniques is statistical mechanics, with its mature success in explaining the macro-level characteristics of matter from the interactions of atoms and molecules. This paper summarizes a number of such analogies that we have exploited in our work.",
+      "keywords": [],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=pVRCICP745",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:vzbEP9U3Gb",
+      "title": "Divergence Control for Distributed Database Systems",
+      "authors": [
+        "Wenwey Hseush",
+        "Gail E. Kaiser",
+        "Calton Pu",
+        "Kun-Lung Wu",
+        "Philip S. Yu"
+      ],
+      "year": 1995,
+      "venue": "Distributed Parallel Databases 1995",
+      "abstract": "This paper presents distributed divergence control algorithms for epsilon serializability for both homogeneous and heterogeneous distributed databases. Epsilon serializability allows for more concurrency by permitting non-serializable interleavings of database operations among epsilon transactions. We first present a strict 2-phase locking divergence control algorithm and an optimistic divergence control algorithm for a homogeneous distributed database system, where the local orderings of all the sub-transactions of a distributed epsilon transaction are the same. In such an environment, the total inconsistency of a distributed epsilon transaction is simply the sum of those of all its sub-transactions. We then describe a divergence control algorithm for a heterogeneous distributed database system, where the local orderings of all the sub-transactions of a distributed epsilon transaction may not be the same and the total inconsistency of a distributed epsilon transaction may be greater than the sum of those of all its sub-transactions. As a result, in addition to executing a local divergence control algorithm in each site to maintain the local inconsistency, a global mechanism is needed to take into account the additional inconsistency",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1007/BF01263658",
+      "url": "https://openreview.net/forum?id=vzbEP9U3Gb",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:Bts7res4Io",
+      "title": "Divergence Control for Distributed Database Systems",
+      "authors": [
+        "Wenwey Hseush",
+        "Gail E. Kaiser",
+        "Calton Pu",
+        "Kun-Lung Wu",
+        "Philip S. Yu"
+      ],
+      "year": 1995,
+      "venue": "Distributed Parallel Databases 1995",
+      "abstract": "This paper presents distributed divergence control algorithms for epsilon serializability for both homogeneous and heterogeneous distributed databases. Epsilon serializability allows for more concurrency by permitting non-serializable interleavings of database operations among epsilon transactions. We first present a strict 2-phase locking divergence control algorithm and an optimistic divergence control algorithm for a homogeneous distributed database system, where the local orderings of all the sub-transactions of a distributed epsilon transaction are the same. In such an environment, the total inconsistency of a distributed epsilon transaction is simply the sum of those of all its sub-transactions. We then describe a divergence control algorithm for a heterogeneous distributed database system, where the local orderings of all the sub-transactions of a distributed epsilon transaction may not be the same and the total inconsistency of a distributed epsilon transaction may be greater than the sum of those of all its sub-transactions. As a result, in addition to executing a local divergence control algorithm in each site to maintain the local inconsistency, a global mechanism is needed to take into account the additional inconsistency",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1007/BF01263658",
+      "url": "https://openreview.net/forum?id=Bts7res4Io",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:mPRfYtgsjL",
+      "title": "Model-driven scheduling for distributed stream processing systems",
+      "authors": [
+        "Anshu Shukla",
+        "Yogesh Simmhan"
+      ],
+      "year": 2018,
+      "venue": "J. Parallel Distributed Comput. 2018",
+      "abstract": "Highlights •Model-driven scheduling for distributed stream processing systems.•Proposed a model based allocation and a mapping algorithm.•Validated using Apache Storm DSPS.•Results show high resource benefit and accuracy in prediction for resources.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1016/j.jpdc.2018.02.003",
+      "url": "https://openreview.net/forum?id=mPRfYtgsjL",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:JCDndwcXmz",
+      "title": "Mobile Computing Systems Programming: A Graduate Distributed Computing Course",
+      "authors": [
+        "Lars Kulik"
+      ],
+      "year": 2007,
+      "venue": "IEEE Distributed Syst. Online 2007",
+      "abstract": "Mobile devices are ubiquitous: they encompass portable audio and video players, digital cameras, tablet PCs and PDAs, as well as cell phones and smart phones. A Sept. 2006 Cellular News story (http://www.cellular-news.com/story/19223.php) estimated that there are more than 2.5 billion mobile phones worldwide. Although the mobile systems market is large and the career opportunities for students are excellent, relatively few universities offer mobile computing courses, much less teach mobile systems programming. Because mobile networks are likely to drive computing for the foreseeable future, the University of Melbourne Computer Science and Software Engineering Department created a Master of Engineering in Distributed Computing degree program.The MEDC program educates graduate students in rapidly evolving key areas such as distributed computing, mobile computing, pervasive computing, and sensor networks. I teach CSSE 653: Mobile Computing Systems Programming.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1109/MDSO.2007.27",
+      "url": "https://openreview.net/forum?id=JCDndwcXmz",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:BpB5b5ptlC",
+      "title": "Performance evaluation of a new scheduling algorithm for distributed systems with security heterogeneity",
+      "authors": [
+        "Tao Xie",
+        "Xiao Qin"
+      ],
+      "year": 2007,
+      "venue": "J. Parallel Distributed Comput. 2007",
+      "abstract": "High quality of security service is increasingly critical for applications running on heterogeneous distributed systems. However, existing scheduling algorithms for heterogeneous distributed systems disregard security requirements of applications. To address this issue, in this paper, we introduce security heterogeneity concept for our scheduling model in the context of distributed systems. Based on the concept, we propose a novel heuristic scheduling algorithm, or SATS, which strives to maximize the probability that all tasks are executed without any risk of being attacked. Extensive experimental studies using real-world traces indicate that the scheduling performance is affected by heterogeneities of security and computational power. Additionally, empirical results demonstrate that with respect to security and performance, the proposed scheduling algorithm outperforms existing approaches under a wide spectrum of workload conditions.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1016/j.jpdc.2007.06.004",
+      "url": "https://openreview.net/forum?id=BpB5b5ptlC",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:74kukkkZVU",
+      "title": "AESM2 Attribute-Based Encrypted Search for Multi-Owner and Multi-User Distributed Systems",
+      "authors": [
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]"
+      ],
+      "year": 2023,
+      "venue": "IEEE Transactions on Parallel and Distributed Systems",
+      "abstract": "With the rapid development of cloud computing, it is popular for data owners to outsource massive data to the cloud server for data sharing. To protect the privacy of sensitive data, many searchable encryption schemes are proposed. However, most of the existing studies focus on the single-owner model. In practice, users need to query data from distributed owners one by one, which inevitably brings great communication and computation overheads. Moreover, it lacks a secure scheme that realizes the access control requirements of individual owners. In this article, we propose AESM$^{2}$, a new attribute-based encrypted search with ownership enhancement scheme for multi-owner and multi-user distributed systems. Our design enables users to search data from authorized owners with only one trapdoor. Owners can enforce owner level permission on users and encrypt their data individually with fine-grained attribute level permission. For practical consideration, we further devise an efficient revocation method of the owner level permission for users, where ciphertexts do not need to be updated. We formally define and prove the security of our design. Moreover, we implement a system prototype and analyze the performance from theoretical and experimental aspects. The evaluation results demonstrate that our scheme is effective and efficient.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1109/TPDS.2022.3216320",
+      "url": "https://openreview.net/forum?id=74kukkkZVU",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:IYIhj3VYEp",
+      "title": "A framework for reliable and efficient data placement in distributed computing systems",
+      "authors": [
+        "Tevfik Kosar",
+        "Miron Livny"
+      ],
+      "year": 2005,
+      "venue": "J. Parallel Distributed Comput. 2005",
+      "abstract": "Data placement is an essential part of today's distributed applications since moving the data close to the application has many benefits. The increasing data requirements of both scientific and commercial applications, and collaborative access to these data make it even more important. In the current approach, data placement is regarded as a side affect of computation. Our goal is to make data placement a first class citizen in distributed computing systems just like the computational jobs. They will be queued, scheduled, monitored, managed, and even checkpointed. Since data placement jobs have different characteristics than computational jobs, they cannot be treated in the exact same way as computational jobs. For this purpose, we are proposing a framework which can be considered as a “data placement subsystem” for distributed computing systems, similar to the I/O subsystem in operating systems. This framework includes a specialized scheduler for data placement, a high level planner aware of data placement jobs, a resource broker/policy enforcer and some optimization tools. Our system can perform reliable and efficient data placement, it can recover from all kinds of failures without any human intervention, and it can dynamically adapt to the environment at the execution time.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1016/j.jpdc.2005.04.019",
+      "url": "https://openreview.net/forum?id=IYIhj3VYEp",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:YtyiWeEhTO",
+      "title": "From physical security to cybersecurity",
+      "authors": [
+        "Arunesh Sinha",
+        "Thanh Hong Nguyen",
+        "Debarun Kar",
+        "Matthew Brown",
+        "Milind Tambe",
+        "Albert Xin Jiang"
+      ],
+      "year": 2015,
+      "venue": "J. Cybersecur. 2015",
+      "abstract": "Security is a critical concern around the world. In many domains from cybersecurity to sustainability, limited security resources prevent complete security coverage at all times. Instead, these limited resources must be scheduled (or allocated or deployed), while simultaneously taking into account the importance of different targets, the responses of the adversaries to the security posture, and the potential uncertainties in adversary payoffs and observations, etc. Computational game theory can help generate such security schedules. Indeed, casting the problem as a Stackelberg game, we have developed new algorithms that are now deployed over multiple years in multiple applications for scheduling of security resources. These applications are leading to real-world use-inspired research in the emerging research area of “security games.” The research challenges posed by these applications include scaling up security games to real-world-sized problems, handling multiple types of uncertainty, and dealing with bounded rationality of human adversaries. In cybersecurity domain, the interaction between the defender and adversary is quite complicated with high degree of incomplete information and uncertainty. While solutions have been proposed for parts of the problem space in cybersecurity, the need of the hour is a comprehensive understanding of the whole space including the interaction with the adversary. We highlight the innovations in security games that could be used to tackle the game problem in cybersecurity.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1093/cybsec/tyv007",
+      "url": "https://openreview.net/forum?id=YtyiWeEhTO",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:yOZmLcXXjA",
+      "title": "More than malware: unmasking the hidden risk of cybersecurity regulations",
+      "authors": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "year": 2024,
+      "venue": "International Cybersecurity Law Review",
+      "abstract": "Cybersecurity investments are made within a complex and ever-evolving environment, where regulatory changes represent a significant risk factor. While cybersecurity regulations aim to minimize cyber risks and enhance protection, the uncertainty arising from frequent changes or new regulations can significantly impact organizational response strategies. This paper explores the determinants and implications of regulatory risks associated with cybersecurity, aiming to provide a deeper understanding of how these risks influence strategic decision-making. The study delves into the suggestion of preventive and mitigative controls that enable businesses to adapt to and mitigate potential disruptions caused by regulatory changes, thereby preserving their established cybersecurity practices. Another key contribution of this study is the introduction of a stochastic econometric model that illustrates how regulatory risks and uncertainties can affect investment behaviors, often prompting a “wait-and-see” stance. This model synthesizes the complex relationship among investment choices, regulatory changes, and cybersecurity risks, providing insights into the dynamic nature of cybersecurity investment strategies. The research findings offer valuable guidance for risk management and strategic planning in cybersecurity investments. By comprehensively understanding the drivers and impacts of regulatory risks, businesses and policymakers can develop more effective risk evaluation and management approaches. This is essential for sustaining a strong cybersecurity posture while navigating the changing regulatory environment.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1365/s43439-024-00111-7",
+      "url": "https://openreview.net/forum?id=yOZmLcXXjA",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:uGuy73Dx6I",
+      "title": "Dynamic Risk Assessments for Offensive Cybersecurity Agents",
+      "authors": [
+        "Boyi Wei",
+        "Benedikt Stroebl",
+        "Jiacen Xu",
+        "Joie Zhang",
+        "Zhou Li",
+        "Peter Henderson"
+      ],
+      "year": 2025,
+      "venue": "NeurIPS 2025 Datasets and Benchmarks Track poster",
+      "abstract": "Foundation models are increasingly becoming better autonomous programmers, raising the prospect that they could also automate dangerous offensive cyber‑operations. Current frontier model audits probe the cybersecurity risks of such agents, but most fail to account for the degrees of freedom available to adversaries in the real world. In particular, with strong verifiers and financial incentives, agents for offensive cybersecurity are amenable to iterative improvement by would-be adversaries. We argue that assessments should take into account an expanded threat model in the context of cybersecurity, emphasizing the varying degrees of freedom that an adversary may possess in _stateful_ and _non-stateful_ environments within a fixed compute budget. We show that even with a relatively small compute budget (8 H100 GPU Hours in our study), adversaries can improve an agent's cybersecurity capability on InterCode CTF by more than 40\\% relative to the baseline---without any external assistance. These results highlight the need to evaluate agents' cybersecurity risk in a dynamic manner, painting a more representative picture of risk.",
+      "keywords": [
+        "Cybersecurity",
+        "AI Agent",
+        "AI Safety"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=uGuy73Dx6I",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:ctZscjSVUK",
+      "title": "Dynamic Risk Assessments for Offensive Cybersecurity Agents",
+      "authors": [
+        "Boyi Wei",
+        "Benedikt Stroebl",
+        "Jiacen Xu",
+        "Joie Zhang",
+        "Zhou Li",
+        "Peter Henderson"
+      ],
+      "year": 2025,
+      "venue": "ICML 2025 R2-FM Workshop Poster",
+      "abstract": "Foundation models are increasingly becoming better autonomous programmers, raising the prospect that they could also automate dangerous offensive cyber‑operations. Current frontier model audits probe the cybersecurity risks of such agents, but most fail to account for the degrees of freedom available to adversaries in the real world. In particular, with strong verifiers and financial incentives, agents for offensive cybersecurity are amenable to iterative improvement by would-be adversaries. We argue that assessments should take into account an expanded threat model in the context of cybersecurity, emphasizing the varying degrees of freedom that an adversary may possess in stateful and non-stateful environments within a fixed compute budget. We show that even with a relatively small compute budget (8 H100 GPU Hours in our study), adversaries can improve an agent's cybersecurity capability on InterCode CTF by more than 40% relative to the baseline---without any external assistance. These results highlight the need to evaluate agents' cybersecurity risk in a dynamic manner, painting a more representative picture of risk.",
+      "keywords": [
+        "Cybersecurity",
+        "AI Agent",
+        "AI Safety"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=ctZscjSVUK",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:ecPZCBYke8",
+      "title": "Dynamic Risk Assessments for Offensive Cybersecurity Agents",
+      "authors": [
+        "Boyi Wei",
+        "Benedikt Stroebl",
+        "Jiacen Xu",
+        "Joie Zhang",
+        "Zhou Li",
+        "Peter Henderson"
+      ],
+      "year": 2025,
+      "venue": "WCUA 2025 Poster",
+      "abstract": "Foundation models are increasingly becoming better autonomous programmers, raising the prospect that they could also automate dangerous offensive cyber‑operations. Current frontier model audits probe the cybersecurity risks of such agents, but most fail to account for the degrees of freedom available to adversaries in the real world. In particular, with strong verifiers and financial incentives, agents for offensive cybersecurity are amenable to iterative improvement by would-be adversaries. We argue that assessments should take into account an expanded threat model in the context of cybersecurity, emphasizing the varying degrees of freedom that an adversary may possess in stateful and non-stateful environments within a fixed compute budget. We show that even with a relatively small compute budget (8 H100 GPU Hours in our study), adversaries can improve an agent's cybersecurity capability on InterCode CTF by more than 40% relative to the baseline---without any external assistance. These results highlight the need to evaluate agents' cybersecurity risk in a dynamic manner, painting a more representative picture of risk.",
+      "keywords": [
+        "Cybersecurity",
+        "AI Agent",
+        "AI Safety"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=ecPZCBYke8",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:hMkjwCjI5X",
+      "title": "Modelling the ethical priorities influencing decision-making in cybersecurity contexts",
+      "authors": [
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]"
+      ],
+      "year": 2023,
+      "venue": "Organizational Cybersecurity Journal: Practice, Process and People",
+      "abstract": "Purpose – Cybersecurity vulnerabilities are often due to human users acting according to their own ethical priorities. With the goal of providing tailored training to cybersecurity professionals, the authors conducted a study to uncover profiles of human factors that influence which ethical principles are valued highest following exposure to ethical dilemmas presented in a cybersecurity game. Design/methodology/approach – The authors’ game first sensitises players (cybersecurity trainees) to five cybersecurity ethical principles (beneficence, non-maleficence, justice, autonomy and explicability) and then allows the player to explore their application in multiple cybersecurity scenarios. After playing the game, players rank the five ethical principles in terms of importance. A total of 250 first-year cybersecurity students played the game. To develop profiles, the authors collected players’ demographics, knowledge about ethics, personality, moral stance and values. Findings – The authors built models to predict the importance of each of the five ethical principles. The analyses show that, generally, the main driver influencing the priority given to specific ethical principles is cultural background, followed by the personality traits of extraversion and conscientiousness. The importance of the ingroup was also a prominent factor. Originality/value – Cybersecurity professionals need to understand the impact of users’ ethical choices. To provide ethics training, the profiles uncovered will be used to build artificially intelligent (AI) non-player characters (NPCs) to expose the player to multiple viewpoints. The NPCs will adapt their training according to the predicted players’ viewpoint. Keywords Ethical training, Cybersecurity ethics, Ethical fading, Ethical principles, Serious games",
+      "keywords": [],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=hMkjwCjI5X",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:FnwU7ogRzv",
+      "title": "CRAKEN: Cybersecurity LLM Agent with Knowledge-Based Execution",
+      "authors": [
+        "Minghao Shao",
+        "Haoran Xi",
+        "NANDA RANI",
+        "Meet Udeshi",
+        "Venkata Sai Charan Putrevu",
+        "Kimberly Milner",
+        "Brendan Dolan-Gavitt",
+        "Sandeep K. Shukla"
+      ],
+      "year": 2025,
+      "venue": "Submitted to ICLR 2026",
+      "abstract": "Large Language Model (LLM) agents can automate cybersecurity tasks and can adapt to the evolving cybersecurity landscape without re-engineering. While LLM agents have demonstrated cybersecurity capabilities on Capture-The-Flag (CTF) competitions, they have two key limitations: accessing latest cybersecurity expertise beyond training data, and integrating new knowledge into complex task planning. Knowledge-based approaches that incorporate technical understanding into the task-solving automation can tackle these limitations. We present CRAKEN, a knowledge-based LLM agent framework that improves cybersecurity capability through three core mechanisms: contextual decomposition of task-critical information, iterative self-reflected knowledge retrieval, and solution injection that transforms insights into adaptive attack strategies. CRAKEN combines advanced retrieval algorithms with prompt injection-based integration. Comprehensive evaluations with different configurations show CRAKEN's effectiveness in multi-stage vulnerability detection and exploitation compared to previous approaches. Our extensible architecture establishes new methodologies for embedding new security knowledge into LLM-driven cybersecurity agentic systems. CRAKEN obtained an accuracy of 22% on NYU CTF Bench with our collected simple CTF write-up dataset and shows a 15.7% of the solution distribution difference, indicating the effectiveness of integrating knowledge into automated CTF solving for challenges that requires knowledge from specific domains.",
+      "keywords": [
+        "LLM Agentic System",
+        "Capture the Flag",
+        "Retrieval Augmented Generation",
+        "Cybersecurity"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=FnwU7ogRzv",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:D9kdB63vUJ",
+      "title": "Cyber-Zero: Training Cybersecurity Agents without Runtime",
+      "authors": [
+        "Terry Yue Zhuo",
+        "Dingmin Wang",
+        "Hantian Ding",
+        "Varun Kumar",
+        "Zijian Wang"
+      ],
+      "year": 2025,
+      "venue": "DL4C @ NeurIPS 2025 Poster",
+      "abstract": "Large Language Models (LLMs) have achieved remarkable success in software engineering tasks when trained with executable runtime environments, particularly in resolving GitHub issues. However, such runtime environments are often unavailable in other domains, especially cybersecurity, where challenge configurations and execution contexts are ephemeral or restricted. We present Cyber-Zero, the first runtime-free framework for synthesizing high-quality agent trajectories to train cybersecurity LLMs. Cyber-Zero leverages publicly available CTF writeups and employs persona-driven LLM simulation to reverse-engineer runtime behaviors and generate realistic, long-horizon interaction sequences without actual environments. Using trajectories synthesized by Cyber-Zero, we train LLM-based agents that achieve up to 13.1% absolute performance gains over baseline models on three prominent CTF benchmarks: InterCode-CTF, NYU CTF Bench, and Cybench. Our best model, Cyber-Zero-32B, establishes new state-of-the-art performance among open-weight models, matching the capabilities of proprietary systems like DeepSeek-V3-0324 and Claude-3.5-Sonnet while offering superior cost-effectiveness, and demonstrating that runtime-free trajectory synthesis can effectively democratize the development of state-of-the-art cybersecurity agents.",
+      "keywords": [
+        "cybersecurity",
+        "llm agents",
+        "CTF"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=D9kdB63vUJ",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:mwj3hbqBsI",
+      "title": "Cybersecurity Applications in Software: Data-Driven Software Vulnerability Assessment and Management",
+      "authors": [
+        "Jiao Yin",
+        "MingJian Tang",
+        "Jinli Cao",
+        "Mingshan You",
+        "Hua Wang"
+      ],
+      "year": 2023,
+      "venue": "Emerging Trends in Cybersecurity Applications 2023",
+      "abstract": "Data, as one of the most valuable assets for both individuals and companies in the digital age, is increasingly exposed to the threat of cyberattacks caused by software vulnerabilities. A major application in cybersecurity is software vulnerability assessment and management, which is the fundamental and systematic review process to identify the severity levels of existing software vulnerabilities. It is essential for the whole cybersecurity community to find out potential security weaknesses and thus to take remediation or mitigation actions timely. This chapter elaborates cybersecurity applications in software, focusing on the foundation of software vulnerability assessment and management, the mainstream vulnerability and exploit databases, the research hotspots, challenges and the latest developments as well as possible future works in software vulnerability assessment and management.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1007/978-3-031-09640-2_17",
+      "url": "https://openreview.net/forum?id=mwj3hbqBsI",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:1m1XKCGerV",
+      "title": "Robustness and Cybersecurity in the EU Artificial Intelligence Act",
+      "authors": [
+        "Henrik Nolte",
+        "Miriam Rateike",
+        "Michèle Finck"
+      ],
+      "year": 2024,
+      "venue": "RegML 2024",
+      "abstract": "The EU Artificial Intelligence Act (AIA) establishes legal principles for certain types of AI systems. While prior work has sought to clarify some of these principles, little attention has been paid to robustness and cybersecurity. This paper aims to fill this gap. We identify legal challenges in provisions related to robustness and cybersecurity for high-risk AI systems (Art. 15 AIA) and general-purpose AI models (Art. 55 AIA). We demonstrate that robustness and cybersecurity demand resilience against performance disruptions. Furthermore, we assess potential challenges in implementing these provisions in light of recent advancements in the machine learning (ML) literature. Our analysis identifies shortcomings in the relevant provisions, informs efforts to develop harmonized standards as well as benchmarks and measurement methodologies under Art. 15(2) AIA, and seeks to bridge the gap between legal terminology and ML research to better align research and implementation efforts in relation to the AIA.",
+      "keywords": [
+        "EU AI Act",
+        "Cybersecurity",
+        "Robustness"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=1m1XKCGerV",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:W4FAenIrQ2",
+      "title": "RedSage: A Cybersecurity Generalist LLM",
+      "authors": [
+        "Naufal Suryanto",
+        "Muzammal Naseer",
+        "Pengfei Li",
+        "Syed Talal Wasim",
+        "Jinhui Yi",
+        "Juergen Gall",
+        "Paolo Ceravolo",
+        "Ernesto Damiani"
+      ],
+      "year": 2026,
+      "venue": "ICLR 2026 Poster",
+      "abstract": "Cybersecurity operations demand assistant LLMs that support diverse workflows without exposing sensitive data. Existing solutions either rely on proprietary APIs with privacy risks or on open models lacking domain adaptation. To bridge this gap, we curate 11.8B tokens of cybersecurity-focused continual pretraining data via large-scale web filtering and manual collection of high-quality resources, spanning 28.6K documents across frameworks, offensive techniques, and security tools. Building on this, we design an agentic augmentation pipeline that simulates expert workflows to generate 266K multi-turn cybersecurity samples for supervised fine-tuning. Combined with general open-source LLM data, these resources enable the training of RedSage, an open-source, locally deployable cybersecurity assistant with domain-aware pretraining and post-training. To rigorously evaluate the models, we introduce RedSage-Bench, a benchmark with 30K multiple-choice and 240 open-ended Q\\&A items covering cybersecurity knowledge, skills, and tool expertise. RedSage is further evaluated on established cybersecurity benchmarks (e.g., CTI-Bench, CyberMetric, SECURE) and general LLM benchmarks to assess broader generalization. At the 8B scale, RedSage achieves consistently better results, surpassing the baseline models by up to +5.59 points on cybersecurity benchmarks and +5.05 points on Open LLM Leaderboard tasks. These findings demonstrate that domain-aware agentic augmentation and pre/post-training can not only enhance cybersecurity-specific expertise but also help to improve general reasoning and instruction-following. Project page: https://risys-lab.github.io/RedSage/",
+      "keywords": [
+        "cybersecurity",
+        "large language models",
+        "data-driven",
+        "dataset curation",
+        "agentic augmentation",
+        "continual pretraining",
+        "supervised fine-tuning",
+        "benchmark evaluation",
+        "open-source"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=W4FAenIrQ2",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:jXaBRLQrcM",
+      "title": "CyberGym-E2E: Scalable Real-World Benchmark for AI Agents' End-to-End Cybersecurity Capabilities",
+      "authors": [
+        "Tianneng Shi",
+        "Robin Rheem",
+        "Dongwei Jiang",
+        "Mona Wang",
+        "Francisco De La Riega",
+        "Zhun Wang",
+        "Jingzhi Jiang",
+        "Alexander Cheung"
+      ],
+      "year": 2026,
+      "venue": "ICML 2026 regular",
+      "abstract": "AI has the potential to transform cybersecurity by enabling systems that can autonomously detect, analyze, and remediate software vulnerabilities. However, existing cybersecurity evaluations of AI systems are limited in scale or scope, and fail to capture the end-to-end lifecycle of real-world software vulnerability discovery and remediation. To address this gap, we propose CyberGym-E2E, a large-scale and realistic end-to-end cybersecurity benchmark that comprehensively evaluates AI agents' abilities across the full lifecycle of vulnerability discovery, PoC generation, and patch generation. CyberGym-E2E is comprehensive and scalable, as we build an automated, agent-enhanced pipeline for transforming open-source vulnerability data into realistic evaluation environments. Currently, the benchmark consists of 920 real-world vulnerabilities across 139 different open-source projects.",
+      "keywords": [
+        "Agent",
+        "Cybersecurity"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=jXaBRLQrcM",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:KSTSZF5vYX",
+      "title": "A benchmark of expert-level academic questions to assess AI capabilities",
+      "authors": [
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]"
+      ],
+      "year": 2026,
+      "venue": "Nature",
+      "abstract": "Benchmarks are important tools for tracking the rapid advancements in large language model (LLM) capabilities. However, benchmarks are not keeping pace in difficulty: LLMs now achieve more than 90% accuracy on popular benchmarks such as Measuring Massive Multitask Language Understanding1, limiting informed measurement of state-of-the-art LLM capabilities. Here, in response, we introduce Humanity’s Last Exam (HLE), a multi-modal benchmark at the frontier of human knowledge, designed to be an expert-level closed-ended academic benchmark with broad subject coverage. HLE consists of 2,500 questions across dozens of subjects, including mathematics, humanities and the natural sciences. HLE is developed globally by subject-matter experts and consists of multiple-choice and short-answer questions suitable for automated grading. Each question has a known solution that is unambiguous and easily verifiable but cannot be quickly answered by internet retrieval. State-of-the-art LLMs demonstrate low accuracy and calibration on HLE, highlighting a marked gap between current LLM capabilities and the expert human frontier on closed-ended academic questions. To inform research and policymaking upon a clear understanding of model capabilities, we publicly release HLE at https://lastexam.ai.",
+      "keywords": [],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=KSTSZF5vYX",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:V4c1VeXFrZ",
+      "title": "Domain-Agnostic Scalable AI Safety Ensuring Framework",
+      "authors": [
+        "Beomjun Kim",
+        "Kangyeon Kim",
+        "Sunwoo Kim",
+        "Yeonsang Shin",
+        "Heejin Ahn"
+      ],
+      "year": 2025,
+      "venue": "ICLR 2026 Conference Withdrawn Submission",
+      "abstract": "AI safety has emerged as a critical priority as these systems are increasingly deployed in real-world applications. We propose **the first domain-agnostic AI safety ensuring framework** that achieves strong safety guarantees while preserving high performance, grounded in rigorous theoretical foundations. Our framework includes: (1) an optimization component with chance constraints, (2) a safety classification model, (3) internal test data, (4) conservative testing procedures, (5) $\\zeta$-informative dataset quality measures, and (6) continuous approximate loss functions with gradient computation. Furthermore, to our knowledge, we mathematically establish **the first scaling law in AI safety research**, relating data quantity to safety-performance trade-offs. Experiments across *reinforcement learning, natural language generation*, and *production planning* validate our framework and demonstrate superior performance. Notably, in reinforcement learning, we achieve **3 collisions during 10M actions, compared with 1,000 - 3,000 for PPO-Lag baselines** at equivalent performance levels---a safety level unattainable by previous AI methods. We believe our framework opens a new foundation for safe AI deployment across safety-critical domains.",
+      "keywords": [
+        "safety",
+        "domain-agnostic",
+        "AI safety"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=V4c1VeXFrZ",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:DibvYJhFms",
+      "title": "Position: Preventing AI-Generated CSAM Necessitates New Approaches to AI Safety",
+      "authors": [
+        "Neil Kale",
+        "Rebecca S. Portnoff",
+        "Pratiksha Thaker",
+        "Michael Simpson",
+        "Robertson Wang",
+        "Kevin Kuo",
+        "Chhavi Yadav",
+        "Virginia Smith"
+      ],
+      "year": 2026,
+      "venue": "ICML 2026 Position Paper Track spotlight",
+      "abstract": "Modern artificial intelligence (AI) systems have transformative potential across many domains, but also present profound new risks to child safety. AI is increasingly being misused to create AI-generated child sexual abuse material, facilitate child sexual exploitation, and reduce barriers to harm. In this position paper, we argue that protecting children from AI-facilitated abuse requires new approaches to AI safety. Existing safety techniques assume data accessibility, transparency, and evaluation practices that are incompatible with the ethical and legal constraints surrounding child sexual abuse material. We examine how these constraints create new technical challenges, such as limitations on dataset auditing, red teaming, and fine-tuning prevention. In turn, we outline *15 open problems* in child safety across the AI development lifecycle---from dataset curation and model design to deployment and long-term maintenance. We propose targeted recommendations for researchers, developers, and policymakers to bridge the gap between theoretical AI safety and the realities of child protection. Our work aims to reframe child safety as a central, safety-critical dimension for AI research, motivating new work that translates responsible AI principles into concrete safeguards against the exploitation of children.",
+      "keywords": [
+        "AI Safety",
+        "Child Safety",
+        "Image Generation"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=DibvYJhFms",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:Po0bU15GP1",
+      "title": "Making progress in Trustworthy AI using DeepMind’s AI Safety Gridworlds",
+      "authors": [
+        "Ahmed Ghoor",
+        "Jonathan P. Shock"
+      ],
+      "year": 2025,
+      "venue": "4th Muslims in ML Workshop co-located with ICML 2025 Poster",
+      "abstract": "DeepMind's AI Safety Gridworlds are a suite of environments aimed at facilitating the research and development of safe artificial intelligence by encapsulating simplified, yet meaningful, representations of safety challenges that real-world AI systems might encounter. This paper looks at DeepMind's accompanying paper and surveys several solutions that have been proposed for the environments.",
+      "keywords": [
+        "Reinforcement Learning",
+        "AI Safety"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=Po0bU15GP1",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:E8pPcOsAZN",
+      "title": "The Backfiring Effect of Weak AI Safety Regulation",
+      "authors": [
+        "Benjamin Laufer",
+        "Jon Kleinberg",
+        "Hoda Heidari"
+      ],
+      "year": 2025,
+      "venue": "RegML 2025 Poster",
+      "abstract": "Recent policy proposals aim to improve the safety of general-purpose AI, but there is little understanding of the efficacy of different regulatory approaches to AI safety. We present a strategic model that explores the interactions between safety regulation, the general-purpose AI technology creators, and domain specialists--those who adapt the technology for specific applications. Our analysis examines how different regulatory measures, targeting different parts of the AI development chain, affect the outcome of this game. In particular, we assume AI technology is characterized by two key attributes: \\emph{safety} and \\emph{performance}. The regulator first sets a minimum safety standard that applies to one or both players, with strict penalties for non-compliance. The general-purpose creator then invests in the technology, establishing its initial safety and performance levels. Next, domain specialists refine the AI for their specific use cases, updating the safety and performance levels and taking the product to market. The resulting revenue is then distributed between the specialist and generalist through a revenue-sharing parameter. Our analysis reveals two key insights: First, weak safety regulation imposed predominantly on domain specialists can backfire. While it might seem logical to regulate AI use cases, our analysis shows that weak regulations targeting domain specialists alone can unintentionally reduce safety. This effect persists across a wide range of settings. Second, in sharp contrast to the previous finding, we observe that stronger, well-placed regulation can in fact mutually benefit \\emph{all} players subjected to it. When regulators impose appropriate safety standards on both general-purpose AI creators and domain specialists, the regulation functions as a commitment device, leading to safety and performance gains, surpassing what is achieved under no regulation or regulating one player alone.",
+      "keywords": [
+        "AI Safety",
+        "Game Theory",
+        "Contracts"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=E8pPcOsAZN",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:NvgUsIU7T3",
+      "title": "GT-HarmBench: Benchmarking AI Safety Risks Through the Lens of Game Theory",
+      "authors": [
+        "Pepijn Cobben",
+        "X. Angelo Huang",
+        "Thao Amelia Pham",
+        "Isabel Dahlgren",
+        "Terry Jingchen Zhang",
+        "Zhijing Jin"
+      ],
+      "year": 2026,
+      "venue": "ICLR 2026 Trustworthy AI",
+      "abstract": "Frontier AI systems are increasingly capable and deployed in high-stakes multi-agent environments. However, existing AI safety benchmarks largely evaluate single agents, leaving multi-agent risks such as coordination failure and conflict poorly understood. We introduce GT-HarmBench, a benchmark of 2,009 high-stakes scenarios spanning game-theoretic structures such as the Prisoner's Dilemma, Stag Hunt and Chicken. Scenarios are drawn from realistic AI risk contexts in the MIT AI Risk Repository. Across 15 frontier models, agents choose socially beneficial actions in only 62% of cases, frequently leading to harmful outcomes. We measure sensitivity to game-theoretic prompt framing and ordering, and analyze reasoning patterns driving failures. We further show that game-theoretic interventions improve socially beneficial outcomes by up to 18%. Our results highlight substantial reliability gaps and provide a broad standardized testbed for studying alignment in multi-agent environments.",
+      "keywords": [
+        "multi-agent systems",
+        "AI safety",
+        "alignment",
+        "game theory",
+        "benchmarking",
+        "mechanism design"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=NvgUsIU7T3",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:wvga9chmb6",
+      "title": "AI Agent Safety is a Reinforcement Learning Problem",
+      "authors": [
+        "Reginald McLean",
+        "Tabitha Edith Lee",
+        "Montaser Mohammedalamen",
+        "Kevin Roice",
+        "Glen Berseth",
+        "Patrick M. Pilarski",
+        "Marlos C. Machado",
+        "Alyssa Lefaivre Škopac"
+      ],
+      "year": 2026,
+      "venue": "ICML 2026 AIWILD",
+      "abstract": "With the rapid advancement and deployment of Agentic AI, our scientific understanding of capabilities and limitations has not kept pace, leading to cases where AI agents cause harm. We argue that many of these safety limitations are not novel problems. Instead, the safety challenges currently facing AI agents can be seen as instances of problems the reinforcement learning (RL) community has studied rigorously for decades. The core of this argument concerns the problem formulation of AI agents. AI agents are designed to solve sequential decision-making problems: problems with long-term objectives in which actions have delayed consequences. To model these types of problem, the problem is set up the problem such that the agent receives observations, feedback on its progress, and then takes actions. This is precisely the formulation of the RL problem. In this paper, we formalize the problem equivalence, which we then leverage to argue that \\textbf{AI Agent safety is a reinforcement learning problem: the failure modes currently observed in deployed AI agents are structural instances of problems RL has formalized for decades, and the RL safety literature provides principled tools to diagnose and address them.}. We conclude with a call for deliberate collaboration between the RL and AI agent research communities: AI agent researchers gain access to principled frameworks, while RL researchers gain a class of real-world problems that could expose fundamental gaps in current RL benchmarks and theory.",
+      "keywords": [
+        "AI Safety",
+        "LLM-agents",
+        "reinforcement learning"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=wvga9chmb6",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:JNHjxd3n7p",
+      "title": "The Homogenization Problem in LLMs: Towards Meaningful Diversity in AI Safety",
+      "authors": [
+        "Ian Rios-Sialer"
+      ],
+      "year": 2026,
+      "venue": "Culture x AI 2026 Poster",
+      "abstract": "Generative AI models reproduce the human biases in their training data and further amplify them through mechanisms such as mode collapse. The loss of diversity produces homogenization, which not only harms the minoritized but impoverishes everyone. We argue homogenization should be a central concern in AI safety. To meaningfully characterize homogenization in Large Language Models (LLMs), we introduce a framework that allows stakeholders to encode their context and value system. We illustrate our approach with an experiment that surfaces gender bias in an LLM (Claude 3.5 Haiku) on an open-ended story prompt. Building from queer theory, we formalize homogenization in terms of normativity. Our work opens a collaborative line of research that seeks to understand and advance diversity in AI.",
+      "keywords": [
+        "AI Safety",
+        "Mode Collapse",
+        "Generative AI",
+        "LLMs",
+        "Bias",
+        "Diversity",
+        "Queer Theory"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=JNHjxd3n7p",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:sO5N5XMX73",
+      "title": "Benchmarking AI Control Protocols for Safety in Medical Question-Answering Tasks",
+      "authors": [
+        "Guido Freire",
+        "Agustín E. Martínez-Suñé",
+        "Viviana Cotik"
+      ],
+      "year": 2026,
+      "venue": "ICLR 2026 Trustworthy AI",
+      "abstract": "Large Language Models have the potential to expand access to relevant clinical information by introducing new ways of interacting with medical knowledge in natural language. However, their deployment in medical question-answering settings is high-stakes, since misaligned outputs can lead to severe patient harm. AI Control is an emerging approach that uses external safeguards to mitigate unsafe behaviours in misaligned systems and has been shown to be effective in domains such as code generation. However, its applicability and effectiveness in medical settings have not been systematically studied. In this work, we present a pipeline for evaluating AI Control protocols in the medical domain. To this end, we introduce HealthBench-DDI, an extension of HealthBench-Consensus and the first AI Control evaluation benchmark for biomedical question-answering, enriching 3,512 multi-turn medical conversations with drug-drug interaction information derived from official FDA labels. Furthermore, motivated by the medical domain, we argue for reformulating safety to account for the severity of unsafe outputs, rather than solely their probability. Under this revised definition, we show that existing control protocols can be subverted and propose severity-based monitoring to address this limitation.",
+      "keywords": [
+        "AI Safety",
+        "AI Control",
+        "Large Language Models",
+        "Medical Question Answering",
+        "Drug–Drug Interactions",
+        "Biomedical NLP"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=sO5N5XMX73",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:Pd7w8bB7OH",
+      "title": "Computational Safety for Generative AI: A Hypothesis Testing Perspective",
+      "authors": [
+        "Pin-Yu Chen"
+      ],
+      "year": 2026,
+      "venue": "ICML26-Testing Oral",
+      "abstract": "AI safety is a rapidly growing area of research that seeks to prevent the harm and misuse of frontier AI technology, particularly with respect to generative AI (GenAI) tools that are capable of creating realistic and high-quality content through text prompts. Examples of such tools include large language models (LLMs) and text-to-image (T2I) diffusion models. As the performance of various leading GenAI models approaches saturation due to similar training data sources and neural network architecture designs, the development of reliable safety guardrails has become a key differentiator for responsibility and sustainability. This paper presents a formalization of the concept of computational safety, which is a mathematical framework that enables the quantitative assessment, formulation, and study of safety challenges in GenAI through the lens of signal processing theory and methods. In particular, we explore two exemplary categories of computational safety challenges in GenAI that can be formulated as hypothesis testing problems. For the safety of model input, we show how sensitivity analysis and loss landscape analysis can be used to detect malicious prompts with jailbreak attempts. For the safety of model output, we elucidate how statistical signal processing can be used to detect AI-generated content. Finally, we discuss opportunities and open challenges in computational safety for GenAI.",
+      "keywords": [
+        "Generative AI",
+        "AI safety",
+        "hypothesis testing",
+        "signal processing"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=Pd7w8bB7OH",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:KI1WQ6rLiy",
+      "title": "HAICOSYSTEM: An Ecosystem for Sandboxing Safety Risks in Interactive AI Agents",
+      "authors": [
+        "Xuhui Zhou",
+        "Hyunwoo Kim",
+        "Faeze Brahman",
+        "Liwei Jiang",
+        "Hao Zhu",
+        "Ximing Lu",
+        "Frank F. Xu",
+        "Bill Yuchen Lin"
+      ],
+      "year": 2025,
+      "venue": "COLM 2025",
+      "abstract": "To address the growing safety risks as AI agents become increasingly autonomous in their interactions with human users and environments, we present HAICOSYSTEM, a framework examining AI agent safety within diverse and complex social interactions. HAICOSYSTEM features a modular sandbox environment that simulates multi-turn interactions between users and AI agents. We then develop a comprehensive multi-dimensional evaluation framework that uses metrics covering operational, content-related, societal, and legal risks to examine the safety of AI agents in these interactions. Through running over 8K simulations based on 132 scenarios across seven domains (e.g., healthcare, finance, education), we show that state-of-the-art LLMs exhibit safety risks in 62% of cases, particularly during tool use with malicious users, highlighting the importance of evaluating and addressing AI agent safety in dynamic human-AI-environment interactions.",
+      "keywords": [
+        "AI Safety",
+        "Multi-Agent Systems",
+        "Human-AI Interaction",
+        "Social Simulation"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=KI1WQ6rLiy",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:Bmvsb4r7wr",
+      "title": "Position: We Must Proactively Address AI Safety Debt",
+      "authors": [
+        "Peter Wallich",
+        "Raymond Douglas"
+      ],
+      "year": 2026,
+      "venue": "ICLR 2026 AIWILD",
+      "abstract": "This is a position paper. We argue that AI safety debt — the cost of closing the accumulated gaps between an AI system's actual safety approach and the approach it needs — is accumulating rapidly in frontier AI systems. In the race to unlock near-term capabilities, practitioners often implement safety interventions that do not scale to more advanced, less transparent models. The concept extends the established software-engineering notion of technical debt, but four structural properties make AI safety debt harder to manage: capabilities and contexts shift unpredictably, closing gaps may require solving open scientific problems, harms largely fall on third parties, and adversaries and AI systems may actively exploit gaps. Our position is that the AI community must explicitly track and manage this debt rather than continually deferring it. We propose the AI safety debt register, a practical approach using structured \"debt cards\" that connect safety claims, supporting evidence, and organisational decisions. We argue that this framework complements existing governance approaches by providing bottom-up aggregation of safety gaps, proactive assessment of how evidence degrades over time, and an improved treatment of uncertainty.",
+      "keywords": [
+        "AI safety",
+        "technical debt",
+        "safety debt",
+        "risk management",
+        "responsible scaling",
+        "frontier AI",
+        "governance",
+        "agentic AI systems"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=Bmvsb4r7wr",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:0hamtHihuY",
+      "title": "Innovation event model for STEM education: A constructivism perspective",
+      "authors": [
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]"
+      ],
+      "year": 2021,
+      "venue": "STEM Education",
+      "abstract": "",
+      "keywords": [],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=0hamtHihuY",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:scSLeA8DJr",
+      "title": "AI in Yoruba STEM Education for Early Childhood Learning: A Study on Translation Quality and Context",
+      "authors": [
+        "Olanrewaju Israel Lawal",
+        "Anthony Soronnadi",
+        "Olubayo Adekanmbi",
+        "Ife Adebara"
+      ],
+      "year": 2025,
+      "venue": "ICLR 2025 Workshop AI4CHL Poster",
+      "abstract": "The integration of AI translation models into education is essential for expand-ing access to learning materials in low-resource languages like Yor`ub´a, spoken by more than 45 million people in Nigeria and beyond. Early childhood education in a child’s native language is crucial to cognitive and academic development, sig- nificantly enhancing learning outcomes. However, assessing the contextual accu- racy and domain-specific relevance of AI-generated translations remains a critical challenge. This study evaluates the translation quality of state-of-the-art multi-lingual models: Llama, Claude, DeepSeek and AfriTeVa for STEM education in Yor`ub´a. We used a curated STEM dataset digitized from textbooks and translated by expert linguists. Next, we evaluated AI-generated translations against human references using BLEU, CHRF, TER, and AfriCOMET. To ensure a fair com- parison, all evaluation scores were normalized using the Min Max normalization method. Our results reveal significant gaps in AI-generated STEM translations. Although models like DeepSeek and AfriTeVa perform relatively well in lexical accuracy and fluency, they struggle with domain-specific terminology and contextual integrity. Claude and Llama show higher BLEU scores, but do not maintain scientific accuracy and pedagogical relevance. The findings underscore the need to fine-tune AI models specifically for Yor`ub´a STEM translation to improve contextual understanding and technical accuracy. Future work should focus on developing domain-adapted, culturally aware translation models and enhancing Yor`ub´a STEM datasets to ensure AI tools better support early childhood STEM education in underrepresented languages.",
+      "keywords": [
+        "NLP",
+        "Neural Machine Translation",
+        "Early Child Learning",
+        "Underrepresented Languages",
+        "STEM Education",
+        "Yoruba STEM Dataset Curation",
+        "Language Modeling",
+        "Evaluating LLMs"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=scSLeA8DJr",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:XPcCfH4l7n",
+      "title": "Addressing gender in STEM classrooms: The impact of gender bias on women scientists' experiences in higher education careers in Germany",
+      "authors": [
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]"
+      ],
+      "year": 2024,
+      "venue": "Education and Information Technologies",
+      "abstract": "Gender bias underlying discrimination against women are particularly salient in STEM higher education. Complementing top-down measures to mitigate these issues identified in the extant literature, we aim to highlight a complementary bottom-up approach. First, to elicit gender stereotypes and gender bias in STEM, we conducted a group concept mapping (GCM) study involving women professors, teaching staff, and scientific staff from different STEM disciplines at German universities (N = 70). We first asked them to provide statements reflecting their experience in response to the following focus prompt: ‘In my career as a STEM teacher, I experienced gender issues related to:’ Experts were then asked to thematically cluster and rank the statements according to their importance and feasibility with respect to a potential pedagogical intervention that may target these issues. Findings revealed an agreement across STEM disciplines regarding stereotypical beliefs about women, heteronomous gender roles, gender workload, sexism, and structural power relations, in that they remain significant factors for hindering female success in STEM careers in higher education. Based on their experience, however, the women saw potential in working on the awareness of gender bias with pedagogical interventions in online group learning scenarios (CSCL). Statements rated most appropriate were discussed in the light of the aspects of gender bias addressed, with a specific focus on addressing them in collaborative scripts.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1007/s10639-024-12669-0",
+      "url": "https://openreview.net/forum?id=XPcCfH4l7n",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:LhUdQTugwf",
+      "title": "Integrated STEM: Focus on Informal Education and Community Collaboration through Engineering",
+      "authors": [
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]"
+      ],
+      "year": 2018,
+      "venue": "Education Sciences",
+      "abstract": "This article showcases STEM as an interdisciplinary field in which the disciplines strengthen and support each other (not as separate science, technology, engineering, and mathematics disciplines). The authors focus on an open-ended, complex problem—water quality—as the primary teaching and learning task. The participants, middle school female students (aged 9–15 years), interacted in an informal educational setting (i.e., Girl Scouts) on a research project investigating river quality following the river’s restoration. The community, including Girl Scout participants, leaders, parents, university faculty, graduate students, and others, utilized an action research (AR) approach when interacting with the participants. Methods such as observational field notes, focus groups, and collected artifacts were commonly employed. The authors describe the history of STEM and AR leading to authentic science research projects through eight engineering skills/practices (incorporating science, technology, and mathematics) and showcase participant interactions, implementation, and community engagement in the STEM water quality river project. Findings indicate that informal engineering based projects can serve as opportunities for participants to connect with integrated STEM. Implications include the need for engaging participants in informal authentic science to support traditional school STEM learning and encouraging community engagement in integrated STEM to support traditional K-12 classroom instruction.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.3390/educsci8010004",
+      "url": "https://openreview.net/forum?id=LhUdQTugwf",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:T1dc3nkc4c",
+      "title": "Cloud-hosted simulation-as-a-service for high school STEM education",
+      "authors": [
+        "Faruk Caglar",
+        "Shashank Shekhar",
+        "Aniruddha S. Gokhale",
+        "Satabdi Basu",
+        "Tazrian Rafi",
+        "John S. Kinnebrew",
+        "Gautam Biswas"
+      ],
+      "year": 2015,
+      "venue": "Simul. Model. Pract. Theory 2015",
+      "abstract": "Despite their advanced status, nations such as the United States of America continue to face a STEM (science, technology, engineering and mathematics) crisis in their education system. Lack of effective teaching modalities that can leverage real-world examples to stimulate student interest in STEM concepts are identified as one of the reasons for this crisis. To address these challenges, our research is investigating the use of innovative and attractive modeling and simulation frameworks for concurrent, interactive and collaborative STEM education where vehicular traffic serves as the real-world example to reify STEM concepts. Existing traffic-related tools, such as traffic simulators, however, do not provide: (1) intuitive abstractions to construct, refine, and simulate various traffic models that are commensurate to the level of high school students, (2) concurrent and scalable model execution, and (3) collaborative learning environments. On the other hand, although intuitive abstractions such as Google Maps exist, these abstractions do not support semantics for dynamic behavior, which is representative of real-world traffic scenarios. To overcome both these challenges and address the STEM problem, this paper presents a Cloud-based, Collaborative, and Scaled-up Modeling and Simulation Framework for STEM Education called C2SuMo. The key contribution of this paper lies in the design and implementation of a cloud-based, elastic modeling and simulation framework that provides an intuitive, model-driven, collaborative, and concurrent visual simulation environment for STEM education. The paper also reports on insights we gained conducting a user study involving over sixty high school students.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1016/j.simpat.2015.06.006",
+      "url": "https://openreview.net/forum?id=T1dc3nkc4c",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:7JVEkdiTaC",
+      "title": "Virtual and Augmented Reality in Science, Technology, Engineering, and Mathematics (STEM) Education: An Umbrella Review",
+      "authors": [
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]"
+      ],
+      "year": 2024,
+      "venue": "Information",
+      "abstract": "The application of extended reality (XR) technology in education has been growing for the last two decades. XR offers immersive and interactive visualization experiences that can enhance learning by making it engaging. Recent technological advances have led to the availability of high-quality and affordable XR headsets. These advancements have spurred a wave of research focused on designing, implementing, and validating XR educational interventions. Limited literature focuses on the recent trends of XR within science, technology, engineering, and mathematics (STEM) education. Thus, this paper presents an umbrella review that explores the exploding field of XR and its transformative potential in STEM education. Using six online databases, the review zoomed in on 17 out of 1972 papers on XR for STEM education, published between 2020 and 2023, following the Preferred Reporting Items for Systematic reviews and Meta-Analyses (PRISMA) guidelines. The results highlighted the types of XR technology applied (i.e., virtual reality and augmented reality), the specific STEM disciplines involved, the focus of each study reviewed, and the major findings from recent reviews. Overall, the educational benefits of using XR technology in STEM education are apparent: XR boosts student motivation, facilitates learning engagement, and improves skills, for example. However, using XR in education still has challenges that must be addressed, such as the physical discomfort of the learner wearing the XR headset and technical glitches. Besides revealing trends of using XR in STEM education, this umbrella review encourages reflection on current practices and suggests ways to apply XR to STEM education effectively.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.3390/info15090515",
+      "url": "https://openreview.net/forum?id=7JVEkdiTaC",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:rwlQsfolOw",
+      "title": "Virtual and Augmented Reality in Science, Technology, Engineering, and Mathematics (STEM) Education: An Umbrella Review",
+      "authors": [
+        "Yiqun Zhang",
+        "Miguel Alfonso Feijóo-García",
+        "Yiyin Gu",
+        "Voicu Popescu",
+        "Bedrich Benes",
+        "Alejandra J. Magana"
+      ],
+      "year": 2024,
+      "venue": "Inf. 2024",
+      "abstract": "The application of extended reality (XR) technology in education has been growing for the last two decades. XR offers immersive and interactive visualization experiences that can enhance learning by making it engaging. Recent technological advances have led to the availability of high-quality and affordable XR headsets. These advancements have spurred a wave of research focused on designing, implementing, and validating XR educational interventions. Limited literature focuses on the recent trends of XR within science, technology, engineering, and mathematics (STEM) education. Thus, this paper presents an umbrella review that explores the exploding field of XR and its transformative potential in STEM education. Using six online databases, the review zoomed in on 17 out of 1972 papers on XR for STEM education, published between 2020 and 2023, following the Preferred Reporting Items for Systematic reviews and Meta-Analyses (PRISMA) guidelines. The results highlighted the types of XR technology applied (i.e., virtual reality and augmented reality), the specific STEM disciplines involved, the focus of each study reviewed, and the major findings from recent reviews. Overall, the educational benefits of using XR technology in STEM education are apparent: XR boosts student motivation, facilitates learning engagement, and improves skills, for example. However, using XR in education still has challenges that must be addressed, such as the physical discomfort of the learner wearing the XR headset and technical glitches. Besides revealing trends of using XR in STEM education, this umbrella review encourages reflection on current practices and suggests ways to apply XR to STEM education effectively.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.3390/info15090515",
+      "url": "https://openreview.net/forum?id=rwlQsfolOw",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:KxmbPCwUD1",
+      "title": "STEM Faculty Perspectives on Generative AI in Higher Education",
+      "authors": [
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]"
+      ],
+      "year": 2026,
+      "venue": "CoRR 2026",
+      "abstract": "Generative artificial intelligence (GenAI) tools are increasingly present in higher education, yet their adoption has been largely student-driven, requiring instructors to respond to technologies already embedded in classroom practices. While some faculty have embraced GenAI for pedagogical purposes such as content generation, assessment support, and curriculum design, others approach these tools with caution, citing concerns about student learning, assessment validity, and academic integrity. Understanding faculty perspectives is therefore essential for informing effective pedagogical strategies and institutional policies. In this paper, we present findings from a focus group study with 29 STEM faculty members at a large public university in the United States. We examine how faculty integrate GenAI into their courses, the benefits and challenges they perceive for student learning, and the institutional support they identify as necessary for effective and responsible adoption. Our findings highlight key patterns in how STEM faculty engage with GenAI, reflecting both active adoption and cautious use. Faculty described a range of pedagogical applications alongside concerns about student learning, assessment, and academic integrity. Overall, the results suggest that effective integration of GenAI in higher education requires rethinking assessment, pedagogy, and institutional governance in addition to technical adoption.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.48550/arXiv.2603.04001",
+      "url": "https://openreview.net/forum?id=KxmbPCwUD1",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:YQZcqOo4Ki",
+      "title": "AI-Driven Demand-Oriented STEM Education Strategy for Our Muslim Community",
+      "authors": [
+        "Yan Sha",
+        "Zhao DONG",
+        "Shaokai Yang"
+      ],
+      "year": 2024,
+      "venue": "MusIML Poster",
+      "abstract": "In the context of rapidly advancing global technology, Science, Technology, Engineering, and Mathematics (STEM) education in the Middle East and Muslim-majority regions is essential for driving innovation and supporting economic diversification. But, significant gaps remain between current educational practices and our vision, particularly in learning methodologies, student motivation, employment market alignment, and educational equity. We propose a comprehensive strategic framework that leverages large language models (LLMs) and virtual reality (VR) to create an AI-supported, closed-loop skills training system offering immersive and personalized learning experiences. Additionally, it promotes a mutually beneficial, cross-regional educational cooperation model that fosters resource sharing between economically developed and underdeveloped areas to support the development of Muslim communities around the world. This framework aims to establish an inclusive and efficient global STEM education system within Muslim communities, empowering the younger generation to meet future challenges while ensuring sustainable returns for sponsors in cultivating global tech talent.",
+      "keywords": [
+        "AI",
+        "Education",
+        "STEM"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=YQZcqOo4Ki",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:CFRa7RKKkP",
+      "title": "Learning with Yourself: a Tangible Twin Robot System to Promote STEM Education",
+      "authors": [
+        "Jiasi Gao",
+        "Jiangtao Gong",
+        "Guyue Zhou",
+        "Haole Guo",
+        "Tong Qi"
+      ],
+      "year": 2022,
+      "venue": "IROS 2022",
+      "abstract": "This paper presents a customized programmable robotic system, TanTwin (Tangible Twin), designed to promote STEM education for K-12 children. Firstly, TanTwin is implemented based on a wheel-robot with standard LEGO bricks. With several deep neural networks, a child can convert a captured portrait of himself/herself into standard LEGO bricks, therefore he/she can build a tangible twin robot of him-selflherself automatically. Besides, to adapt to the customized appearance, the corresponding visual element and content of the robotic system were also changed by a rule-based adaption algorithm. To demonstrate the effectiveness of TanTwin and to investigate whether tangible twin robots could contribute to children's learning, we conducted a controlled experimental study to compare learning with a TanTwin and with a standard robot system through measuring students' cognitive learning outcomes. The pre-/post- knowledge test results indicated that learning with a tangible twin robot leads to significantly better learning outcomes. Given the results, we validate our system and customization technology can promote STEM education.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1109/IROS47612.2022.9981423",
+      "url": "https://openreview.net/forum?id=CFRa7RKKkP",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:m5FIAkDYAT",
+      "title": "Integrated STEM for Teacher Professional Learning and Development: “I Need Time for Practice”",
+      "authors": [
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]"
+      ],
+      "year": 2021,
+      "venue": "Education Sciences",
+      "abstract": "This study compares three pre-collegiate teacher professional learning and development (PLD) integrated science, technology, engineering, and mathematics (STEM) experiences framed in astronomy. The study is set in the western United States (USA) and involves 60 pre-collegiate teachers (in the USA these are K-12 teachers) over the course of three years (June 2014–May 2017). During the PLDs, astronomy acted as a vehicle for pre-collegiate STEM teachers to increase their STEM content knowledge as well as create and implement integrated STEM classroom lessons. The authors collected quantitative and qualitative data to address five research questions and embraced social constructionism as the theoretical framework. Findings show that STEM pre-collegiate teachers are largely engaged with integrated STEM PLD content and embrace astronomy content and authentic science. Importantly, they need time to practice, interpret, translate, and use the integrated STEM content in classroom lessons. Recommendations for PLD STEM teacher support are provided. Implications of this study are vast, as gaps in authentic science, utilizing astronomy, PLD structure, and STEM integration are ripe for exploration.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.3390/educsci11010021",
+      "url": "https://openreview.net/forum?id=m5FIAkDYAT",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    },
+    {
+      "id": "openreview:fpIP3td3Nw",
+      "title": "Evaluation of Large Language Models: STEM education and Gender Stereotypes",
+      "authors": [
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]"
+      ],
+      "year": 2024,
+      "venue": "CoRR 2024",
+      "abstract": "Large Language Models (LLMs) have an increasing impact on our lives with use cases such as chatbots, study support, coding support, ideation, writing assistance, and more. Previous studies have revealed linguistic biases in pronouns used to describe professions or adjectives used to describe men vs women. These issues have to some degree been addressed in updated LLM versions, at least to pass existing tests. However, biases may still be present in the models, and repeated use of gender stereotypical language may reinforce the underlying assumptions and are therefore important to examine further. This paper investigates gender biases in LLMs in relation to educational choices through an open-ended, true to user-case experimental design and a quantitative analysis. We investigate the biases in the context of four different cultures, languages, and educational systems (English/US/UK, Danish/DK, Catalan/ES, and Hindi/IN) for ages ranging from 10 to 16 years, corresponding to important educational transition points in the different countries. We find that there are significant and large differences in the ratio of STEM to non-STEM suggested education paths provided by chatGPT when using typical girl vs boy names to prompt lists of suggested things to become. There are generally fewer STEM suggestions in the Danish, Spanish, and Indian context compared to the English. We also find subtle differences in the suggested professions, which we categorise and report.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.48550/arXiv.2406.10133",
+      "url": "https://openreview.net/forum?id=fpIP3td3Nw",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-18T02:12:58.504Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "grantsGovQueries": [
+    "artificial intelligence research",
+    "cybersecurity research",
+    "financial technology",
+    "distributed systems",
+    "STEM education technology"
+  ],
+  "sessionizeCalls": [
+    {
+      "url": "https://sessionize.com/ai-native-devcon-nyc-2026/",
+      "tags": ["Artificial intelligence", "Agentic systems", "Software engineering"]
+    },
+    {
+      "url": "https://sessionize.com/open-conf-2026/",
+      "tags": ["Artificial intelligence", "Distributed systems", "Community"]
+    }
+  ],
+  "openReviewQueries": [
+    "agentic AI",
+    "payment systems",
+    "distributed systems",
+    "cybersecurity",
+    "AI safety",
+    "STEM education"
+  ]
+}

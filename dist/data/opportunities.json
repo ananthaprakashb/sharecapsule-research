@@ -1,0 +1,3122 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-18T02:12:58.504Z",
+  "source": {
+    "name": "Approved authentic-source registry",
+    "authority": "Issuers and official public directories"
+  },
+  "sources": [
+    {
+      "name": "Grants.gov",
+      "endpoint": "https://api.grants.gov/v1/api/search2",
+      "documentation": "https://grants.gov/api/api-guide"
+    },
+    {
+      "name": "USA.gov",
+      "endpoint": "https://www.usa.gov/find-active-challenge",
+      "documentation": "https://www.usa.gov/challenges"
+    },
+    {
+      "name": "Sessionize",
+      "endpoint": "Allowlisted organizer CFP pages",
+      "documentation": "https://sessionize.com/"
+    }
+  ],
+  "counts": {
+    "Sessionize": 2,
+    "Grants.gov": 86,
+    "USA.gov": 13
+  },
+  "records": [
+    {
+      "id": "sessionize:open-conf-2026",
+      "sourceRecordId": "https://sessionize.com/open-conf-2026/",
+      "type": "Speaking",
+      "icon": "◈",
+      "title": "Open Conf 2026 - PANELS and OPEN SPACE ACTIVITIES",
+      "org": "Sessionize public CFP",
+      "openDate": null,
+      "deadline": "21 Sep 2026",
+      "status": "open",
+      "why": "Open Conf is an annual non-profit, volunteer driven, technical conference dedicated to exploring cutting-edge technology topics. Since its inception i...",
+      "tags": [
+        "Verified CFP",
+        "Artificial intelligence",
+        "Distributed systems",
+        "Community",
+        "DAIS events center, Mesogeion 151, Marousi 151 26 Athens, Greece"
+      ],
+      "proof": "Accepted conference proposal or public talk",
+      "effort": "Prepare and submit a proposal",
+      "applicationUrl": "https://sessionize.com/open-conf-2026/",
+      "source": {
+        "name": "Sessionize",
+        "authority": "Organizer-published public CFP",
+        "documentation": "https://sessionize.com/",
+        "url": "https://sessionize.com/open-conf-2026/",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:357554",
+      "sourceRecordId": "357554",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Security, Privacy, and Trust in Cyberspace",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "25-515",
+      "openDate": "2024-12-06T03:00:00.000Z",
+      "deadline": "09/28/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/357554",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/357554",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:361249",
+      "sourceRecordId": "361249",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Postdoctoral Research Fellowships in Biology",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "26-504",
+      "openDate": "2026-02-05T03:00:00.000Z",
+      "deadline": "09/29/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/361249",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/361249",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:361035",
+      "sourceRecordId": "361035",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Single Source Competition: Continuation of the Cardiovascular Repository for Type 1 Diabetes (CaRe-T1D) - Resource Center (U24 Clinical Trial Not Allowed)",
+      "org": "HHS-NIH11",
+      "agencyCode": "HHS-NIH11",
+      "opportunityNumber": "RFA-DK-27-109",
+      "openDate": "2026-06-04T03:00:00.000Z",
+      "deadline": "09/30/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-NIH11"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/361035",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/361035",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:360678",
+      "sourceRecordId": "360678",
+      "type": "Funding",
+      "icon": "$",
+      "title": "FY 2026 Continuation of Solicitation for the Office of Science Financial Assistance Program",
+      "org": "PAMS-SC",
+      "agencyCode": "PAMS-SC",
+      "opportunityNumber": "DE-FOA-0003600",
+      "openDate": "2025-09-30T03:00:00.000Z",
+      "deadline": "09/30/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "PAMS-SC"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/360678",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/360678",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:361814",
+      "sourceRecordId": "361814",
+      "type": "Funding",
+      "icon": "$",
+      "title": "F26AS00068 Partners for Fish and Wildlife FY26",
+      "org": "DOI-FWS",
+      "agencyCode": "DOI-FWS",
+      "opportunityNumber": "F26AS00068",
+      "openDate": "2026-04-08T03:00:00.000Z",
+      "deadline": "09/30/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOI-FWS"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/361814",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/361814",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:362470",
+      "sourceRecordId": "362470",
+      "type": "Funding",
+      "icon": "$",
+      "title": "F26AS00069 Coastal Program FY26",
+      "org": "DOI-FWS",
+      "agencyCode": "DOI-FWS",
+      "opportunityNumber": "F26AS00069",
+      "openDate": "2026-05-19T03:00:00.000Z",
+      "deadline": "09/30/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOI-FWS"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/362470",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/362470",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:352741",
+      "sourceRecordId": "352741",
+      "type": "Funding",
+      "icon": "$",
+      "title": "NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research",
+      "org": "DOD-ONR-NRL",
+      "agencyCode": "DOD-ONR-NRL",
+      "opportunityNumber": "N00173-24-S-BA01",
+      "openDate": "2024-03-01T03:00:00.000Z",
+      "deadline": "09/30/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOD-ONR-NRL"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/352741",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/352741",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:363364",
+      "sourceRecordId": "363364",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Rural Decentralized Water System Grant Program",
+      "org": "USDA-RUS",
+      "agencyCode": "USDA-RUS",
+      "opportunityNumber": "RDRUS-26-DWS2",
+      "openDate": "2026-07-28T03:00:00.000Z",
+      "deadline": "09/30/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "USDA-RUS"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/363364",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/363364",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:355100",
+      "sourceRecordId": "355100",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Advanced Technological Education",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "24-584",
+      "openDate": "2024-06-25T03:00:00.000Z",
+      "deadline": "10/01/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/355100",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/355100",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "sessionize:ai-native-devcon-nyc-2026",
+      "sourceRecordId": "https://sessionize.com/ai-native-devcon-nyc-2026/",
+      "type": "Speaking",
+      "icon": "◈",
+      "title": "AI Native DevCon New York 2026",
+      "org": "Sessionize public CFP",
+      "openDate": null,
+      "deadline": "01 Oct 2026",
+      "status": "open",
+      "why": "Rolling CFP: submit early to boost your chances of being accepted. That said, because AI moves fast, we're keeping the CFP open as long as we can, so ...",
+      "tags": [
+        "Verified CFP",
+        "Artificial intelligence",
+        "Agentic systems",
+        "Software engineering",
+        "Industry City, 268 36th Street Brooklyn, New York, United States"
+      ],
+      "proof": "Accepted conference proposal or public talk",
+      "effort": "Prepare and submit a proposal",
+      "applicationUrl": "https://sessionize.com/ai-native-devcon-nyc-2026/",
+      "source": {
+        "name": "Sessionize",
+        "authority": "Organizer-published public CFP",
+        "documentation": "https://sessionize.com/",
+        "url": "https://sessionize.com/ai-native-devcon-nyc-2026/",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:359949",
+      "sourceRecordId": "359949",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Novel Experiential Technologies Assisting Individual Learning (NExT AI) Hubs (P20 Clinical Trial Optional)",
+      "org": "HHS-NIH11",
+      "agencyCode": "HHS-NIH11",
+      "opportunityNumber": "RFA-HD-27-006",
+      "openDate": "2026-06-03T03:00:00.000Z",
+      "deadline": "10/02/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-NIH11"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/359949",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/359949",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:363797",
+      "sourceRecordId": "363797",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Request for Information - Gauging Investor Interest in the Development and Commercialization of Subsurface Energy Technologies",
+      "org": "DOE-NETL",
+      "agencyCode": "DOE-NETL",
+      "opportunityNumber": "DE-FOA-0003671",
+      "openDate": "2026-09-03T03:00:00.000Z",
+      "deadline": "10/05/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOE-NETL"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/363797",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/363797",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:353936",
+      "sourceRecordId": "353936",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Mathematical Foundations of Artificial Intelligence",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "24-569",
+      "openDate": "2024-05-02T03:00:00.000Z",
+      "deadline": "10/09/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/353936",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/353936",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:363396",
+      "sourceRecordId": "363396",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Powering Affordable Reliable Technology (PART) Energy Program",
+      "org": "USDA-RUS",
+      "agencyCode": "USDA-RUS",
+      "opportunityNumber": "RUS-PART-2026",
+      "openDate": "2026-09-08T03:00:00.000Z",
+      "deadline": "10/09/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "USDA-RUS"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/363396",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/363396",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:363724",
+      "sourceRecordId": "363724",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Research and Education Program for Historically Black Colleges and Universities (HBCU) and Tribal Colleges and Universities (TCU) Equipment/Instrumentation",
+      "org": "DOD-AMC",
+      "agencyCode": "DOD-AMC",
+      "opportunityNumber": "W911NF26S0105",
+      "openDate": "2026-08-27T03:00:00.000Z",
+      "deadline": "10/09/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOD-AMC"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/363724",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/363724",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:334326",
+      "sourceRecordId": "334326",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Tribal Colleges and Universities Program (TCUP)",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "21-595",
+      "openDate": "2021-06-24T03:00:00.000Z",
+      "deadline": "10/14/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/334326",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/334326",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "usagov:ready-set-id-biothreat",
+      "sourceRecordId": "/challenges/ready-set-id-biothreat",
+      "type": "Challenge",
+      "icon": "⚑",
+      "title": "Ready, Set...ID the Biothreat Challenge",
+      "org": "U.S. Department of Homeland Security (DHS) Prize Competitions",
+      "deadline": "10/14/2026 12:00 PM ET",
+      "status": "active",
+      "why": "Use AI to help the DHS identify biological threats",
+      "tags": [
+        "Official source",
+        "Federal challenge",
+        "Analytics, visualization, and algorithm Technology demonstration and hardware",
+        "Total cash prizes: $999,990"
+      ],
+      "proof": "Challenge submission or public-interest prototype",
+      "effort": "Review rules and eligibility",
+      "applicationUrl": "https://www.dhs.gov/science-and-technology/ready-set-id-biothreat",
+      "source": {
+        "name": "USA.gov",
+        "authority": "U.S. General Services Administration",
+        "directory": "https://www.usa.gov/find-active-challenge",
+        "url": "https://www.usa.gov/challenges/ready-set-id-biothreat",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:363843",
+      "sourceRecordId": "363843",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Advisory Support for Establishing a National Cybersecurity Operations Center (SOC)",
+      "org": "DOS-ET",
+      "agencyCode": "DOS-ET",
+      "opportunityNumber": "DFOP0019791",
+      "openDate": "2026-09-10T03:00:00.000Z",
+      "deadline": "10/16/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOS-ET"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/363843",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/363843",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:359853",
+      "sourceRecordId": "359853",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Sustained Support for Informatics Technologies for Cancer Research and Management (U24 Clinical Trial Optional)",
+      "org": "HHS-NIH11",
+      "agencyCode": "HHS-NIH11",
+      "opportunityNumber": "RFA-CA-27-021",
+      "openDate": "2026-05-21T03:00:00.000Z",
+      "deadline": "10/19/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-NIH11"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/359853",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/359853",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "usagov:xtech-search-10",
+      "sourceRecordId": "/challenges/xtech-search-10",
+      "type": "Challenge",
+      "icon": "⚑",
+      "title": "xTech|Search 10",
+      "org": "U.S. Army xTech",
+      "deadline": "10/19/2026 5:00 PM ET",
+      "status": "active",
+      "why": "The U.S. Army invites small businesses to submit innovative technology solutions.",
+      "tags": [
+        "Official source",
+        "Federal challenge",
+        "Analytics, visualization, and algorithm Ideation Scientific Software and application development Technology demonstration and hardware",
+        "Cash prize: $1,000,000"
+      ],
+      "proof": "Challenge submission or public-interest prototype",
+      "effort": "Review rules and eligibility",
+      "applicationUrl": "https://xtech.army.mil/competition/xtechsearch10/",
+      "source": {
+        "name": "USA.gov",
+        "authority": "U.S. General Services Administration",
+        "directory": "https://www.usa.gov/find-active-challenge",
+        "url": "https://www.usa.gov/challenges/xtech-search-10",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:362252",
+      "sourceRecordId": "362252",
+      "type": "Funding",
+      "icon": "$",
+      "title": "DoW Military Burn, Technology/Therapeutic Development Award",
+      "org": "DOD-AMRAA",
+      "agencyCode": "DOD-AMRAA",
+      "opportunityNumber": "HT942526MBRPTTDA",
+      "openDate": "2026-05-21T03:00:00.000Z",
+      "deadline": "10/21/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOD-AMRAA"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/362252",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/362252",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:362248",
+      "sourceRecordId": "362248",
+      "type": "Funding",
+      "icon": "$",
+      "title": "DoW Military Burn, Patient-Centered Research Award",
+      "org": "DOD-AMRAA",
+      "agencyCode": "DOD-AMRAA",
+      "opportunityNumber": "HT942526MBRPPCRA",
+      "openDate": "2026-05-21T03:00:00.000Z",
+      "deadline": "10/21/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOD-AMRAA"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/362248",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/362248",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "usagov:1cdp-innovation-challenge",
+      "sourceRecordId": "/challenges/1cdp-innovation-challenge",
+      "type": "Challenge",
+      "icon": "⚑",
+      "title": "One CDC Data Platform (1CDP) Innovation Challenge",
+      "org": "Centers for Disease Control, Office of Public Health Data, Surveillance, and Technology",
+      "deadline": "10/28/2026 6:00 PM ET",
+      "status": "active",
+      "why": "Pitch your ideas to make the CDC's data platform more efficient and effective.",
+      "tags": [
+        "Official source",
+        "Federal challenge",
+        "Ideation",
+        "Non-cash prizes: A discovery session with 1CDP staff for consideration in the program's development roadmap"
+      ],
+      "proof": "Challenge submission or public-interest prototype",
+      "effort": "Review rules and eligibility",
+      "applicationUrl": "https://www.cdc.gov/data-modernization/php/one-cdc-data-platform/info-for-stlts-one-cdc-data-platform.html",
+      "source": {
+        "name": "USA.gov",
+        "authority": "U.S. General Services Administration",
+        "directory": "https://www.usa.gov/find-active-challenge",
+        "url": "https://www.usa.gov/challenges/1cdp-innovation-challenge",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "usagov:nasa-techrise-student-challenge",
+      "sourceRecordId": "/challenges/nasa-techrise-student-challenge",
+      "type": "Challenge",
+      "icon": "⚑",
+      "title": "2026-27 NASA TechRise Student Challenge",
+      "org": "National Aeronautics and Space Administration",
+      "deadline": "11/2/2026 11:59 PM ET",
+      "status": "active",
+      "why": "Submit your experiment ideas for a chance to launch it on a NASA-sponsored flight",
+      "tags": [
+        "Official source",
+        "Federal challenge",
+        "Technology demonstration and hardware",
+        "Cash prize: $1,000 Non-cash prize: An assigned spot for your experiment on a NASA-sponsored flight with an industry provider"
+      ],
+      "proof": "Challenge submission or public-interest prototype",
+      "effort": "Review rules and eligibility",
+      "applicationUrl": "https://www.usa.gov/challenges/nasa-techrise-student-challenge",
+      "source": {
+        "name": "USA.gov",
+        "authority": "U.S. General Services Administration",
+        "directory": "https://www.usa.gov/find-active-challenge",
+        "url": "https://www.usa.gov/challenges/nasa-techrise-student-challenge",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:363268",
+      "sourceRecordId": "363268",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Unlocking Dataset Value for AI-Enabled Scientific Discovery (AI Datasets)",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "26-512",
+      "openDate": "2026-07-21T03:00:00.000Z",
+      "deadline": "11/04/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/363268",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/363268",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:363766",
+      "sourceRecordId": "363766",
+      "type": "Funding",
+      "icon": "$",
+      "title": "National Leadership Grants for Libraries (2027)",
+      "org": "IMLS",
+      "agencyCode": "IMLS",
+      "opportunityNumber": "NLG-LIBRARIES-FY27",
+      "openDate": "2026-09-01T03:00:00.000Z",
+      "deadline": "11/13/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "IMLS"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/363766",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/363766",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:362836",
+      "sourceRecordId": "362836",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Special Program Announcement for Office of Naval Research Research Opportunity: FY27 Communications and Networking Applied Research",
+      "org": "DOD-ONR",
+      "agencyCode": "DOD-ONR",
+      "opportunityNumber": "N0001426SBC11",
+      "openDate": "2026-06-16T03:00:00.000Z",
+      "deadline": "11/16/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOD-ONR"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/362836",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/362836",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:359966",
+      "sourceRecordId": "359966",
+      "type": "Funding",
+      "icon": "$",
+      "title": "National Science Foundation Translation to Practice",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "25-540",
+      "openDate": "2025-07-09T03:00:00.000Z",
+      "deadline": "11/17/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/359966",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/359966",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:361604",
+      "sourceRecordId": "361604",
+      "type": "Funding",
+      "icon": "$",
+      "title": "National Science Foundation Fostering Interdisciplinary Networks to Develop Emergent and Responsive Solutions Foundry",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "26-507",
+      "openDate": "2026-03-23T03:00:00.000Z",
+      "deadline": "11/18/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/361604",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/361604",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "usagov:careers-in-your-community-challenge",
+      "sourceRecordId": "/challenges/careers-in-your-community-challenge",
+      "type": "Challenge",
+      "icon": "⚑",
+      "title": "Careers in Your Community Challenge",
+      "org": "The U.S. Department of Education's Office of Career, Technical, and Adult Education",
+      "deadline": "11/19/2026 6:00 PM ET",
+      "status": "active",
+      "why": "Submit your ideas to improve career exploration in your high school.",
+      "tags": [
+        "Official source",
+        "Federal challenge",
+        "Ideation",
+        "Total cash prizes: $50,000"
+      ],
+      "proof": "Challenge submission or public-interest prototype",
+      "effort": "Review rules and eligibility",
+      "applicationUrl": "https://www.usa.gov/challenges/careers-in-your-community-challenge",
+      "source": {
+        "name": "USA.gov",
+        "authority": "U.S. General Services Administration",
+        "directory": "https://www.usa.gov/find-active-challenge",
+        "url": "https://www.usa.gov/challenges/careers-in-your-community-challenge",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "usagov:xtech-kinetic-reach",
+      "sourceRecordId": "/challenges/xtech-kinetic-reach",
+      "type": "Challenge",
+      "icon": "⚑",
+      "title": "xTech|Kinetic Reach",
+      "org": "U.S. Army xTech",
+      "deadline": "11/30/2026 11:59 PM ET",
+      "status": "active",
+      "why": "The U.S. Army is seeking sustainment solutions from small and large businesses.",
+      "tags": [
+        "Official source",
+        "Federal challenge",
+        "Software and application development Technology demonstration and hardware",
+        "Cash prize: $1,500,000 Follow-on contract opportunities: Up to $12,700,000"
+      ],
+      "proof": "Challenge submission or public-interest prototype",
+      "effort": "Review rules and eligibility",
+      "applicationUrl": "https://xtech.army.mil/competition/xtechkinetic-reach/",
+      "source": {
+        "name": "USA.gov",
+        "authority": "U.S. General Services Administration",
+        "directory": "https://www.usa.gov/find-active-challenge",
+        "url": "https://www.usa.gov/challenges/xtech-kinetic-reach",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:348375",
+      "sourceRecordId": "348375",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Centers of Research Excellence in Science and Technology (CREST)",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "23-595",
+      "openDate": "2023-05-25T03:00:00.000Z",
+      "deadline": "12/04/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/348375",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/348375",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:358004",
+      "sourceRecordId": "358004",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Cybersecurity Innovation for Cyberinfrastructure",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "25-531",
+      "openDate": "2025-01-04T03:00:00.000Z",
+      "deadline": "01/20/2027",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/358004",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/358004",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:344124",
+      "sourceRecordId": "344124",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Improving Undergraduate STEM Education: Directorate for STEM Education (IUSE: EDU)",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "23-510",
+      "openDate": "2022-10-20T03:00:00.000Z",
+      "deadline": "01/20/2027",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/344124",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/344124",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:354269",
+      "sourceRecordId": "354269",
+      "type": "Funding",
+      "icon": "$",
+      "title": "EPSCoR Research Infrastructure Improvement Program: Focused EPSCoR Collaborations Program (FEC)",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "24-573",
+      "openDate": "2024-05-17T03:00:00.000Z",
+      "deadline": "01/26/2027",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/354269",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/354269",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "usagov:gateways-blue-skies",
+      "sourceRecordId": "/challenges/gateways-blue-skies",
+      "type": "Challenge",
+      "icon": "⚑",
+      "title": "NASA's Gateways to Blue Skies (GBS) Competition",
+      "org": "National Aeronautics and Space Administration",
+      "deadline": "2/23/2027 11:59 PM ET",
+      "status": "active",
+      "why": "Submit ideas to improve the reliability and efficiency of NASA's infrastructure.",
+      "tags": [
+        "Official source",
+        "Federal challenge",
+        "Ideation",
+        "Total cash prizes: $72,000 Phase 2: NASA internships"
+      ],
+      "proof": "Challenge submission or public-interest prototype",
+      "effort": "Review rules and eligibility",
+      "applicationUrl": "https://www.usa.gov/challenges/gateways-blue-skies",
+      "source": {
+        "name": "USA.gov",
+        "authority": "U.S. General Services Administration",
+        "directory": "https://www.usa.gov/find-active-challenge",
+        "url": "https://www.usa.gov/challenges/gateways-blue-skies",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "usagov:documentation-decision-support",
+      "sourceRecordId": "/challenges/documentation-decision-support",
+      "type": "Challenge",
+      "icon": "⚑",
+      "title": "Documentation and Decision Support Sprint",
+      "org": "Defense Advanced Research Projects Agency",
+      "deadline": "3/1/2027 5:00 PM ET",
+      "status": "active",
+      "why": "Help automate medical documentation for combat casualties.",
+      "tags": [
+        "Official source",
+        "Federal challenge",
+        "Analytics, visualization, and algorithm",
+        "Total cash prizes: $1,000,000"
+      ],
+      "proof": "Challenge submission or public-interest prototype",
+      "effort": "Review rules and eligibility",
+      "applicationUrl": "https://www.darpa.mil/d2",
+      "source": {
+        "name": "USA.gov",
+        "authority": "U.S. General Services Administration",
+        "directory": "https://www.usa.gov/find-active-challenge",
+        "url": "https://www.usa.gov/challenges/documentation-decision-support",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:361333",
+      "sourceRecordId": "361333",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Pathways to Enable Secure Open-Source Ecosystems (PESOSE)",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "26-506",
+      "openDate": "2026-02-19T03:00:00.000Z",
+      "deadline": "03/02/2027",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/361333",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/361333",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:357498",
+      "sourceRecordId": "357498",
+      "type": "Funding",
+      "icon": "$",
+      "title": "NSF Scholarships in Science, Technology, Engineering, and Mathematics Program",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "25-514",
+      "openDate": "2024-12-03T03:00:00.000Z",
+      "deadline": "03/02/2027",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/357498",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/357498",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:325932",
+      "sourceRecordId": "325932",
+      "type": "Funding",
+      "icon": "$",
+      "title": "UNITED STATES MILITARY ACADEMY Broad Agency Announcement",
+      "org": "DOD-AMC",
+      "agencyCode": "DOD-AMC",
+      "opportunityNumber": "W911NF-20-S-0008",
+      "openDate": "2020-04-01T03:00:00.000Z",
+      "deadline": "03/31/2027",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOD-AMC"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/325932",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/325932",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:324456",
+      "sourceRecordId": "324456",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Expeditions in Computing",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "20-544",
+      "openDate": "2020-02-14T03:00:00.000Z",
+      "deadline": "03/31/2027",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/324456",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/324456",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:361238",
+      "sourceRecordId": "361238",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS)",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "26-503",
+      "openDate": "2026-02-04T03:00:00.000Z",
+      "deadline": "04/05/2027",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/361238",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/361238",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:353413",
+      "sourceRecordId": "353413",
+      "type": "Funding",
+      "icon": "$",
+      "title": "IUSE / Professional Formation of Engineers: Revolutionizing Engineering Departments (IUSE/PFE: RED)",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "24-564",
+      "openDate": "2024-04-05T03:00:00.000Z",
+      "deadline": "04/13/2027",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/353413",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/353413",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:356530",
+      "sourceRecordId": "356530",
+      "type": "Funding",
+      "icon": "$",
+      "title": "BRAIN Initiative: Reagent Resources for Brain Cell Type-Specific Access to Broaden Distribution of Enabling Technologies for Neuroscience (U24 Clinical Trial Not Allowed)",
+      "org": "HHS-NIH11",
+      "agencyCode": "HHS-NIH11",
+      "opportunityNumber": "RFA-MH-26-120",
+      "openDate": "2024-09-25T03:00:00.000Z",
+      "deadline": "06/15/2027",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-NIH11"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/356530",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/356530",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "usagov:cultivating-connected-communities",
+      "sourceRecordId": "/challenges/cultivating-connected-communities",
+      "type": "Challenge",
+      "icon": "⚑",
+      "title": "ACL Cultivating Connected Communities Challenge",
+      "org": "Administration for Community Living",
+      "deadline": "7/16/2027 5:00 PM ET",
+      "status": "active",
+      "why": "Help expand the impact of community gardens.",
+      "tags": [
+        "Official source",
+        "Federal challenge",
+        "Creative design and multimedia Business plan",
+        "Total cash prizes: $600,000 Phase 1: Up to 50 winners, up to $4,000 each Phase 2: Up to 50 winners, up to $8,000 each"
+      ],
+      "proof": "Challenge submission or public-interest prototype",
+      "effort": "Review rules and eligibility",
+      "applicationUrl": "https://acl.gov/cultivating-connections-challenge",
+      "source": {
+        "name": "USA.gov",
+        "authority": "U.S. General Services Administration",
+        "directory": "https://www.usa.gov/find-active-challenge",
+        "url": "https://www.usa.gov/challenges/cultivating-connected-communities",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:361915",
+      "sourceRecordId": "361915",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Integrated Data Systems & Services (IDSS)",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "26-509",
+      "openDate": "2026-04-15T03:00:00.000Z",
+      "deadline": "07/27/2027",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/361915",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/361915",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "usagov:halt-the-hitchhiker-invasive-species",
+      "sourceRecordId": "/challenges/halt-the-hitchhiker-invasive-species",
+      "type": "Challenge",
+      "icon": "⚑",
+      "title": "Halt the Hitchhiker: Invasive Species Challenge",
+      "org": "Bureau of Reclamation",
+      "deadline": "09/30/2027 11:59 PM ET",
+      "status": "active",
+      "why": "Pitch your innovative ideas to stop boats from transporting invasive species.",
+      "tags": [
+        "Official source",
+        "Federal challenge",
+        "Ideation Scientific Technology demonstration and hardware",
+        "Total cash prizes: up to $550,000, split among 3 phases and multiple solvers"
+      ],
+      "proof": "Challenge submission or public-interest prototype",
+      "effort": "Review rules and eligibility",
+      "applicationUrl": "https://haltthehitchhiker.yet2.com/",
+      "source": {
+        "name": "USA.gov",
+        "authority": "U.S. General Services Administration",
+        "directory": "https://www.usa.gov/find-active-challenge",
+        "url": "https://www.usa.gov/challenges/halt-the-hitchhiker-invasive-species",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:359892",
+      "sourceRecordId": "359892",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Early-Stage Development of Informatics Technologies for Cancer Research and Management (U01 Clinical Trial Optional)",
+      "org": "HHS-NIH11",
+      "agencyCode": "HHS-NIH11",
+      "opportunityNumber": "RFA-CA-27-019",
+      "openDate": "2026-05-21T03:00:00.000Z",
+      "deadline": "10/19/2027",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-NIH11"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/359892",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/359892",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:359701",
+      "sourceRecordId": "359701",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Development of Collaborative Research Facilities or Research-Resource Facilities (C06 Clinical Trial Not Allowed)",
+      "org": "HHS-NIH11",
+      "agencyCode": "HHS-NIH11",
+      "opportunityNumber": "PAR-26-106",
+      "openDate": "2026-03-06T03:00:00.000Z",
+      "deadline": "01/25/2028",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-NIH11"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/359701",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/359701",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:345938",
+      "sourceRecordId": "345938",
+      "type": "Funding",
+      "icon": "$",
+      "title": "NDEP STEM Open NFO",
+      "org": "DOD-WHS",
+      "agencyCode": "DOD-WHS",
+      "opportunityNumber": "HQ003423NFOEASD01",
+      "openDate": "2023-02-09T03:00:00.000Z",
+      "deadline": "02/08/2028",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOD-WHS"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/345938",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/345938",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "usagov:cto-challenge",
+      "sourceRecordId": "/challenges/cto-challenge",
+      "type": "Challenge",
+      "icon": "⚑",
+      "title": "Connecting Talent to Opportunity Challenge",
+      "org": "U.S. Department of Education",
+      "deadline": "04/01/2028 8:00 PM ET",
+      "status": "active",
+      "why": "Help strengthen the connections between learners, educators, training providers, and employers by fostering the development of integrated Talent Marketplaces.",
+      "tags": [
+        "Official source",
+        "Federal challenge",
+        "Ideation",
+        "Total cash prizes: $15,000,000"
+      ],
+      "proof": "Challenge submission or public-interest prototype",
+      "effort": "Review rules and eligibility",
+      "applicationUrl": "https://www.cto-challenge.com/",
+      "source": {
+        "name": "USA.gov",
+        "authority": "U.S. General Services Administration",
+        "directory": "https://www.usa.gov/find-active-challenge",
+        "url": "https://www.usa.gov/challenges/cto-challenge",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:347858",
+      "sourceRecordId": "347858",
+      "type": "Funding",
+      "icon": "$",
+      "title": "UNITED STATES ARMY RESEARCH INSTITUTE FOR THE BEHAVIORAL AND SOCIAL SCIENCES (ARI) BROAD AGENCY ANNOUNCEMENT FOR BASIC, APPLIED, AND ADVANCED SCIENTIFIC RESEARCH",
+      "org": "DOD-AMC",
+      "agencyCode": "DOD-AMC",
+      "opportunityNumber": "W911NF-23-S-0010",
+      "openDate": "2023-05-01T03:00:00.000Z",
+      "deadline": "04/30/2028",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOD-AMC"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/347858",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/347858",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "usagov:nih-new-approach-methodologies-nams",
+      "sourceRecordId": "/challenges/nih-new-approach-methodologies-nams",
+      "type": "Challenge",
+      "icon": "⚑",
+      "title": "NIH Complement Animal Research in Experimentation NAMs Reduction to Practice Challenge",
+      "org": "National Institutes of Health (NIH)",
+      "deadline": "08/01/2028 11:59 ET (Phase 3)",
+      "status": "active",
+      "why": "Develop human-based new approach methodologies (NAMs) – including lab-based human cell systems, computer models, and biochemical assays.",
+      "tags": [
+        "Official source",
+        "Federal challenge",
+        "Technology",
+        "Total cash prizes: $7,000,000"
+      ],
+      "proof": "Challenge submission or public-interest prototype",
+      "effort": "Review rules and eligibility",
+      "applicationUrl": "https://www.herox.com/Complement-ARIE-RTP",
+      "source": {
+        "name": "USA.gov",
+        "authority": "U.S. General Services Administration",
+        "directory": "https://www.usa.gov/find-active-challenge",
+        "url": "https://www.usa.gov/challenges/nih-new-approach-methodologies-nams",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:359696",
+      "sourceRecordId": "359696",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Transformative Non-Invasive/Minimally Invasive Technologies for Imaging the Olfactory System Across Scales (R01 CT Optional)",
+      "org": "HHS-NIH11",
+      "agencyCode": "HHS-NIH11",
+      "opportunityNumber": "RFA-DC-27-003",
+      "openDate": "2026-05-20T03:00:00.000Z",
+      "deadline": "08/21/2028",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-NIH11"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/359696",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/359696",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "usagov:acl-caregiver-ai-prize",
+      "sourceRecordId": "/challenges/acl-caregiver-ai-prize",
+      "type": "Challenge",
+      "icon": "⚑",
+      "title": "ACL Caregiver AI Prize Challenge",
+      "org": "Administration for Community Living (ACL)",
+      "deadline": "2/6/2029 5:00 PM ET",
+      "status": "active",
+      "why": "Help family caregivers and the caregiving industry improve care quality and reduce burden through artificial intelligence (AI).",
+      "tags": [
+        "Official source",
+        "Federal challenge",
+        "Software and application development Technology demonstration and hardware",
+        "Total cash prizes: $2,500,000"
+      ],
+      "proof": "Challenge submission or public-interest prototype",
+      "effort": "Review rules and eligibility",
+      "applicationUrl": "https://acl.gov/caregiver-ai-competition",
+      "source": {
+        "name": "USA.gov",
+        "authority": "U.S. General Services Administration",
+        "directory": "https://www.usa.gov/find-active-challenge",
+        "url": "https://www.usa.gov/challenges/acl-caregiver-ai-prize",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:359003",
+      "sourceRecordId": "359003",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Advancing Bioinformatics, Translational Bioinformatics and Computational Biology Research (R01 Clinical Trial Optional)",
+      "org": "HHS-NIH11",
+      "agencyCode": "HHS-NIH11",
+      "opportunityNumber": "PAR-26-040",
+      "openDate": "2026-02-11T03:00:00.000Z",
+      "deadline": "03/05/2029",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-NIH11"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/359003",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/359003",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:359157",
+      "sourceRecordId": "359157",
+      "type": "Funding",
+      "icon": "$",
+      "title": "NIH Science Education Partnership Award (SEPA) (R25 - Clinical Trial Not Allowed)",
+      "org": "HHS-NIH11",
+      "agencyCode": "HHS-NIH11",
+      "opportunityNumber": "PAR-27-077",
+      "openDate": "2026-05-05T03:00:00.000Z",
+      "deadline": "05/25/2029",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-NIH11"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/359157",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/359157",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:356623",
+      "sourceRecordId": "356623",
+      "type": "Funding",
+      "icon": "$",
+      "title": "SEEDING CRITICAL ADVANCES FOR LEADING ENERGY TECHNOLOGIES WITH UNTAPPED POTENTIAL (SCALEUP) READY",
+      "org": "DOE-ARPAE",
+      "agencyCode": "DOE-ARPAE",
+      "opportunityNumber": "DE-FOA-0003467",
+      "openDate": "2024-10-02T03:00:00.000Z",
+      "deadline": "09/29/2029",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOE-ARPAE"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/356623",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/356623",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:358380",
+      "sourceRecordId": "358380",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Department of War Cyber Service Academy (DoW CSA)",
+      "org": "DOD-WHS",
+      "agencyCode": "DOD-WHS",
+      "opportunityNumber": "HQ003425NFOEASD03",
+      "openDate": "2025-01-23T03:00:00.000Z",
+      "deadline": "01/22/2030",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOD-WHS"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/358380",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/358380",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:329436",
+      "sourceRecordId": "329436",
+      "type": "Funding",
+      "icon": "$",
+      "title": "University Nuclear Leadership Program&ndash; Scholarship and Fellowship Support",
+      "org": "DOE-ID",
+      "agencyCode": "DOE-ID",
+      "opportunityNumber": "DE-FOA-0002265",
+      "openDate": "2020-10-15T03:00:00.000Z",
+      "deadline": "10/14/2030",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOE-ID"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/329436",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/329436",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:363613",
+      "sourceRecordId": "363613",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Engineering (ENG): Electrical, Communications, and Computing Systems (ECCS)",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "26-514",
+      "openDate": "2026-08-17T03:00:00.000Z",
+      "deadline": "08/19/2076",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/363613",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/363613",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:362063",
+      "sourceRecordId": "362063",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Transport Phenomena (TP)",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "PD-26-366Y",
+      "openDate": "2026-04-24T03:00:00.000Z",
+      "deadline": "08/20/2076",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/362063",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/362063",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:358687",
+      "sourceRecordId": "358687",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Broad Agency Announcement for Fundamental AI Research",
+      "org": "DOD-AMC-ACCRI",
+      "agencyCode": "DOD-AMC-ACCRI",
+      "opportunityNumber": "W519TC-25-S-0001",
+      "openDate": "2025-04-16T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOD-AMC-ACCRI"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/358687",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/358687",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:359152",
+      "sourceRecordId": "359152",
+      "type": "Funding",
+      "icon": "$",
+      "title": "NIAMS P30 Centers Program (P30 - Clinical Trial Not Allowed)",
+      "org": "HHS-NIH11",
+      "agencyCode": "HHS-NIH11",
+      "opportunityNumber": "RFA-AR-27-001",
+      "openDate": "2025-05-28T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-NIH11"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/359152",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/359152",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:362086",
+      "sourceRecordId": "362086",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Annual Program Statement (APS) For Fiscal Year 2026",
+      "org": "DOS-TUN",
+      "agencyCode": "DOS-TUN",
+      "opportunityNumber": "PAS-TUNIS- APS FY2026",
+      "openDate": "2026-05-06T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOS-TUN"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/362086",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/362086",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:359120",
+      "sourceRecordId": "359120",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Annual Program Statement (APS) for Fiscal Year 2025",
+      "org": "DOS-TUN",
+      "agencyCode": "DOS-TUN",
+      "opportunityNumber": "PAS-TUNIS-FY2025",
+      "openDate": "2025-06-02T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOS-TUN"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/359120",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/359120",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:350230",
+      "sourceRecordId": "350230",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Research in the Formation of Engineers",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "PD-24-1340",
+      "openDate": "2023-09-17T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/350230",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/350230",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:363369",
+      "sourceRecordId": "363369",
+      "type": "Funding",
+      "icon": "$",
+      "title": "NIOSH Centers of Excellence for Total Worker Health&reg; (U19)",
+      "org": "HHS-CDC-HHSCDCERA",
+      "agencyCode": "HHS-CDC-HHSCDCERA",
+      "opportunityNumber": "RFA-OH-27-049",
+      "openDate": "2026-07-28T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-CDC-HHSCDCERA"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/363369",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/363369",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:362454",
+      "sourceRecordId": "362454",
+      "type": "Funding",
+      "icon": "$",
+      "title": "The NIA Genetics of Alzheimer's Disease Data Storage Site (NIAGADS)",
+      "org": "HHS-NIH11",
+      "agencyCode": "HHS-NIH11",
+      "opportunityNumber": "RFA-AG-27-005",
+      "openDate": "2026-05-18T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-NIH11"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/362454",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/362454",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:347707",
+      "sourceRecordId": "347707",
+      "type": "Funding",
+      "icon": "$",
+      "title": "2023 Emerging Voices Small Grants Program",
+      "org": "DOS-PHL",
+      "agencyCode": "DOS-PHL",
+      "opportunityNumber": "23-PHL-NOFO-EV",
+      "openDate": "2023-04-24T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOS-PHL"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/347707",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/347707",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:348258",
+      "sourceRecordId": "348258",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Energy, Power, Control, and Networks",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "PD-18-7607",
+      "openDate": "2023-05-19T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/348258",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/348258",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:358783",
+      "sourceRecordId": "358783",
+      "type": "Funding",
+      "icon": "$",
+      "title": "U.S. Embassy Luanda Public Diplomacy Section Request for a Full Proposal Application",
+      "org": "DOS-AGO",
+      "agencyCode": "DOS-AGO",
+      "opportunityNumber": "DOS-PAS-ANG-FY25-01",
+      "openDate": "2025-04-30T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOS-AGO"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/358783",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/358783",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:351231",
+      "sourceRecordId": "351231",
+      "type": "Funding",
+      "icon": "$",
+      "title": "U.S. Mission Italy PDS Annual Program Statement",
+      "org": "DOS-ITA",
+      "agencyCode": "DOS-ITA",
+      "opportunityNumber": "PDSITALYFY24",
+      "openDate": "2023-11-30T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOS-ITA"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/351231",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/351231",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:345914",
+      "sourceRecordId": "345914",
+      "type": "Funding",
+      "icon": "$",
+      "title": "MISSION ITALY ANNUAL PROGRAM STATEMENT 2023",
+      "org": "DOS-ITA",
+      "agencyCode": "DOS-ITA",
+      "opportunityNumber": "2301",
+      "openDate": "2023-02-09T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOS-ITA"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/345914",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/345914",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:347569",
+      "sourceRecordId": "347569",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Democracy Commission Program Round 2 FY2023",
+      "org": "DOS-ALB",
+      "agencyCode": "DOS-ALB",
+      "opportunityNumber": "TIRDEMCOMMR2FY23",
+      "openDate": "2023-04-18T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOS-ALB"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/347569",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/347569",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:359266",
+      "sourceRecordId": "359266",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Annual Program Statement (APS)",
+      "org": "DOS-GRC",
+      "agencyCode": "DOS-GRC",
+      "opportunityNumber": "PDS-ATHENS-FY25-01",
+      "openDate": "2025-06-06T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOS-GRC"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/359266",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/359266",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:358912",
+      "sourceRecordId": "358912",
+      "type": "Funding",
+      "icon": "$",
+      "title": "NIEHS Worker Training Program&rsquo;s SBIR E-Learning for HAZMAT and Emergency Response (R43/R44 Clinical Trial Not Allowed)",
+      "org": "HHS-NIH11",
+      "agencyCode": "HHS-NIH11",
+      "opportunityNumber": "TEMP-30794",
+      "openDate": "2025-05-21T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-NIH11"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/358912",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/358912",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:355936",
+      "sourceRecordId": "355936",
+      "type": "Funding",
+      "icon": "$",
+      "title": "National Training Center for Title X and Teen Pregnancy Prevention (TPP)",
+      "org": "HHS-OPHS",
+      "agencyCode": "HHS-OPHS",
+      "opportunityNumber": "AH-TPS-25-001",
+      "openDate": "2024-08-07T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-OPHS"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/355936",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/355936",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:355937",
+      "sourceRecordId": "355937",
+      "type": "Funding",
+      "icon": "$",
+      "title": "National Training Center for Title X and Teen Pregnancy Prevention (TPP)",
+      "org": "HHS-OPHS",
+      "agencyCode": "HHS-OPHS",
+      "opportunityNumber": "PA-FPT-25-001",
+      "openDate": "2024-08-07T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-OPHS"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/355937",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/355937",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:327185",
+      "sourceRecordId": "327185",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Public Diplomacy Small Grants Program",
+      "org": "DOS-USEU",
+      "agencyCode": "DOS-USEU",
+      "opportunityNumber": "DOS-USEU-PD-2020-002",
+      "openDate": "2020-05-20T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOS-USEU"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/327185",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/327185",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:329806",
+      "sourceRecordId": "329806",
+      "type": "Funding",
+      "icon": "$",
+      "title": "STARBASE Wright Patt",
+      "org": "DOD-AFRL",
+      "agencyCode": "DOD-AFRL",
+      "opportunityNumber": "FOA-AFRL-PZLDA-2021-0001",
+      "openDate": "2020-11-13T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOD-AFRL"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/329806",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/329806",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:331311",
+      "sourceRecordId": "331311",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Request for Information (RFI) No. 95332421K0004 - Community Engagement Services for the Solomon Islands Threshold Program",
+      "org": "MCC",
+      "agencyCode": "MCC",
+      "opportunityNumber": "95332421K0004",
+      "openDate": "2021-02-04T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "MCC"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/331311",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/331311",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:327345",
+      "sourceRecordId": "327345",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Community Led Monitoring Intervention",
+      "org": "DOS-MOZ",
+      "agencyCode": "DOS-MOZ",
+      "opportunityNumber": "MAPUTO-PCO-20-001",
+      "openDate": "2020-05-27T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOS-MOZ"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/327345",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/327345",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:334093",
+      "sourceRecordId": "334093",
+      "type": "Funding",
+      "icon": "$",
+      "title": "2020/2021 EducationUSA Graduate Opportunity Funds Program",
+      "org": "DOS-ZWE",
+      "agencyCode": "DOS-ZWE",
+      "opportunityNumber": "AFHAR-FY21-02",
+      "openDate": "2021-06-10T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOS-ZWE"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/334093",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/334093",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:58617",
+      "sourceRecordId": "58617",
+      "type": "Funding",
+      "icon": "$",
+      "title": "State Veterans Home Construction Grant Program",
+      "org": "VA-CSHF",
+      "agencyCode": "VA-CSHF",
+      "opportunityNumber": "VA-GRANTS-112508-002",
+      "openDate": "2010-11-01T02:00:00.000Z",
+      "deadline": "See official record",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "VA-CSHF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/58617",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/58617",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:355385",
+      "sourceRecordId": "355385",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025",
+      "org": "DOS-ESP",
+      "agencyCode": "DOS-ESP",
+      "opportunityNumber": "ESP24NOFODEFENSAYYO5",
+      "openDate": "2024-07-23T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOS-ESP"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/355385",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/355385",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:339728",
+      "sourceRecordId": "339728",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Tactical Behaviors for Autonomous Maneuver",
+      "org": "DOD-AMC",
+      "agencyCode": "DOD-AMC",
+      "opportunityNumber": "W911NF-22-S-0011",
+      "openDate": "2022-04-22T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOD-AMC"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/339728",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/339728",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:356536",
+      "sourceRecordId": "356536",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Geospace Cluster",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "PD-24-7789",
+      "openDate": "2024-09-26T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/356536",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/356536",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:363834",
+      "sourceRecordId": "363834",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Undiagnosed Diseases Network (UDN) Clinical Networks of Diagnostic Excellence",
+      "org": "HHS-NIH11",
+      "agencyCode": "HHS-NIH11",
+      "opportunityNumber": "PAR-27-137",
+      "openDate": "2026-09-10T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-NIH11"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/363834",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/363834",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:363837",
+      "sourceRecordId": "363837",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Undiagnosed Diseases Network (UDN) Diagnostic Research Innovation Center",
+      "org": "HHS-NIH11",
+      "agencyCode": "HHS-NIH11",
+      "opportunityNumber": "PAR-27-136",
+      "openDate": "2026-09-10T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-NIH11"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/363837",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/363837",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:352238",
+      "sourceRecordId": "352238",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Long Range Broad Agency Announcement (BAA) for NSWC Crane",
+      "org": "DOD-ONR-SEA-CRANE",
+      "agencyCode": "DOD-ONR-SEA-CRANE",
+      "opportunityNumber": "N0016424SNB35",
+      "openDate": "2024-02-08T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOD-ONR-SEA-CRANE"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/352238",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/352238",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:346204",
+      "sourceRecordId": "346204",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Communications, Circuits, and Sensing-Systems",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "PD-18-7564",
+      "openDate": "2023-02-17T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/346204",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/346204",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:345645",
+      "sourceRecordId": "345645",
+      "type": "Funding",
+      "icon": "$",
+      "title": "State Electronic Crash Data Collection",
+      "org": "DOT-NHTSA",
+      "agencyCode": "DOT-NHTSA",
+      "opportunityNumber": "693JJ92023",
+      "openDate": "2023-02-02T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOT-NHTSA"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/345645",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/345645",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:334905",
+      "sourceRecordId": "334905",
+      "type": "Funding",
+      "icon": "$",
+      "title": "National Defense Education Program (NDEP) Science, Technology, Engineering, and Mathematics (STEM) Consortia Request for Information (RFI) for the Office of the Under Secretary of Defense (Research & Engineering)",
+      "org": "DOD",
+      "agencyCode": "DOD",
+      "opportunityNumber": "RANDENDEPSTEMFY22RFI",
+      "openDate": "2021-07-27T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOD"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/334905",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/334905",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:300997",
+      "sourceRecordId": "300997",
+      "type": "Funding",
+      "icon": "$",
+      "title": "EONS 2018: Appendix E Minority University Research and Education Project (MUREP) for Sustainability and Innovation Collaborative &ndash; (MUSIC)",
+      "org": "NASA",
+      "agencyCode": "NASA",
+      "opportunityNumber": "NNH18ZHA002N-MUSIC",
+      "openDate": "2018-02-22T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NASA"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/300997",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/300997",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:336962",
+      "sourceRecordId": "336962",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Partnership Intermediary Agreement (PIA)",
+      "org": "DOD-AFRL-RW",
+      "agencyCode": "DOD-AFRL-RW",
+      "opportunityNumber": "FA8651-22-S0021",
+      "openDate": "2021-12-14T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOD-AFRL-RW"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/336962",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/336962",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:334092",
+      "sourceRecordId": "334092",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Culture of Research and University Exchanges Prep program (CRUX) in One Health and Agricultural STEM",
+      "org": "DOS-ZWE",
+      "agencyCode": "DOS-ZWE",
+      "opportunityNumber": "AFHAR-FY21-01",
+      "openDate": "2021-06-10T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOS-ZWE"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/334092",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/334092",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:361008",
+      "sourceRecordId": "361008",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Collaboratory to Advance Mathematics Education and Learning (CAMEL) for K-12",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "26-501",
+      "openDate": "2025-12-12T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/361008",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/361008",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:360634",
+      "sourceRecordId": "360634",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Bioengineering Research, Innovation and Technology Education (BRITE) Program (R25 Clinical Trial Not Allowed)",
+      "org": "HHS-NIH11",
+      "agencyCode": "HHS-NIH11",
+      "opportunityNumber": "PAR-26-025",
+      "openDate": "2025-09-22T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-NIH11"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/360634",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/360634",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:329432",
+      "sourceRecordId": "329432",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Law & Science",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "PD-21-128Y",
+      "openDate": "2020-10-15T03:00:00.000Z",
+      "deadline": "See official record",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/329432",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/329432",
+        "retrievedAt": "2026-09-18T02:12:58.504Z",
+        "authoritative": true
+      }
+    }
+  ]
+}
