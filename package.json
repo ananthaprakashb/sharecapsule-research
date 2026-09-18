@@ -1,0 +1,10 @@
+{
+  "name": "sharecapsule-research",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync:data": "node scripts/sync-authentic-data.mjs",
+    "check": "node --check dist/app.js && node --check dist/data-sources.js && node --check scripts/sync-authentic-data.mjs"
+  }
+}

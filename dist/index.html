@@ -65,7 +65,7 @@
           </div>
 
           <div class="metric-grid">
-            <article class="metric-card"><span class="metric-icon coral">⌁</span><div><small>Matched opportunities</small><strong>18</strong><em>+6 this week</em></div></article>
+            <article class="metric-card"><span class="metric-icon coral">⌁</span><div><small>Verified opportunities</small><strong id="matched-count">—</strong><em id="opportunity-freshness">Loading official source</em></div></article>
             <article class="metric-card"><span class="metric-icon violet">⌕</span><div><small>Research readiness</small><strong>68%</strong><em>3 evidence gaps</em></div></article>
             <article class="metric-card"><span class="metric-icon blue">↗</span><div><small>Applied skill hours</small><strong id="skill-hours">24</strong><em>4 verified artifacts</em></div></article>
             <article class="metric-card"><span class="metric-icon mint-bg">◎</span><div><small>Community impact</small><strong id="impact-points">340</strong><em>12 people helped</em></div></article>
@@ -75,7 +75,7 @@
             <section class="panel span-2">
               <div class="panel-head">
                 <div><span class="eyebrow">Opportunity radar</span><h3>Best next moves</h3></div>
-                <button class="text-button" data-go="opportunities">See all 18 →</button>
+                <button class="text-button" data-go="opportunities">See verified records →</button>
               </div>
               <div id="overview-opportunities" class="opportunity-list compact"></div>
             </section>
@@ -110,11 +110,16 @@
         </section>
 
         <section class="view" id="view-opportunities">
-          <div class="workspace-intro"><div><span class="eyebrow mint">Curated & explainable</span><h2>Opportunity radar</h2><p>Every match explains why it fits, what proof it can create, and the effort required.</p></div><div class="mini-stat"><strong>18</strong><span>matches</span></div></div>
+          <div class="workspace-intro"><div><span class="eyebrow mint">Primary-source records</span><h2>Opportunity radar</h2><p>Every record links to its issuing authority and shows when it was retrieved.</p></div><div class="mini-stat"><strong id="opportunity-count">—</strong><span>verified records</span></div></div>
+          <div class="source-banner" id="opportunity-source-status" role="status" aria-live="polite">
+            <span class="source-pulse" aria-hidden="true"></span>
+            <div><strong>Loading Grants.gov</strong><small>Retrieving the latest normalized official-source cache.</small></div>
+            <button class="text-button" id="refresh-opportunities">Refresh</button>
+          </div>
           <div class="toolbar">
-            <label class="search"><span aria-hidden="true">⌕</span><input id="opportunity-search" type="search" placeholder="Search topics, organizations, or formats"></label>
+            <label class="search"><span aria-hidden="true">⌕</span><input id="opportunity-search" type="search" placeholder="Search official records by topic or agency"></label>
             <div class="filter-pills" role="group" aria-label="Opportunity type">
-              <button class="filter active" data-filter="All">All</button><button class="filter" data-filter="Speaking">Speaking</button><button class="filter" data-filter="Judging">Judging</button><button class="filter" data-filter="Peer review">Peer review</button><button class="filter" data-filter="Research">Research</button><button class="filter" data-filter="Media">Media</button>
+              <button class="filter active" data-filter="All">All</button><button class="filter" data-filter="Funding">Funding</button><button class="filter" data-filter="Speaking">Speaking</button><button class="filter" data-filter="Judging">Judging</button><button class="filter" data-filter="Peer review">Peer review</button>
             </div>
           </div>
           <div class="opportunity-layout"><div id="opportunity-grid" class="opportunity-grid"></div><aside class="insight-rail"><span class="eyebrow">Match intelligence</span><h3>Your strongest themes</h3><div class="topic-cloud"><span>Agentic payments</span><span>SRE</span><span>PCI DSS</span><span>Distributed systems</span><span>AI safety</span></div><hr><h3>Ethical guardrail</h3><p>Recommendations optimize for genuine expertise and public value—not credential collection.</p></aside></div>
@@ -142,7 +147,16 @@
         </section>
 
         <section class="view" id="view-research">
-          <div class="workspace-intro"><div><span class="eyebrow mint">Research integrity by design</span><h2>Research Studio</h2><p>Separate claims, evidence, assumptions, and open questions before AI turns them into prose.</p></div><button class="button primary" id="analyze-gap">Analyze the gap ✦</button></div>
+          <div class="workspace-intro"><div><span class="eyebrow mint">Research integrity by design</span><h2>Research Studio</h2><p>Search scholarly metadata from primary research infrastructure, then separate claims, evidence, assumptions, and open questions.</p></div><button class="button primary" id="analyze-gap">Analyze the gap ✦</button></div>
+          <section class="panel live-research-panel">
+            <div class="panel-head"><div><span class="eyebrow">Live scholarly discovery</span><h3>Search Crossref and OpenAlex</h3></div><div class="source-logos"><span>Crossref</span><span>OpenAlex</span></div></div>
+            <form id="research-search-form" class="source-search-form">
+              <label class="search"><span aria-hidden="true">⌕</span><input id="research-search" value="agentic payment transaction boundaries" aria-label="Research search query"></label>
+              <button class="button primary" type="submit">Search authentic sources</button>
+            </form>
+            <div class="research-source-status" id="research-source-status">Ready to query both scholarly indexes.</div>
+            <div class="research-results" id="research-results"></div>
+          </section>
           <div class="research-question panel"><span class="eyebrow">Active question</span><textarea id="research-question" rows="2">How can an autonomous payment agent prove that an external side effect was authorized, completed, and reconciled when the provider lacks idempotency?</textarea><div class="question-meta"><span>Scope: Agentic commerce</span><span>Method: Design science</span><span>Risk: High-stakes systems</span></div></div>
           <div class="research-grid">
             <section class="panel span-2"><div class="panel-head"><div><span class="eyebrow">Evidence ledger</span><h3>Claims under examination</h3></div><button class="text-button" id="add-claim">+ Add claim</button></div><div class="table-wrap"><table><thead><tr><th>Claim</th><th>Source strength</th><th>State</th><th>Next action</th></tr></thead><tbody id="claims-body"></tbody></table></div></section>
@@ -182,6 +196,7 @@
     <div id="dialog-content"></div>
   </dialog>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="./data-sources.js"></script>
   <script src="./app.js"></script>
 </body>
 </html>
