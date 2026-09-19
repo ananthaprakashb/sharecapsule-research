@@ -3,9 +3,11 @@ import { resolve } from "node:path";
 
 const readJson = async (path) => JSON.parse(await readFile(resolve(path), "utf8"));
 const opportunities = await readJson("dist/data/opportunities.json");
+const peerReview = await readJson("dist/data/peer-review-opportunities.json");
 const openReview = await readJson("dist/data/openreview.json");
 const profileSignals = await readJson("dist/data/profile-signals.json");
 const growthTaxonomy = await readJson("dist/data/growth-taxonomy.json");
+const approvedSources = await readJson("config/approved-sources.json");
 const failures = [];
 const assert = (condition, message) => { if (!condition) failures.push(message); };
 const isHttps = (value) => {
@@ -14,6 +16,8 @@ const isHttps = (value) => {
 
 assert(opportunities.schemaVersion === 2, "Opportunity cache must use schema version 2");
 assert(Array.isArray(opportunities.records) && opportunities.records.length > 0, "Opportunity cache must contain records");
+assert(peerReview.schemaVersion === 1, "Peer-review opportunity cache must use schema version 1");
+assert(Array.isArray(peerReview.records) && peerReview.records.length >= 5, "Peer-review cache must contain at least five authentic programs");
 assert(Array.isArray(openReview.records) && openReview.records.length > 0, "OpenReview cache must contain records");
 assert(profileSignals.schemaVersion === 1, "Profile signals must use schema version 1");
 assert(isHttps(profileSignals.source?.publicUrl), "Profile signals must link to the public profile");
@@ -44,6 +48,21 @@ for (const record of opportunities.records || []) {
 const calculatedCounts = Object.fromEntries((opportunities.records || []).reduce((map, record) => map.set(record.source.name, (map.get(record.source.name) || 0) + 1), new Map()));
 assert(JSON.stringify(calculatedCounts) === JSON.stringify(opportunities.counts), "Opportunity source counts do not match records");
 
+const approvedPeerReviewUrls = new Set((approvedSources.peerReviewPrograms || []).map((entry) => entry.officialUrl));
+for (const record of peerReview.records || []) {
+  assert(!ids.has(record.id), `Duplicate opportunity id: ${record.id}`);
+  ids.add(record.id);
+  assert(record.id?.startsWith("peer-review:"), `Invalid peer-review opportunity id: ${record.id}`);
+  assert(record.type === "Peer review", `Invalid peer-review opportunity type: ${record.id}`);
+  assert(record.source?.authoritative === true, `Peer-review opportunity lacks authoritative source flag: ${record.id}`);
+  assert(isHttps(record.source?.url) && approvedPeerReviewUrls.has(record.source.url), `Peer-review source is not in the approved registry: ${record.id}`);
+  assert(isHttps(record.applicationUrl), `Peer-review application URL is not HTTPS: ${record.id}`);
+  assert(record.eligibility && record.deadline && record.effort, `Peer-review opportunity lacks eligibility or commitment guidance: ${record.id}`);
+  assert(!record.activeUntil || !Number.isNaN(new Date(record.activeUntil).valueOf()), `Peer-review opportunity has invalid expiry: ${record.id}`);
+}
+const calculatedPeerCounts = Object.fromEntries((peerReview.records || []).reduce((map, record) => map.set(record.source.name, (map.get(record.source.name) || 0) + 1), new Map()));
+assert(JSON.stringify(calculatedPeerCounts) === JSON.stringify(peerReview.counts), "Peer-review source counts do not match records");
+
 for (const record of openReview.records || []) {
   assert(record.id?.startsWith("openreview:"), `Invalid OpenReview id: ${record.id}`);
   assert(isHttps(record.url) && new URL(record.url).hostname === "openreview.net", `Invalid OpenReview record URL: ${record.id}`);
@@ -54,4 +73,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log(`Validated ${opportunities.records.length} opportunities and ${openReview.records.length} OpenReview records`);
+console.log(`Validated ${opportunities.records.length} general opportunities, ${peerReview.records.length} peer-review programs, and ${openReview.records.length} OpenReview records`);

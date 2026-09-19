@@ -36,6 +36,12 @@
       documentation: "https://sessionize.com/",
       method: "Scheduled allowlisted page verification",
     },
+    peerReview: {
+      name: "Official reviewer programs",
+      authority: "Publishers, scholarly societies, accreditors, and government agencies",
+      documentation: "./data/peer-review-opportunities.json",
+      method: "Scheduled official-page verification with expiry checks",
+    },
   };
 
   const clean = (value) => String(value || "").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
@@ -55,9 +61,22 @@
   }
 
   async function loadCachedOpportunities() {
-    const payload = await fetchJson("./data/opportunities.json", { cache: "no-store" });
+    const [payload, peerReview] = await Promise.all([
+      fetchJson("./data/opportunities.json", { cache: "no-store" }),
+      fetchJson("./data/peer-review-opportunities.json", { cache: "no-store" })
+    ]);
     if (!payload?.records || !Array.isArray(payload.records)) throw new Error("Invalid opportunity cache");
-    return payload;
+    if (!peerReview?.records || !Array.isArray(peerReview.records)) throw new Error("Invalid peer-review opportunity cache");
+    const now = Date.now();
+    const currentPeerReview = peerReview.records.filter((record) => !record.activeUntil || new Date(record.activeUntil).valueOf() > now);
+    const peerReviewCounts = Object.fromEntries(currentPeerReview.reduce((map, record) => map.set(record.source.name, (map.get(record.source.name) || 0) + 1), new Map()));
+    return {
+      ...payload,
+      generatedAt: [payload.generatedAt, peerReview.generatedAt].filter(Boolean).sort().at(-1),
+      sources: [...(payload.sources || []), peerReview.source],
+      counts: { ...(payload.counts || {}), ...peerReviewCounts },
+      records: [...payload.records, ...currentPeerReview]
+    };
   }
 
   async function loadProfileSignals() {

@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const opportunitiesFile = resolve(root, "dist/data/opportunities.json");
 const openReviewFile = resolve(root, "dist/data/openreview.json");
+const peerReviewFile = resolve(root, "dist/data/peer-review-opportunities.json");
 const config = JSON.parse(await readFile(resolve(root, "config/approved-sources.json"), "utf8"));
 
 const decodeHtml = (value) => String(value || "")
@@ -174,6 +175,61 @@ async function syncSessionize(retrievedAt) {
   return settled.flatMap((result) => result.status === "fulfilled" && result.value ? [result.value] : []);
 }
 
+const peerReviewRecord = (entry, retrievedAt) => ({
+  id: `peer-review:${entry.id}`,
+  sourceRecordId: entry.id,
+  type: "Peer review",
+  icon: "✓",
+  title: entry.title,
+  org: entry.org,
+  deadline: entry.deadline,
+  activeUntil: entry.activeUntil || null,
+  status: "open",
+  why: entry.why,
+  eligibility: entry.eligibility,
+  tags: entry.tags,
+  proof: entry.proof,
+  effort: entry.effort,
+  applicationUrl: entry.applicationUrl,
+  source: {
+    name: entry.org,
+    authority: `${entry.org} official reviewer program`,
+    url: entry.officialUrl,
+    retrievedAt,
+    authoritative: true
+  }
+});
+
+async function syncPeerReviewPrograms(retrievedAt) {
+  let previous = { records: [] };
+  try { previous = JSON.parse(await readFile(peerReviewFile, "utf8")); } catch {}
+  const priorById = new Map((previous.records || []).map((record) => [record.sourceRecordId, record]));
+  const now = new Date(retrievedAt).valueOf();
+  const active = (config.peerReviewPrograms || []).filter((entry) => !entry.activeUntil || new Date(entry.activeUntil).valueOf() > now);
+  const settled = await Promise.allSettled(active.map(async (entry) => {
+    const html = clean(await fetchText(entry.officialUrl)).toLowerCase();
+    const missing = (entry.verificationPhrases || []).filter((phrase) => !html.includes(phrase.toLowerCase()));
+    if (missing.length) throw new Error(`${entry.officialUrl} no longer contains: ${missing.join(", ")}`);
+    return peerReviewRecord(entry, retrievedAt);
+  }));
+  const records = settled.flatMap((result, index) => {
+    if (result.status === "fulfilled") return [result.value];
+    const prior = priorById.get(active[index].id);
+    if (prior && (!prior.activeUntil || new Date(prior.activeUntil).valueOf() > now)) return [prior];
+    console.warn(`Peer-review program skipped: ${active[index].id} (${result.reason?.message || "verification failed"})`);
+    return [];
+  });
+  if (!records.length) throw new Error("No official peer-review programs could be verified or preserved from the prior cache");
+  const counts = Object.fromEntries(records.reduce((map, record) => map.set(record.source.name, (map.get(record.source.name) || 0) + 1), new Map()));
+  return {
+    schemaVersion: 1,
+    generatedAt: retrievedAt,
+    source: { name: "Official peer-review program registry", authority: "Publisher, scholarly society, accreditor, and government program pages" },
+    counts,
+    records
+  };
+}
+
 async function searchOpenReview(query) {
   const params = new URLSearchParams({ query, content: "all", source: "forum", limit: "12" });
   const payload = await fetchJson(`https://api2.openreview.net/notes/search?${params}`);
@@ -223,11 +279,12 @@ async function syncOpenReview(retrievedAt) {
 }
 
 const retrievedAt = new Date().toISOString();
-const [grants, challenges, speaking, openReview] = await Promise.all([
+const [grants, challenges, speaking, openReview, peerReview] = await Promise.all([
   syncGrants(retrievedAt),
   syncUsaGovChallenges(retrievedAt),
   syncSessionize(retrievedAt),
-  syncOpenReview(retrievedAt)
+  syncOpenReview(retrievedAt),
+  syncPeerReviewPrograms(retrievedAt)
 ]);
 
 const records = [...grants, ...challenges, ...speaking].sort((a, b) => {
@@ -252,7 +309,9 @@ const opportunities = {
 await mkdir(dirname(opportunitiesFile), { recursive: true });
 await Promise.all([
   writeFile(opportunitiesFile, `${JSON.stringify(opportunities, null, 2)}\n`, "utf8"),
-  writeFile(openReviewFile, `${JSON.stringify(openReview, null, 2)}\n`, "utf8")
+  writeFile(openReviewFile, `${JSON.stringify(openReview, null, 2)}\n`, "utf8"),
+  writeFile(peerReviewFile, `${JSON.stringify(peerReview, null, 2)}\n`, "utf8")
 ]);
 console.log(`Wrote ${records.length} verified opportunities (${JSON.stringify(counts)})`);
 console.log(`Wrote ${openReview.records.length} public OpenReview records`);
+console.log(`Wrote ${peerReview.records.length} official peer-review opportunities`);
