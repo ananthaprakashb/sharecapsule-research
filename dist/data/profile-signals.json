@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-18T00:00:00.000Z",
+  "source": {
+    "name": "Ananthaprakash public engineering profile",
+    "publicUrl": "https://ananthaprakashb.github.io/profile/",
+    "repositoryUrl": "https://github.com/ananthaprakashb/profile/blob/main/index.html",
+    "commit": "cd790501b4502b7b92c19c2fd4141080a5f16cc9"
+  },
+  "summary": "Bay Area engineering leader with 17+ years across full-stack platforms, payments, site reliability, security, applied AI, technical leadership, mentoring, and open knowledge.",
+  "domains": [
+    {
+      "id": "ai",
+      "label": "Applied AI & agentic systems",
+      "weight": 18,
+      "terms": ["artificial intelligence", "agentic", "machine learning", "autonomous", "automation", "ai-enabled", "ai native"]
+    },
+    {
+      "id": "security",
+      "label": "Security, privacy & Zero Trust",
+      "weight": 18,
+      "terms": ["cybersecurity", "security", "privacy", "zero trust", "identity", "fraud", "secure open-source", "trust in cyberspace", "software supply chain"]
+    },
+    {
+      "id": "payments",
+      "label": "Payments & financial systems",
+      "weight": 18,
+      "terms": ["payment", "payments", "financial technology", "fintech", "commerce", "transaction", "settlement"]
+    },
+    {
+      "id": "reliability",
+      "label": "SRE, platforms & distributed systems",
+      "weight": 16,
+      "terms": ["site reliability", "reliability", "resilient", "distributed systems", "platform", "infrastructure", "cloud", "data systems", "networking", "operations center"]
+    },
+    {
+      "id": "software",
+      "label": "Full-stack software engineering",
+      "weight": 14,
+      "terms": ["software", "application development", "computing", "informatics technologies", "developer", "digital experience", "data platform"]
+    },
+    {
+      "id": "education",
+      "label": "Engineering education & mentoring",
+      "weight": 14,
+      "terms": ["stem education", "technological education", "engineering education", "formation of engineers", "individual learning", "scholarships in science", "careers in your community", "student challenge"]
+    },
+    {
+      "id": "open-knowledge",
+      "label": "Open source & public-interest technology",
+      "weight": 12,
+      "terms": ["open-source", "open source", "open knowledge", "open data", "dataset value", "community challenge", "public-interest"]
+    }
+  ]
+}

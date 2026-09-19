@@ -4,6 +4,7 @@ import { resolve } from "node:path";
 const readJson = async (path) => JSON.parse(await readFile(resolve(path), "utf8"));
 const opportunities = await readJson("dist/data/opportunities.json");
 const openReview = await readJson("dist/data/openreview.json");
+const profileSignals = await readJson("dist/data/profile-signals.json");
 const failures = [];
 const assert = (condition, message) => { if (!condition) failures.push(message); };
 const isHttps = (value) => {
@@ -13,6 +14,14 @@ const isHttps = (value) => {
 assert(opportunities.schemaVersion === 2, "Opportunity cache must use schema version 2");
 assert(Array.isArray(opportunities.records) && opportunities.records.length > 0, "Opportunity cache must contain records");
 assert(Array.isArray(openReview.records) && openReview.records.length > 0, "OpenReview cache must contain records");
+assert(profileSignals.schemaVersion === 1, "Profile signals must use schema version 1");
+assert(isHttps(profileSignals.source?.publicUrl), "Profile signals must link to the public profile");
+assert(Array.isArray(profileSignals.domains) && profileSignals.domains.length > 0, "Profile signals must contain matching domains");
+for (const domain of profileSignals.domains || []) {
+  assert(domain.id && domain.label, "Each profile domain must have an id and label");
+  assert(Number(domain.weight) > 0, `Profile domain must have a positive weight: ${domain.id}`);
+  assert(Array.isArray(domain.terms) && domain.terms.length > 0, `Profile domain must have matching terms: ${domain.id}`);
+}
 
 const ids = new Set();
 for (const record of opportunities.records || []) {
