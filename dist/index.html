@@ -18,6 +18,7 @@
       </div>
       <nav class="nav-list">
         <button class="nav-item active" data-view="overview"><span aria-hidden="true">◫</span>Overview</button>
+        <button class="nav-item" data-view="profile"><span aria-hidden="true">◇</span>Growth Profile</button>
         <button class="nav-item" data-view="opportunities"><span aria-hidden="true">⌁</span>Opportunities</button>
         <button class="nav-item" data-view="proposal"><span aria-hidden="true">✦</span>Proposal Studio</button>
         <button class="nav-item" data-view="research"><span aria-hidden="true">⌕</span>Research Studio</button>
@@ -29,9 +30,9 @@
         <span class="eyebrow">Community principle</span>
         <p>Credibility grows when learning produces useful, verifiable work.</p>
       </div>
-      <button class="profile-button" id="profile-button" aria-label="Open profile summary">
-        <span class="avatar">AP</span>
-        <span><strong>Anantha Prakash</strong><small>Systems & payments</small></span>
+      <button class="profile-button" id="profile-button" data-go="profile" aria-label="Open Growth Profile">
+        <span class="avatar">GP</span>
+        <span><strong>Growth Profile</strong><small>Private category segment</small></span>
         <span aria-hidden="true">•••</span>
       </button>
     </aside>
@@ -54,13 +55,13 @@
         <section class="view active" id="view-overview" aria-labelledby="page-title">
           <div class="mission-strip">
             <div>
-              <span class="eyebrow mint">90-day mission</span>
-              <h2>Turn payment expertise into published, community-tested knowledge.</h2>
-              <p>One research artifact, two public talks, and one mentored student project.</p>
+              <span class="eyebrow mint">Personal opportunity engine</span>
+              <h2>Find credible opportunities that fit your experience and direction.</h2>
+              <p>Use a résumé to suggest options, confirm what matters, and reuse one verified opportunity batch with people in the same growth segment.</p>
             </div>
             <div class="mission-meter" aria-label="Mission progress 42 percent">
-              <div class="ring"><span>42<small>%</small></span></div>
-              <div><strong>6 of 14 milestones</strong><small>18 days left in sprint</small></div>
+              <div class="ring"><span id="growth-readiness">0<small>%</small></span></div>
+              <div><strong id="growth-status-title">Growth profile not created</strong><small id="growth-status-copy">Add a résumé and confirm your options</small></div>
             </div>
           </div>
 
@@ -109,6 +110,37 @@
           </div>
         </section>
 
+        <section class="view" id="view-profile">
+          <div class="workspace-intro"><div><span class="eyebrow mint">Résumé-informed, user-confirmed</span><h2>Build your Growth Profile</h2><p>Your résumé suggests questions and options. You make the final choices. Only the confirmed category vector is hashed; raw résumé text is never included in the hash or saved by this browser prototype.</p></div><div class="mini-stat"><strong>GP1</strong><span>taxonomy version</span></div></div>
+          <div class="growth-layout">
+            <section class="panel resume-panel">
+              <div class="step-label"><b>1</b><span><strong>Add résumé context</strong><small>Processed only in this browser</small></span></div>
+              <label class="resume-drop">Upload a text résumé<input id="resume-file" type="file" accept=".txt,.md,.rtf,text/plain"><span>TXT, Markdown or RTF · PDF/DOCX users can paste text below</span></label>
+              <label class="resume-paste">Or paste résumé text<textarea id="resume-text" rows="9" placeholder="Paste résumé content here. Remove contact details first if you prefer."></textarea></label>
+              <button class="button primary full" id="analyze-resume" type="button">Suggest questions from résumé</button>
+              <p class="resume-status" id="resume-status">Nothing is uploaded to a server in this release.</p>
+              <div class="privacy-note"><strong>Privacy boundary</strong><p>Name, email, employer, filename, and résumé text are excluded from the category hash.</p></div>
+            </section>
+            <form class="panel growth-form" id="growth-profile-form">
+              <div class="step-label"><b>2</b><span><strong>Confirm the options</strong><small>Suggestions are editable</small></span></div>
+              <div id="resume-detection" class="resume-detection"><strong>Start with the résumé</strong><small>The system will suggest relevant options here.</small></div>
+              <div id="growth-questions" hidden>
+                <fieldset><legend>Which role family best describes you now?</legend><div class="choice-grid compact" id="growth-role-options"></div></fieldset>
+                <fieldset><legend id="domain-question">Which experience areas should drive recommendations?</legend><div class="choice-grid" id="growth-domain-options"></div></fieldset>
+                <fieldset><legend>Where are you in your growth journey?</legend><div class="choice-grid compact" id="growth-stage-options"></div></fieldset>
+                <fieldset><legend>What do you want to achieve next?</legend><div class="choice-grid" id="growth-goal-options"></div></fieldset>
+                <fieldset><legend>Which opportunity types should we collect?</legend><div class="choice-grid compact" id="growth-type-options"></div></fieldset>
+                <fieldset><legend>Where can you participate?</legend><div class="choice-grid compact" id="growth-geography-options"></div></fieldset>
+                <fieldset><legend>How much time can you commit?</legend><div class="choice-grid compact" id="growth-commitment-options"></div></fieldset>
+                <fieldset><legend>How would you usually apply?</legend><div class="choice-grid compact" id="growth-context-options"></div></fieldset>
+                <button class="button primary full" type="submit">Create reusable growth segment</button>
+                <p class="form-note" id="profile-form-status">The same confirmed category vector always produces the same GP1 hash.</p>
+              </div>
+            </form>
+          </div>
+          <section class="panel growth-result" id="growth-profile-result" hidden></section>
+        </section>
+
         <section class="view" id="view-opportunities">
           <div class="workspace-intro"><div><span class="eyebrow mint">Primary-source records</span><h2>Opportunity radar</h2><p>Every record links to its issuing authority and shows when it was retrieved.</p></div><div class="mini-stat"><strong id="opportunity-count">—</strong><span>verified records</span></div></div>
           <div class="source-banner" id="opportunity-source-status" role="status" aria-live="polite">
@@ -116,7 +148,7 @@
             <div><strong>Loading verified sources</strong><small>Retrieving the latest normalized official-source cache.</small></div>
             <button class="text-button" id="refresh-opportunities">Refresh</button>
           </div>
-          <div class="profile-match-banner"><div><span class="profile-match-icon">AP</span><p><strong><span id="profile-match-count">—</span> opportunities match the public engineering profile</strong><small id="profile-match-summary">Loading profile signals for payments, reliability, security, AI, software, education, and open knowledge.</small></p></div><a id="profile-source-link" href="https://ananthaprakashb.github.io/profile/" target="_blank" rel="noopener noreferrer">View matching profile ↗</a></div>
+          <div class="profile-match-banner"><div><span class="profile-match-icon">GP</span><p><strong><span id="profile-match-count">—</span> opportunities match your confirmed growth segment</strong><small id="profile-match-summary">Create a Growth Profile to rank verified opportunities.</small></p></div><button class="text-button" id="profile-source-link" data-go="profile">Build or edit profile →</button></div>
           <div class="source-coverage" aria-label="Source coverage">
             <article><span>Funding</span><strong>Grants.gov</strong><small class="coverage-live" id="coverage-funding">Loading</small></article>
             <article><span>Challenges</span><strong>USA.gov</strong><small class="coverage-live" id="coverage-challenge">Loading</small></article>
@@ -205,6 +237,7 @@
   </dialog>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <script src="./data-sources.js"></script>
+  <script src="./growth-profile.js"></script>
   <script src="./app.js"></script>
 </body>
 </html>
