@@ -1,11 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T09:49:41.152Z",
+  "generatedAt": "2026-09-19T09:34:24.479Z",
   "queries": [
     "agentic AI",
     "payment systems",
+    "site reliability engineering",
     "distributed systems",
     "cybersecurity",
+    "zero trust",
+    "software supply chain security",
     "AI safety",
     "STEM education"
   ],
@@ -41,7 +44,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -70,7 +73,36 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:zq358GWXyM",
+      "title": "Prompted Publics: Generative AI, Agentic Auditing, and Representational Bias in Indian Social Media Literature",
+      "authors": [
+        "Aditi Kuila",
+        "Suman Roy"
+      ],
+      "year": 2026,
+      "venue": "JEN-AI 2026",
+      "abstract": "Generative AI and Large Language Models (LLMs) are increasingly deployed in computational journalism and digital humanities, yet their application to Global South literatures raises critical concerns about representational bias and algorithmic erasure. This paper introduces the Prompted Publics framework, which reconceptualizes prompts, system instructions, and adversarial jailbreaks not as neutral technical inputs but as ideological interpretive acts that shape how marginalized digital publics are rendered legible by AI systems. We operationalize this framework through a mixed-method pipeline that combines Multilingual Retrieval-Augmented Generation (mRAG) with Agentic Auditing protocols, evaluated on a curated multilingual corpus of Indian social media literature spanning Hindi, Bengali, Hinglish, and English. Our experiments demonstrate that commercial LLMs exhibit severe caste-marker erasure under default prompting (retention rates as low as 25.0%), while sovereign Indian models combined with positional prompting significantly improve retention (up to 50.9%). Topic modeling identifies four coherent thematic clusters capturing caste resistance, intersectional feminism, AI fairness discourse, and vernacular literary movements. These findings underscore the urgent need for culturally grounded auditing frameworks in AI-assisted journalism.",
+      "keywords": [
+        "Generative AI",
+        "Computational Journalism",
+        "Representational Bias",
+        "Multilingual NLP",
+        "Agentic Auditing",
+        "Digital Humanities"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=zq358GWXyM",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -100,36 +132,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
-      }
-    },
-    {
-      "id": "openreview:zq358GWXyM",
-      "title": "Prompted Publics: Generative AI, Agentic Auditing, and Representational Bias in Indian Social Media Literature",
-      "authors": [
-        "Aditi Kuila",
-        "Suman Roy"
-      ],
-      "year": 2026,
-      "venue": "JEN-AI 2026",
-      "abstract": "Generative AI and Large Language Models (LLMs) are increasingly deployed in computational journalism and digital humanities, yet their application to Global South literatures raises critical concerns about representational bias and algorithmic erasure. This paper introduces the Prompted Publics framework, which reconceptualizes prompts, system instructions, and adversarial jailbreaks not as neutral technical inputs but as ideological interpretive acts that shape how marginalized digital publics are rendered legible by AI systems. We operationalize this framework through a mixed-method pipeline that combines Multilingual Retrieval-Augmented Generation (mRAG) with Agentic Auditing protocols, evaluated on a curated multilingual corpus of Indian social media literature spanning Hindi, Bengali, Hinglish, and English. Our experiments demonstrate that commercial LLMs exhibit severe caste-marker erasure under default prompting (retention rates as low as 25.0%), while sovereign Indian models combined with positional prompting significantly improve retention (up to 50.9%). Topic modeling identifies four coherent thematic clusters capturing caste resistance, intersectional feminism, AI fairness discourse, and vernacular literary movements. These findings underscore the urgent need for culturally grounded auditing frameworks in AI-assisted journalism.",
-      "keywords": [
-        "Generative AI",
-        "Computational Journalism",
-        "Representational Bias",
-        "Multilingual NLP",
-        "Agentic Auditing",
-        "Digital Humanities"
-      ],
-      "citations": 0,
-      "doi": null,
-      "url": "https://openreview.net/forum?id=zq358GWXyM",
-      "type": "reviewed work",
-      "source": {
-        "name": "OpenReview",
-        "authority": "OpenReview public scholarly review infrastructure",
-        "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -157,7 +160,31 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:9t5YCmpeiC",
+      "title": "Beyond Engagement: A Multidimensional Framework to Evaluate the Safe Development of Agentic AI in Mental Health",
+      "authors": [
+        "Beatriz Garcia Santa Cruz",
+        "Carlos Vega",
+        "Philip Santangelo",
+        "Venkata P. Satagopam"
+      ],
+      "year": 2025,
+      "venue": "Agentic AI/CREATE/Clinical MLLMs@MICCAI 2025",
+      "abstract": "The rapid rise of agentic AI in mental health exposes a misalignment between conversational fluency and user safety. We present a multidimensional framework spanning nine evaluation domains—from clinical validity to relational risk and regulatory compliance—designed to assess agentic systems beyond surface metrics. Applying it to eight real-world tools reveals that the most popular agents often lack basic safeguards, while clinically validated solutions remain underutilized. These findings highlight the need for structured oversight and public awareness. Our framework offers a foundation for safer deployment, informed regulation, and design practices grounded in mental health ethics.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1007/978-3-032-06004-4_8",
+      "url": "https://openreview.net/forum?id=9t5YCmpeiC",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -185,31 +212,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
-      }
-    },
-    {
-      "id": "openreview:9t5YCmpeiC",
-      "title": "Beyond Engagement: A Multidimensional Framework to Evaluate the Safe Development of Agentic AI in Mental Health",
-      "authors": [
-        "Beatriz Garcia Santa Cruz",
-        "Carlos Vega",
-        "Philip Santangelo",
-        "Venkata P. Satagopam"
-      ],
-      "year": 2025,
-      "venue": "Agentic AI/CREATE/Clinical MLLMs@MICCAI 2025",
-      "abstract": "The rapid rise of agentic AI in mental health exposes a misalignment between conversational fluency and user safety. We present a multidimensional framework spanning nine evaluation domains—from clinical validity to relational risk and regulatory compliance—designed to assess agentic systems beyond surface metrics. Applying it to eight real-world tools reveals that the most popular agents often lack basic safeguards, while clinically validated solutions remain underutilized. These findings highlight the need for structured oversight and public awareness. Our framework offers a foundation for safer deployment, informed regulation, and design practices grounded in mental health ethics.",
-      "keywords": [],
-      "citations": 0,
-      "doi": "10.1007/978-3-032-06004-4_8",
-      "url": "https://openreview.net/forum?id=9t5YCmpeiC",
-      "type": "reviewed work",
-      "source": {
-        "name": "OpenReview",
-        "authority": "OpenReview public scholarly review infrastructure",
-        "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -240,7 +243,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -269,7 +272,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -300,7 +303,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -325,7 +328,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -359,7 +362,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -382,7 +385,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -407,7 +410,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -428,7 +431,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -453,7 +456,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -478,7 +481,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -500,7 +503,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -524,7 +527,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -549,7 +552,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -575,7 +578,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -599,7 +602,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -624,7 +627,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -649,7 +652,327 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:fYW1PKawwJ",
+      "title": "STRATUS: A Multi-agent System for Autonomous Reliability Engineering of Modern Clouds",
+      "authors": [
+        "Yinfang Chen",
+        "Jiaqi Pan",
+        "Jackson Clark",
+        "Yiming Su",
+        "Noah Zheutlin",
+        "Bhavya Bhavya",
+        "Rohan R. Arora",
+        "Yu Deng"
+      ],
+      "year": 2025,
+      "venue": "NeurIPS 2025 poster",
+      "abstract": "In cloud-scale systems, failures are the norm. A distributed computing cluster exhibits hundreds of machine failures and thousands of disk failures; software bugs and misconfigurations are reported to be more frequent. The demand for autonomous, AI-driven reliability engineering continues to grow, as existing human-in-the-loop practices can hardly keep up with the scale of modern clouds. This paper presents STRATUS, an LLM-based multi-agent system for realizing autonomous Site Reliability Engineering (SRE) of cloud services. STRATUS consists of multiple specialized agents (e.g., for failure detection, diagnosis, mitigation), organized in a state machine to assist system-level safety reasoning and enforcement. We formalize a key safety specification of agentic SRE systems like STRATUS, termed Transactional No-Regression (TNR), which enables safe exploration and iteration. We show that TNR can effectively improve autonomous failure mitigation. STRATUS significantly outperforms state-of-the-art SRE agents in terms of success rate of failure mitigation problems in AIOpsLab and ITBench (two SRE benchmark suites), by at least 1.5 times across various models. STRATUS shows a promising path toward practical deployment of agentic systems for cloud reliability.",
+      "keywords": [
+        "Agentic AI",
+        "Large Language Model",
+        "System Reliability"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=fYW1PKawwJ",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:k4qJdKm5L1",
+      "title": "STRATUS: A Multi-agent System for Autonomous Reliability Engineering of Modern Clouds",
+      "authors": [
+        "Yinfang Chen",
+        "Jiaqi Pan",
+        "Jackson Clark",
+        "Yiming Su",
+        "Noah Zheutlin",
+        "Bhavya",
+        "Rohan R. Arora",
+        "Yu Deng"
+      ],
+      "year": 2025,
+      "venue": "CoRR 2025",
+      "abstract": "In cloud-scale systems, failures are the norm. A distributed computing cluster exhibits hundreds of machine failures and thousands of disk failures; software bugs and misconfigurations are reported to be more frequent. The demand for autonomous, AI-driven reliability engineering continues to grow, as existing humanin-the-loop practices can hardly keep up with the scale of modern clouds. This paper presents STRATUS, an LLM-based multi-agent system for realizing autonomous Site Reliability Engineering (SRE) of cloud services. STRATUS consists of multiple specialized agents (e.g., for failure detection, diagnosis, mitigation), organized in a state machine to assist system-level safety reasoning and enforcement. We formalize a key safety specification of agentic SRE systems like STRATUS, termed Transactional No-Regression (TNR), which enables safe exploration and iteration. We show that TNR can effectively improve autonomous failure mitigation. STRATUS significantly outperforms state-of-the-art SRE agents in terms of success rate of failure mitigation problems in AIOpsLab and ITBench (two SRE benchmark suites), by at least 1.5 times across various models. STRATUS shows a promising path toward practical deployment of agentic systems for cloud reliability.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.48550/arXiv.2506.02009",
+      "url": "https://openreview.net/forum?id=k4qJdKm5L1",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:1D3KN4fF5F",
+      "title": "Improving Product Quality and Reliability with Customer Experience Data",
+      "authors": [
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]"
+      ],
+      "year": 2012,
+      "venue": "Quality and Reliability Engineering International",
+      "abstract": "Advance technology development and wide use of the World Wide Web have made it possible for new product development organizations to access multi-sources of data-related customer complaints. However, the number of customer plaints of highly innovative consumer electronic products is still increasing; that is, product quality and reliability is at risk. This article aims to understand why existing solutions from literature as well as from industry to deal with these increasingly complex multiple data sources are not able to manage product quality and reliability. Three case studies in industry are discussed. On the basis of the case study results, this article also identifies a new research agenda that is needed to improve product quality and reliability under this circumstance. Copyright (c) 2011 John Wiley & Sons, Ltd.",
+      "keywords": [],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=1D3KN4fF5F",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:m88zv4gIXi",
+      "title": "Reliability of functional magnetic resonance imaging activation during working memory in a multi-site study: Analysis from the North American Prodrome Longitudinal Study",
+      "authors": [
+        "Jennifer K. Forsyth",
+        "Sarah C. McEwen",
+        "Dylan G. Gee",
+        "Carrie E. Bearden",
+        "Jean Addington",
+        "Brad Goodyear",
+        "Kristin S. Cadenhead",
+        "Heline Mirzakhanian"
+      ],
+      "year": 2014,
+      "venue": "NeuroImage 2014",
+      "abstract": "Highlights•We examined reliability of fMRI during a working memory task in a multi-site study.•Greater variance due to person than site factors in variance component analysis.•Reliability coefficients showed excellent reliability for person effect in primary ROIs.•Two methods for aggregating data across sites produced similar activation maps.•Implications for design and implementation of multi-site fMRI studies.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1016/j.neuroimage.2014.04.027",
+      "url": "https://openreview.net/forum?id=m88zv4gIXi",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:lgXRuRMPgX",
+      "title": "Robotic Reliability Engineering: Experience from Long-Term TritonBot Development",
+      "authors": [
+        "Shengye Wang",
+        "Xiao Liu",
+        "Jishen Zhao",
+        "Henrik I. Christensen"
+      ],
+      "year": 2019,
+      "venue": "FSR 2019",
+      "abstract": "While many researchers have built service robot prototypes that work perfectly under close human supervision, deploying an autonomous robot in an open environment for a long time is not always trivial. This paper presents our experience with TritonBot, a long-term autonomous receptionist and tour guide robot. We deployed TritonBot as an example to study reliability challenges in long-term autonomous service robots. During the past two years, we regularly did maintenance, fixed issues, and rolled out new features. In the process, we identified reliability engineering challenges in three aspects of long-term autonomy: scalability, resilience, and learning; we also formulated techniques to confront these challenges. Our experience shows that proper engineering practices and design principles reduce manual interventions and increase general reliability in long-term autonomous service robot deployments.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1007/978-981-15-9460-1_4",
+      "url": "https://openreview.net/forum?id=lgXRuRMPgX",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:5vEh1YzbZ9",
+      "title": "Reliability Engineering in a Time of Rapidly Converging Technologies",
+      "authors": [
+        "Shiuhpyng Winston Shieh",
+        "Jeffrey M. Voas",
+        "Phil Laplante",
+        "Jason W. Rupe",
+        "Christian K. Hansen",
+        "Yu-Sung Wu",
+        "Yi-Ting Chen",
+        "Chi-Yu Li"
+      ],
+      "year": 2024,
+      "venue": "IEEE Trans. Reliab. 2024",
+      "abstract": "The convergence of technologies is happening across various aspects, such as communication, computing, medicine, and transportation. The smartphone is a perfect example of convergence, packing features, such as a camera, GPS, artificial intelligence, and Internet connectivity into one sleek device. Autonomous driving is another good example. In a time of rapidly converging technologies, reliability engineering must take into account the potential for cyber threats, the need for cyber trust, the importance of cyber security, and the criticality of cyber resilience. In this way, reliability engineers can ensure the confidentiality, integrity, and availability of computer systems and networks in the face of evolving threats and changing technologies. In this article, we introduce the challenges and current progress of reliability engineering in emerging technologies, including practices and applications of cyber trust and security, AI-empowered autonomous driving systems, modern mobile networks, blockchains and distributed ledger technologies, prognostic and health management, integrated circuit and hardware, and enterprise cybersecurity and threat hunting.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1109/TR.2024.3355905",
+      "url": "https://openreview.net/forum?id=5vEh1YzbZ9",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:MFQ6oee0KF",
+      "title": "Host-Centric Site-Exit Router Selection in IPv6 Site Multihoming Environment",
+      "authors": [
+        "Kenji Ohira",
+        "Yasuo Okabe"
+      ],
+      "year": 2011,
+      "venue": "AINA Workshops 2011",
+      "abstract": "Site-multihoming is an architecture which brings the benefit of reliability and load-sharing in a small scale network like a home network by connecting multiple ISPs (Internet Service Providers). In the discussion of IETF Multi6 Working Group, multihoming by multi-PA (Provider Aggregatable) addressing became rough consensus as the architecture for IPv6 site-multihoming. However, issues on multi-PA addressing, like how a host selects the source IP address for each packet or how to cope with ingress filtering by ISP, remain not discussed. In this paper, we propose a new routing architecture for site-multihoming, based on the idea of host-centric multihoming by Huitema et al. Host-centric multihoming has a difficulty in deployment as it essentially needs source address dependent routing. In our architecture, 1) Site-internal routes and site-external routes are distinguished. A packet that goes out of the site is routed to the site-exit router associated with the source IP address, while a packet that goes to a host in the site is routed based on the destination address. 2) Site-external routes are limited to the default routes (::/0) associated with the PA addresses only. This architecture simplifies the intra-site routing but still fully has the advantage of host-centric multihoming that a host in a site can select an ISP through which a packet from the host goes, namely, source address selection by a sender host decides the path of the packet. We have also implemented a dynamic source address dependent routing protocol for our architecture and have confirmed the effectiveness of it.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1109/WAINA.2011.114",
+      "url": "https://openreview.net/forum?id=MFQ6oee0KF",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:i7tTxTD32D",
+      "title": "A Zero-Shot LLM Pipeline for Multimodal Idiom Understanding and Ranking",
+      "authors": [
+        "Atakan Site",
+        "Oğuz Ali Arslan",
+        "Gülşen Eryiğit"
+      ],
+      "year": 2026,
+      "venue": "UniDive 2026",
+      "abstract": "This paper presents our system for AdMIRe 2 (Advancing Multimodal Idiomaticity Repre- sentation), a shared task on multilingual multi- modal idiom understanding. The task focuses on ranking images according to how well they depict the literal or idiomatic usage of poten- tially idiomatic expressions (PIEs) in context, across 15 languages and two tracks: a text-only track, and a multimodal track that uses both images and captions. To tackle both tracks, we propose a hybrid zero-shot pipeline built on large vision–language models (LVLMs). Our system employs a chain-of-thought prompting scheme that first classifies each PIE usage as literal or idiomatic and then ranks candidate images by their alignment with the inferred meaning. A primary–fallback routing mech- anism increases robustness to safety-filter re- fusals, while lightweight post-processing recov- ers consistent rankings from imperfect model outputs. Without any task-specific fine-tuning, our approach achieves 55.9% Top-1 Accuracy in the text-only track and 60.1% in the multi- modal (text+image) track, ranking first overall on the official leaderboard. These results sug- gest that carefully designed zero-shot LVLM pipelines can provide strong baselines for mul- tilingual multimodal idiomaticity benchmarks.",
+      "keywords": [
+        "Multimodal Idiom Understanding",
+        "Potentially Idiomatic Expressions (PIEs)",
+        "Zero-Shot Learning",
+        "Large Vision-Language Models (LVLMs)",
+        "Chain-of-Thought Prompting"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=i7tTxTD32D",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:YYDi9PJ4nw",
+      "title": "Engineering Highly Accessed Web Sites for Performance",
+      "authors": [
+        "Jim Challenger",
+        "Arun Iyengar",
+        "Paul Dantzig",
+        "Daniel M. Dias",
+        "Nathaniel Mills"
+      ],
+      "year": 2001,
+      "venue": "Web Engineering 2001",
+      "abstract": "This paper describes techniques for improving performance at Web sites which receive significant traffic. Poor performance can be caused by dynamic data, insufficient network bandwidth, and poor Web page design. Dynamic data overheads can often be reduced by caching dynamic pages and using fast interfaces to invoke server programs. Web server acceleration can significantly improve performance and reduce the hardware needed at a Web site. We discuss techniques for balancing load among multiple servers at a Web site. We also show how Web pages can be designed to minimize traffic to the site.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1007/3-540-45144-7_25",
+      "url": "https://openreview.net/forum?id=YYDi9PJ4nw",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:3FxHVEQYpv",
+      "title": "Predicting Web Site Access: An Application of Time Series",
+      "authors": [
+        "Giuliano Antoniol",
+        "Gerardo Casazza",
+        "Giuseppe A. Di Lucca",
+        "Massimiliano Di Penta",
+        "Ettore Merlo"
+      ],
+      "year": 2001,
+      "venue": "WSE 2001",
+      "abstract": "The Internet and Web pervasiveness are changing the landscape of several different areas ranging from information gathering/managing and commerce to software development. This paper presents a case study where time series were adopted to forecast future Web site access. In order to measure the applicability of time series to the prediction of Web site accesses, an experimental activity was performed. The log-access file of an academic Web site (http://www.ing.unisannio.it) was analyzed and its data used as test set. The analyzed Web site contains general information about the Faculty of Engineering of University of Sannio at Benevento (Italy). Preliminary results were encouraging: the average number of connections per week could be predicted with an acceptable error.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1109/WSE.2001.988786",
+      "url": "https://openreview.net/forum?id=3FxHVEQYpv",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:c8zbsBsjIS",
+      "title": "RDG-TE: Link reliability-aware DRL-GNN-based traffic engineering in SDN",
+      "authors": [
+        "Muhammad Farhan",
+        "Nadir Shah",
+        "Lei Wang",
+        "Gabriel-Miro Muntean",
+        "Houbing Herbert Song"
+      ],
+      "year": 2025,
+      "venue": "Expert Syst. Appl. 2025",
+      "abstract": "Highlights•GNN+DRL-based approach for improving SDN traffic engineering.•Consider the reliability, betweenness, link utilization of link and hop counts.•Use real network data set of traffic, topologies and link reliabilities.•Compares with the state-of-art approach.•Improves the performance in terms of link reliability.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1016/j.eswa.2024.125963",
+      "url": "https://openreview.net/forum?id=c8zbsBsjIS",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:pe2Lr0Zdlq",
+      "title": "When Average Calibration Fails: Site-Conditional Federated Conformal Risk Control",
+      "authors": [
+        "Nafis Fuad Shahid"
+      ],
+      "year": 2026,
+      "venue": "DeCaF 2026 Oral",
+      "abstract": "Conformal risk control (CRC) provides distribution-free segmentation guarantees by calibrating a prediction-set threshold on held-out data. In federated deployments, the standard approach pools calibration scores into a single threshold. We quantify, on real multi-institutional brain tumor data (FeTS-2022, 1,251 subjects, 20 institutions), a critical failure: naive pooled CRC protects the average hospital but violates coverage at 40% of individual institutions, with the worst site exceeding the target false-negative rate by 7.8 percentage points. We trace this failure to a hidden design choice: the aggregation weights implicitly determine whose coverage is protected. Sample-size weighting optimizes patient-level validity but can sacrifice institution-level reliability; equal-site weighting improves institution-level reliability on this benchmark at comparable efficiency, using only a single scalar per site. We propose risk-curve shrinkage as a principled mechanism: each site transmits its empirical risk curve (G scalars) and a single hyperparameter n0 smoothly interpolates between site-specific local calibration and sample-size-weighted pooled calibration. Leave-one-site-out sensitivity analysis identifies n0=19, achieving 2.7/20 violations at 2.0x stretch. Direct Lagrangian budget optimization fails by concentrating risk on vulnerable hospitals; the finite-sample correction term is essential: removing it triples violations. No patient-level images, masks, or per-volume scores leave any site.",
+      "keywords": [
+        "Federated Learning",
+        "Conformal Risk Control",
+        "Segmentation",
+        "Uncertainty Quantification"
+      ],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=pe2Lr0Zdlq",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -673,7 +996,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -696,7 +1019,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -719,7 +1042,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -742,7 +1065,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -763,7 +1086,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -788,7 +1111,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -813,7 +1136,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -835,7 +1158,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -856,7 +1179,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -878,7 +1201,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -904,7 +1227,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -926,7 +1249,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -952,7 +1275,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -974,7 +1297,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1004,7 +1327,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1034,7 +1357,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1064,7 +1387,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1091,7 +1414,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1124,7 +1447,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1153,7 +1476,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1178,7 +1501,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1205,7 +1528,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1243,7 +1566,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1274,7 +1597,583 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:se1BdbFd3V",
+      "title": "CertainLogic: A Logic for Modeling Trust and Uncertainty - (Short Paper)",
+      "authors": [
+        "Sebastian Ries",
+        "Sheikh Mahbub Habib",
+        "Max Mühlhäuser",
+        "Vijay Varadharajan"
+      ],
+      "year": 2011,
+      "venue": "TRUST 2011",
+      "abstract": "The evaluation of the trustworthiness of complex systems is a challenge in current IT research. We contribute to this field by providing a novel model for the evaluation of propositional logic terms under uncertainty that is compliant with the standard probabilistic approach and subjective logic. Furthermore, we present a use case to demonstrate how this approach can be applied to the evaluation of the trustworthiness of a system based on the knowledge about its components and subsystems.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1007/978-3-642-21599-5_19",
+      "url": "https://openreview.net/forum?id=se1BdbFd3V",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:lH3Iq3e80B",
+      "title": "A New Direct Anonymous Attestation Scheme from Bilinear Maps",
+      "authors": [
+        "Ernie Brickell",
+        "Liqun Chen",
+        "Jiangtao Li"
+      ],
+      "year": 2008,
+      "venue": "TRUST 2008",
+      "abstract": "Direct Anonymous Attestation (DAA) is a cryptographic mechanism that enables remote authentication of a user while preserving privacy under the user’s control. The DAA scheme developed by Brickell, Camenisch, and Chen has been adopted by the Trust Computing Group (TCG) for remote anonymous attestation of Trusted Platform Module (TPM), a small hardware device with limited storage space and communication capability. In this paper, we propose a new DAA scheme from elliptic curve cryptography and bilinear maps. The lengths of private keys and signatures in our scheme are much shorter than the lengths in the original DAA scheme, with a similar level of security and computational complexity. Our scheme builds upon the Camenisch-Lysyanskaya signature scheme and is efficient and provably secure in the random oracle model under the LRSW (stands for Lysyanskaya, Rivest, Sahai and Wolf) assumption and the decisional Bilinear Diffie-Hellman assumption.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1007/978-3-540-68979-9_13",
+      "url": "https://openreview.net/forum?id=lH3Iq3e80B",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:PbDPsRih0K",
+      "title": "DAA-TZ: An Efficient DAA Scheme for Mobile Devices Using ARM TrustZone",
+      "authors": [
+        "Bo Yang",
+        "Kang Yang",
+        "Yu Qin",
+        "Zhenfeng Zhang",
+        "Dengguo Feng"
+      ],
+      "year": 2015,
+      "venue": "TRUST 2015",
+      "abstract": "Direct Anonymous Attestation (DAA) has been studied for applying to mobile devices based on ARM TrustZone. However, current solutions bring in extra performance overheads and security risks when adapting existing DAA schemes originally designed for PC platform. In this paper, we propose a complete and efficient DAA scheme (DAA-TZ) specifically designed for mobile devices using TrustZone. By considering the application scenarios, DAA-TZ extends the interactive model of original DAA and provides anonymity for a device and its user against remote service providers. The proposed scheme requires only one-time switch of TrustZone for signing phase and elaborately takes pre-computation into account. Consequently, the frequent on-line signing just needs at most three exponentiations on elliptic curve. Moreover, we present the architecture for trusted mobile devices. The issues about key derivation and sensitive data management relying on a root of trust from SRAM Physical Unclonable Function (PUF) are discussed. We implement a prototype system and execute DAA-TZ using MNT and BN curves with different security levels. The comparison result and performance evaluation indicate that our scheme meets the demanding requirement of mobile users in respects of both security and efficiency.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1007/978-3-319-22846-4_13",
+      "url": "https://openreview.net/forum?id=PbDPsRih0K",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:KqoqmT2o98",
+      "title": "From Binary Trust to Graded Trust in Information Sources: A Logical Perspective",
+      "authors": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "year": 2008,
+      "venue": "AAMAS-TRUST 2008",
+      "abstract": "We present a concept of trust that integrates the truster’s goal, the trustee’s action that ensures the achievement of the truster’s goal, and the trustee’s ability and intention to do this action. This concept of trust is formalized in modal logic and is applied to the particular domain of trust in information sources. In this context trust may be derived, in particular, from the truster’s beliefs about some properties of the information source: validity, completeness, sincerity, competence, vigilance and cooperativity. In the last part of the paper we move beyond binary trust (i.e. either i trusts j or i does not trust j) in order to capture a concept of graded trust.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1007/978-3-540-92803-4_11",
+      "url": "https://openreview.net/forum?id=KqoqmT2o98",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:in7ffW1VRU",
+      "title": "An Agent-Based Trust Model for Service-Oriented Systems",
+      "authors": [
+        "Manling Zhu",
+        "Zhi Jin"
+      ],
+      "year": 2008,
+      "venue": "AAMAS-TRUST 2008",
+      "abstract": "In this paper, we propose an agent-based trust modeling architecture for service-oriented computing. A Trust Ontology is built to offer better understanding to the trust relationships in service-oriented systems. Based on this ontology, algorithms have been given for supporting trust analysis, reasoning and computing. Finally a case study is presented to illustrate how this formalism of service trust framework can be used. We argue that our trust model can assist service agents to make rational trading decisions by measuring the trustworthiness of the potential partners.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1007/978-3-540-92803-4_9",
+      "url": "https://openreview.net/forum?id=in7ffW1VRU",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:s0cBVQ2y4X",
+      "title": "When Zero-Trust Meets Federated Learning",
+      "authors": [
+        "Xinran Zhang",
+        "Dan Wang",
+        "Yifei Zhu",
+        "Weilong Chen",
+        "Zheng Chang",
+        "Zhu Han"
+      ],
+      "year": 2024,
+      "venue": "GLOBECOM 2024",
+      "abstract": "Nowadays, Federated Learning (FL) has emerged as a promising and critical machine learning scheme to protect data privacy and reduce communication overhead. As the scale and connectivity expand in the FL system, enhancing the model’s robustness against security threats from malicious clients grows ever more critical. An effective defensive solution involves selecting benign clients appropriately, thereby mitigating the vulnerability of the FL system to malicious attacks. However, clients exhibit varying behaviors over time, which complicates the task of accurately modeling their future trustworthiness. Moreover, blindly trusting clients with high trust values poses risks, given the potential for severe losses from betrayal. To tackle these problems, we propose a zero-trust policy in FL aimed at establishing continuous trust in each client while maintaining skepticism towards potential betrayal attacks. Specifically, we develop a Dirichlet-based trust evaluation technique to enable a comprehensive selection of trustworthy participants. This technique leverages the posterior distribution to estimate clients’ trust values from their evolving behavior records over time. Then, we anticipate potential betrayal from a selected client and formulate a min-max optimization problem to minimize the worst-case betrayal loss, thereby boosting the system’s betrayalaware robustness. Next, we convert this problem into a convex optimization problem and utilize the interior point method for resolution. We conduct extensive simulations to validate the efficacy of our proposed zero-trust policy in accurately assessing trust and enhancing the model’s robustness to betrayal.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1109/GLOBECOM52923.2024.10901088",
+      "url": "https://openreview.net/forum?id=s0cBVQ2y4X",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:4vdctK0njd",
+      "title": "Zero-Trust Network Access (ZTNA)",
+      "authors": [
+        "Vasilios Mavroudis"
+      ],
+      "year": 2024,
+      "venue": "CoRR 2024",
+      "abstract": "Zero-Trust Network Access (ZTNA) marks a significant shift in network security by adopting a \"never trust, always verify\" approach. This work provides an in-depth analysis of ZTNA, offering a comprehensive framework for understanding its principles, architectures, and applications. We discuss its role in securing modern, complex network environments, which include cloud platforms, Internet of Things (IoT) devices, and hybrid enterprise networks. Our objective is to create a key resource for researchers and practitioners by reviewing critical methodologies, analyzing current implementations, and highlighting open challenges and research directions.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.48550/arXiv.2410.20611",
+      "url": "https://openreview.net/forum?id=4vdctK0njd",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:SN74a7MCXW",
+      "title": "Dissecting zero trust: research landscape and its implementation in IoT",
+      "authors": [
+        "Chunwen Liu",
+        "Ru Tan",
+        "Yang Wu",
+        "Yun Feng",
+        "Ze Jin",
+        "Fangjiao Zhang",
+        "Yuling Liu",
+        "Qixu Liu"
+      ],
+      "year": 2024,
+      "venue": "Cybersecur. 2024",
+      "abstract": "As a progressive security strategy, the zero trust model has attracted notable attention and importance within the realm of network security, especially in the context of the Internet of Things (IoT). This paper aims to evaluate the current research regarding zero trust and to highlight its practical applications in the IoT sphere through extensive bibliometric analysis. We also delve into the vulnerabilities of IoT and explore the potential role of zero trust security in mitigating these risks via a thorough review of relevant security schemes. Nevertheless, the challenges associated with implementing zero trust security are acknowledged. We provide a summary of these issues and suggest possible pathways for future research aimed at overcoming these challenges. Ultimately, this study aims to serve as a strategic analysis of the zero trust model, intending to empower scholars in the field to pursue deeper and more focused research in the future.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1186/s42400-024-00212-0",
+      "url": "https://openreview.net/forum?id=SN74a7MCXW",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:OwZ906FopR",
+      "title": "An Algebra for Trust Dilution and Trust Fusion",
+      "authors": [
+        "Baptiste Alcalde",
+        "Sjouke Mauw"
+      ],
+      "year": 2009,
+      "venue": "Formal Aspects in Security and Trust 2009",
+      "abstract": "Trust dilution and trust fusion are two operators that are used to calculate transitive trust in a trust network. Various implementations of these operators already exist but are not fully motivated. In this paper we define the basic properties of these two operators by developing a trust algebra. We evaluate several new and existing models against the axioms of this algebra, amongst which a number of variations of the Subjective Logic. The algebra enables the comparison of models and gives more insight in the available recommendation models and their properties.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1007/978-3-642-12459-4_2",
+      "url": "https://openreview.net/forum?id=OwZ906FopR",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:WHFI3EVcUi",
+      "title": "Learning to Trust",
+      "authors": [
+        "Andreas Birk"
+      ],
+      "year": 2000,
+      "venue": "Trust in Cyber-societies 2000",
+      "abstract": "Evolutionary game-theory is a powerful tool to investigate the development of complex relations between individuals such as the emergence of cooperation and trust. But the propagation of genes is an unrealistic assumption when it comes to model fast-changing social interactions.We show how a transition frome volutionary game-theory to learning can be made. Specifically, we show how cooperation and trust can develop together through social interactions and a suited learning mechanism.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1007/3-540-45547-7_8",
+      "url": "https://openreview.net/forum?id=WHFI3EVcUi",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:N3cXP4RiVn",
+      "title": "Access Control Method of SDN Network Based on Zero Trust",
+      "authors": [
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]"
+      ],
+      "year": 2022,
+      "venue": "ICATCI (1) 2022",
+      "abstract": "In order to use relevant methods to control SDN network access based on zero trust, this paper will carry out relevant research. This paper first introduces the basic concepts of zero trust and SDN, then constructs the access control framework of SDN, and puts forward the relevant control principles. Through this study, SDN network access can be effectively controlled on the basis of zero trust, which can greatly guarantee access security.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1007/978-3-031-29097-8_59",
+      "url": "https://openreview.net/forum?id=N3cXP4RiVn",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:FaGTrwYTGl",
+      "title": "Explainable AI-Driven Adaptive Trust and Autonomous Threat Mitigation Framework for CloudNative Zero Trust Environments",
+      "authors": [
+        "Rajesh Balaji"
+      ],
+      "year": 2026,
+      "venue": "",
+      "abstract": "The swift advancement of cloud-native infrastructures, microservices architectures, distributed workloads, and Zero Trust networking has greatly heightened the complexity of cybersecurity management within contemporary enterprise systems. Current Zero Trust and identitycentric architectures offer robust authentication, workload identity, and policy-driven access control; however, they predominantly depend on static or rule-based trust evaluation methods that fall short against swiftly changing cyber threats, behavioral anomalies, insider attacks, and adaptive adversarial strategies. This research introduces an Explainable Artificial Intelligence-Driven Adaptive Trust and Autonomous Threat Mitigation Framework (XAI-ATMF) tailored for cloud-native Zero Trust environments. The suggested framework malgamates machine learning-based behavioral analytics, reinforcement learning-driven adaptive policy optimization, explainable AI models, workload identity intelligence, and continuous trust evaluation into a cohesive autonomous cybersecurity architecture. The study employs a hybrid Design Science Research (DSR) and data-driven AI methodology that encompasses anomaly detection models, dynamic trust scoring, telemetry analytics, and adaptive access-control mechanisms. The framework leverages supervised learning, unsupervised anomaly detection, and reinforcement learning to perpetually assess contextual risk, workload behavior, and network trustworthiness. Experimental simulations reveal enhancements in anomaly detection accuracy, a decrease in false-positive rates, quicker threat response times, and greater resilience against lateral movement attacks in cloud-native systems. This research builds upon previous studies regarding Zero Trust networking and identity-centric cloud-native security by presenting explainable, adaptive, and self-optimizing AI mechanisms for autonomous cybersecurity governance.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.47760/ijcsmc.2026.v15i06.003",
+      "url": "https://openreview.net/forum?id=FaGTrwYTGl",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:Nx7r73gE5b",
+      "title": "Software Supply Chain Security [Guest Editors’ Introduction]",
+      "authors": [
+        "[object Object]",
+        "[object Object]"
+      ],
+      "year": 2023,
+      "venue": "IEEE Security & Privacy",
+      "abstract": "Today, the Ancient Mariner would rhyme “Code, code every where, Not any drop to trust.” This special issue of IEEE Security & Privacy highlights software supply chain security research and experiences of value to practitioners and researchers alike.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1109/MSEC.2023.3321189",
+      "url": "https://openreview.net/forum?id=Nx7r73gE5b",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:4NnXjP29Ga",
+      "title": "Software Supply Chain Security [Guest Editors' Introduction]",
+      "authors": [
+        "Fabio Massacci",
+        "Laurie A. Williams"
+      ],
+      "year": 2023,
+      "venue": "IEEE Secur. Priv. 2023",
+      "abstract": "Today, the Ancient Mariner would rhyme “Code, code every where, Not any drop to trust.” This special issue of IEEE Security & Privacy highlights software supply chain security research and experiences of value to practitioners and researchers alike.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1109/MSEC.2023.3321189",
+      "url": "https://openreview.net/forum?id=4NnXjP29Ga",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:cL3u8hTEFa",
+      "title": "The \"4W+1H\" of Software Supply Chain Security Checklist for Critical Infrastructure",
+      "authors": [
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]"
+      ],
+      "year": 2025,
+      "venue": "CoRR 2025",
+      "abstract": "The increasing frequency and sophistication of software supply chain attacks pose severe risks to critical infrastructure sectors, threatening national security, economic stability, and public safety. Despite growing awareness, existing security practices remain fragmented and insufficient, with most frameworks narrowly focused on isolated life cycle stages or lacking alignment with the specific needs of critical infrastructure (CI) sectors. In this paper, we conducted a multivocal literature review across international frameworks, Australian regulatory sources, and academic studies to identify and analyze security practices across the software supply chain, especially specific CI sector. Our analysis found that few existing frameworks are explicitly tailored to CI domains. We systematically leveraged identified software supply chain security frameworks, using a \"4W+1H\" analytical approach, we synthesized ten core categories (what) of software supply chain security practices, mapped them across life-cycle phases (when), stakeholder roles (who), and implementation levels (how), and examined their coverage across existing frameworks (where). Building on these insights, the paper culminates in structured, multi-layered checklist of 80 questions designed to relevant stakeholders evaluate and enhance their software supply chain security. Our findings reveal gaps between framework guidance and sector-specific needs, highlight the need for integrated, context-aware approaches to safeguard critical infrastructure from evolving software supply chain risks.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.48550/arXiv.2510.26174",
+      "url": "https://openreview.net/forum?id=cL3u8hTEFa",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:tjyCs2sIKk",
+      "title": "Dirty-Waters: Detecting Software Supply Chain Smells",
+      "authors": [
+        "Raphina Liu",
+        "Sofia Bobadilla",
+        "Benoit Baudry",
+        "Martin Monperrus"
+      ],
+      "year": 2024,
+      "venue": "CoRR 2024",
+      "abstract": "Using open-source dependencies is essential in modern software development. However, this practice implies significant trust in third-party code, while there is little support for developers to assess this trust. As a consequence, attacks have been increasingly occurring through third-party dependencies. These are called software supply chain attacks. In this paper, we target the problem of projects that use dependencies while unaware of the potential risks posed by their software supply chain. We define the novel concept of software supply chain smell and present Dirty-Waters, a novel tool for detecting software supply chain smells. We evaluate Dirty-Waters on three JavaScript projects across nine versions and demonstrate the prevalence of all proposed software supply chain smells. Not only are there smells in all projects, but there are many of them, which immediately reveal potential risks and provide clear indicators for developers to act on the security of their supply chain.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.48550/arXiv.2410.16049",
+      "url": "https://openreview.net/forum?id=tjyCs2sIKk",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:BZs0WZFMz5",
+      "title": "S3C2 Summit 2024-09: Industry Secure Software Supply Chain Summit",
+      "authors": [
+        "Imranur Rahman",
+        "Yasemin Acar",
+        "Michel Cukier",
+        "William Enck",
+        "Christian Kästner",
+        "Alexandros Kapravelos",
+        "Dominik Wermke",
+        "Laurie A. Williams"
+      ],
+      "year": 2025,
+      "venue": "CoRR 2025",
+      "abstract": "While providing economic and software development value, software supply chains are only as strong as their weakest link. Over the past several years, there has been an exponential increase in cyberattacks, specifically targeting vulnerable links in critical software supply chains. These attacks disrupt the day-to-day functioning and threaten the security of nearly everyone on the internet, from billion-dollar companies and government agencies to hobbyist open-source developers. The ever-evolving threat of software supply chain attacks has garnered interest from the software industry and the US government in improving software supply chain security. On September 20, 2024, three researchers from the NSF-backed Secure Software Supply Chain Center (S3C2) conducted a Secure Software Supply Chain Summit with a diverse set of 12 practitioners from 9 companies. The goals of the Summit were to: (1) to enable sharing between individuals from different companies regarding practical experiences and challenges with software supply chain security, (2) to help form new collaborations, (3) to share our observations from our previous summits with industry, and (4) to learn about practitioners' challenges to inform our future research direction. The summit consisted of discussions of six topics relevant to the companies represented, including updating vulnerable dependencies, component and container choice, malicious commits, building infrastructure, large language models, and reducing entire classes of vulnerabilities.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.48550/arXiv.2505.10538",
+      "url": "https://openreview.net/forum?id=BZs0WZFMz5",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:yLYDo7g4gs",
+      "title": "The Financial Dynamics of AI-Enhanced Supply Chain Management",
+      "authors": [
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]"
+      ],
+      "year": 2024,
+      "venue": "Utilization of AI Technology in Supply Chain Management",
+      "abstract": "This chapter explores the evolving landscape of AI-enhanced supply chain management, emphasizing the pivotal role of artificial intelligence (AI) in optimizing supply chain operations. It commences with an introduction that defines AI-enhanced supply chain management and underscores the importance of AI in this context. Subsequently, the chapter delves into the multifaceted role of AI in supply chain management, elucidating its diverse benefits. These advantages encompass enhanced supply chain efficiency, streamlined inventory and transportation management, and improved revenue generation through superior customer service and data-driven demand forecasting.",
+      "keywords": [],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=yLYDo7g4gs",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:Ma36EXnm76",
+      "title": "GoSurf: Identifying Software Supply Chain Attack Vectors in Go",
+      "authors": [
+        "Carmine Cesarano",
+        "Vivi Andersson",
+        "Roberto Natella",
+        "Martin Monperrus"
+      ],
+      "year": 2024,
+      "venue": "CoRR 2024",
+      "abstract": "In Go, the widespread adoption of open-source software has led to a flourishing ecosystem of third-party dependencies, which are often integrated into critical systems. However, the reuse of dependencies introduces significant supply chain security risks, as a single compromised package can have cascading impacts. Existing supply chain attack taxonomies overlook language-specific features that can be exploited by attackers to hide malicious code. In this paper, we propose a novel taxonomy of 12 distinct attack vectors tailored for the Go language and its package lifecycle. Our taxonomy identifies patterns in which language-specific Go features, intended for benign purposes, can be misused to propagate malicious code stealthily through supply chains. Additionally, we introduce GoSurf, a static analysis tool that analyzes the attack surface of Go packages according to our proposed taxonomy. We evaluate GoSurf on a corpus of widely used, real-world Go packages. Our work provides preliminary insights for securing the open-source software supply chain within the Go ecosystem, allowing developers and security analysts to prioritize code audit efforts and uncover hidden malicious behaviors.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.48550/arXiv.2407.04442",
+      "url": "https://openreview.net/forum?id=Ma36EXnm76",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:haUBaeqkOF",
+      "title": "How Can ChatGPT Support Human Security Testers to Help Mitigate Supply Chain Attacks?",
+      "authors": [
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]",
+        "[object Object]"
+      ],
+      "year": 2026,
+      "venue": "IEEE Trans. Software Eng. 2026",
+      "abstract": "Developers often build software on top of third-party libraries (Libs) to improve programmer productivity and software quality. The libraries may contain vulnerabilities exploitable by hackers to attack the applications (Apps) built on top of them. Such attacks are known as software supply chain attacks, the documented number of which has increased by 600% since 2021. Researchers and developers created tools to mitigate such attacks, by scanning the library dependencies of Apps, identifying the usage of vulnerable library versions, and suggesting secure alternatives to vulnerable dependencies. However, recent studies show that many developers do not trust the reports by these tools; they need code or evidence to demonstrate how library vulnerabilities lead to security exploits, in order to assess vulnerability severity and modification necessity. Unfortunately, manually crafting demos of application-specific attacks is challenging and time-consuming, and there is insufficient tool support to automate that procedure. To help developers enhance software security, in this study, we systematically explored the usage of a large language model (LLM)—ChatGPT-4.0—to generate security tests, which unit tests demonstrate how vulnerable library dependencies facilitate the supply chain attacks to given Apps. In our exploration, we defined prompt templates to take in the various vulnerability-relevant information we manually collected, and generated prompts from those templates to query ChatGPT for security test generation. We found that ChatGPT-generated tests demonstrated 24 evidence or proof of vulnerability for 49 Apps. To assess the consistency of test generation, we also evaluated another five state-of-the-art LLMs. All the models generated security tests for at least 17 cases that successfully demonstrate the vulnerabilities. We filed six reports for the newly revealed vulnerabilities in Apps, and got four Common Vulnerability Entries (CVEs) assigned. Our use of ChatGPT outperformed two state-of-the-art security test generators (TRANSFER and SIEGE), by generating a lot more tests and achieving more attacks. Our research will shed light on new research in security test generation.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1109/TSE.2025.3632765",
+      "url": "https://openreview.net/forum?id=haUBaeqkOF",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:wZghuYchd7",
+      "title": "The Multi-Billion Dollar Software Supply Chain of Ethereum",
+      "authors": [
+        "César Soto-Valero",
+        "Martin Monperrus",
+        "Benoit Baudry"
+      ],
+      "year": 2022,
+      "venue": "CoRR 2022",
+      "abstract": "The rise of blockchain technologies has triggered tremendous research interest, coding efforts, and monetary investments in the last decade. Ethereum is the single largest programmable blockchain platform today. It features cryptocurrency trading, digital art, and decentralized finance through smart contracts. So-called Ethereum nodes operate the blockchain, relying on a vast supply chain of third-party software dependencies maintained by diverse organizations. These software suppliers have a direct impact on the reliability and the security of Ethereum. In this article, we perform an analysis of the software supply chain of Java Ethereum nodes and distill the challenges of maintaining and securing this blockchain technology.",
+      "keywords": [],
+      "citations": 0,
+      "doi": null,
+      "url": "https://openreview.net/forum?id=wZghuYchd7",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:8S8BQXC2I1",
+      "title": "The Multibillion Dollar Software Supply Chain of Ethereum",
+      "authors": [
+        "César Soto-Valero",
+        "Martin Monperrus",
+        "Benoit Baudry"
+      ],
+      "year": 2022,
+      "venue": "Computer 2022",
+      "abstract": "Ethereum is the single largest programmable blockchain platform today. Ethereum nodes operate the blockchain, relying on a vast supply chain of third-party software dependencies. In this article, we perform an analysis of the software supply chain of Java Ethereum nodes and distill the challenges of maintaining and securing this blockchain technology.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.1109/MC.2022.3175542",
+      "url": "https://openreview.net/forum?id=8S8BQXC2I1",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:iNTMPgXSeL",
+      "title": "S3C2 Summit 2023-06: Government Secure Supply Chain Summit",
+      "authors": [
+        "William Enck",
+        "Yasemin Acar",
+        "Michel Cukier",
+        "Alexandros Kapravelos",
+        "Christian Kästner",
+        "Laurie A. Williams"
+      ],
+      "year": 2023,
+      "venue": "CoRR 2023",
+      "abstract": "Recent years have shown increased cyber attacks targeting less secure elements in the software supply chain and causing fatal damage to businesses and organizations. Past well-known examples of software supply chain attacks are the SolarWinds or log4j incidents that have affected thousands of customers and businesses. The US government and industry are equally interested in enhancing software supply chain security. On June 7, 2023, researchers from the NSF-supported Secure Software Supply Chain Center (S3C2) conducted a Secure Software Supply Chain Summit with a diverse set of 17 practitioners from 13 government agencies. The goal of the Summit was two-fold: (1) to share our observations from our previous two summits with industry, and (2) to enable sharing between individuals at the government agencies regarding practical experiences and challenges with software supply chain security. For each discussion topic, we presented our observations and take-aways from the industry summits to spur conversation. We specifically focused on the Executive Order 14028, software bill of materials (SBOMs), choosing new dependencies, provenance and self-attestation, and large language models. The open discussions enabled mutual sharing and shed light on common challenges that government agencies see as impacting government and industry practitioners when securing their software supply chain. In this paper, we provide a summary of the Summit.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.48550/arXiv.2308.06850",
+      "url": "https://openreview.net/forum?id=iNTMPgXSeL",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
+      }
+    },
+    {
+      "id": "openreview:FafZOECeJQ",
+      "title": "S3C2 Summit 2025-03: Industry Secure Supply Chain Summit",
+      "authors": [
+        "Elizabeth Lin",
+        "Jonah Ghebremichael",
+        "William Enck",
+        "Yasemin Acar",
+        "Michel Cukier",
+        "Alexandros Kapravelos",
+        "Christian Kästner",
+        "Laurie A. Williams"
+      ],
+      "year": 2025,
+      "venue": "CoRR 2025",
+      "abstract": "Software supply chains, while providing immense economic and software development value, are only as strong as their weakest link. Over the past several years, there has been an exponential increase in cyberattacks specifically targeting vulnerable links in critical software supply chains. These attacks disrupt the day-to-day functioning and threaten the security of nearly everyone on the internet, from billion-dollar companies and government agencies to hobbyist open-source developers. The ever-evolving threat of software supply chain attacks has garnered interest from both the software industry and US government in improving software supply chain security. On Thursday, March 6th, 2025, four researchers from the NSF-backed Secure Software Supply Chain Center (S3C2) conducted a Secure Software Supply Chain Summit with a diverse set of 18 practitioners from 17 organizations. The goals of the Summit were: (1) to enable sharing between participants from different industries regarding practical experiences and challenges with software supply chain security; (2) to help form new collaborations; and (3) to learn about the challenges facing participants to inform our future research directions. The summit consisted of discussions of six topics relevant to the government agencies represented, including software bill of materials (SBOMs); compliance; malicious commits; build infrastructure; culture; and large language models (LLMs) and security. For each topic of discussion, we presented a list of questions to participants to spark conversation. In this report, we provide a summary of the summit. The open questions and challenges that remained after each topic are listed at the end of each topic's section, and the initial discussion questions for each topic are provided in the appendix.",
+      "keywords": [],
+      "citations": 0,
+      "doi": "10.48550/arXiv.2510.24920",
+      "url": "https://openreview.net/forum?id=FafZOECeJQ",
+      "type": "reviewed work",
+      "source": {
+        "name": "OpenReview",
+        "authority": "OpenReview public scholarly review infrastructure",
+        "documentation": "https://docs.openreview.net/reference/api-v2",
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1302,7 +2201,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1331,7 +2230,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1363,7 +2262,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1388,7 +2287,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1415,7 +2314,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1448,7 +2347,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1480,7 +2379,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1509,7 +2408,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1539,7 +2438,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1565,7 +2464,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1598,7 +2497,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1629,7 +2528,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1655,7 +2554,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1688,7 +2587,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1712,7 +2611,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1737,7 +2636,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1764,7 +2663,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1790,7 +2689,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1816,7 +2715,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1840,7 +2739,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1867,7 +2766,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1892,7 +2791,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1917,7 +2816,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     },
     {
@@ -1943,7 +2842,7 @@
         "name": "OpenReview",
         "authority": "OpenReview public scholarly review infrastructure",
         "documentation": "https://docs.openreview.net/reference/api-v2",
-        "retrievedAt": "2026-09-18T09:49:41.152Z"
+        "retrievedAt": "2026-09-19T09:34:24.479Z"
       }
     }
   ]
