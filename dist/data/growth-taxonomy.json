@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "hashVersion": "gp1",
+  "domains": [
+    {"id":"ai","label":"AI & autonomous systems","weight":18,"terms":["artificial intelligence","machine learning","agentic","autonomous","llm","natural language processing","computer vision"]},
+    {"id":"security","label":"Cybersecurity & digital trust","weight":18,"terms":["cybersecurity","security","privacy","zero trust","identity","fraud","compliance","pci"]},
+    {"id":"payments","label":"Payments & financial technology","weight":18,"terms":["payment","payments","fintech","financial technology","banking","transaction","settlement","commerce"]},
+    {"id":"software","label":"Software & product engineering","weight":16,"terms":["software","full stack","full-stack","frontend","backend","javascript","typescript","react","node.js","java","python","golang","mobile app"]},
+    {"id":"reliability","label":"Cloud, SRE & infrastructure","weight":16,"terms":["site reliability","sre","cloud","devops","distributed systems","infrastructure","observability","platform engineering","kubernetes"]},
+    {"id":"data","label":"Data, analytics & platforms","weight":15,"terms":["data science","analytics","data platform","database","snowflake","hadoop","business intelligence","data systems"]},
+    {"id":"health","label":"Health & life sciences","weight":15,"terms":["healthcare","health","clinical","medical","biology","biotechnology","public health","patient"]},
+    {"id":"education","label":"Education, mentoring & workforce","weight":15,"terms":["education","teaching","teacher","mentor","mentoring","student","learning","training","workforce","curriculum","stem"]},
+    {"id":"climate","label":"Climate, energy & sustainability","weight":15,"terms":["climate","energy","renewable","sustainability","environment","water","carbon","grid","agriculture"]},
+    {"id":"business","label":"Business & entrepreneurship","weight":14,"terms":["business","entrepreneur","startup","product management","commerce","marketing","operations","finance","small business"]},
+    {"id":"manufacturing","label":"Manufacturing & supply chain","weight":14,"terms":["manufacturing","supply chain","logistics","industrial","materials","semiconductor","hardware","procurement"]},
+    {"id":"creative","label":"Arts, media & communication","weight":14,"terms":["writer","writing","music","media","design","creative","journalism","communication","film","arts"]},
+    {"id":"public-service","label":"Public service & social impact","weight":14,"terms":["public service","community","nonprofit","social impact","civic","government","policy","volunteer"]},
+    {"id":"research","label":"Research & open knowledge","weight":16,"terms":["research","publication","paper","patent","open source","open-source","open knowledge","scientific"]}
+  ],
+  "roles": [
+    {"id":"student","label":"Student or learner","terms":["student","intern","degree","university","college"]},
+    {"id":"builder","label":"Engineer, technologist or builder","terms":["engineer","developer","architect","programmer","technologist"]},
+    {"id":"researcher","label":"Researcher or scientist","terms":["researcher","scientist","research","publication"]},
+    {"id":"educator","label":"Educator or mentor","terms":["teacher","educator","professor","mentor","trainer"]},
+    {"id":"leader","label":"Manager or organizational leader","terms":["manager","director","lead","head of","executive"]},
+    {"id":"founder","label":"Founder or entrepreneur","terms":["founder","entrepreneur","startup","business owner"]},
+    {"id":"creative","label":"Writer, designer or creator","terms":["writer","designer","artist","creator","musician"]},
+    {"id":"community","label":"Community or public-service contributor","terms":["community","nonprofit","public service","volunteer"]}
+  ],
+  "careerStages": [
+    {"id":"exploring","label":"Exploring or changing direction"},
+    {"id":"early","label":"Early career (0–5 years)"},
+    {"id":"mid","label":"Mid career (6–12 years)"},
+    {"id":"senior","label":"Senior practitioner (13+ years)"},
+    {"id":"leader","label":"Leadership, founder or independent expert"}
+  ],
+  "goals": [
+    {"id":"learn","label":"Learn a valuable skill"},
+    {"id":"build","label":"Build or launch something"},
+    {"id":"research","label":"Research and publish"},
+    {"id":"speak","label":"Speak and gain visibility"},
+    {"id":"fund","label":"Find funding or prizes"},
+    {"id":"serve","label":"Create community impact"},
+    {"id":"career","label":"Advance or change career"}
+  ],
+  "opportunityTypes": [
+    {"id":"Funding","label":"Grants and funding"},
+    {"id":"Challenge","label":"Challenges and prizes"},
+    {"id":"Speaking","label":"Speaking and CFPs"},
+    {"id":"Peer review","label":"Peer review and judging"},
+    {"id":"Community","label":"Mentoring and community projects"}
+  ],
+  "geographies": [
+    {"id":"remote","label":"Remote or online"},
+    {"id":"local","label":"Local or regional"},
+    {"id":"national","label":"National"},
+    {"id":"global","label":"Global or travel-friendly"}
+  ],
+  "commitments": [
+    {"id":"micro","label":"Up to 2 hours a week"},
+    {"id":"light","label":"3–5 hours a week"},
+    {"id":"steady","label":"6–10 hours a week"},
+    {"id":"deep","label":"More than 10 hours a week"}
+  ],
+  "applicantContexts": [
+    {"id":"individual","label":"Apply as an individual"},
+    {"id":"academic","label":"Apply through an academic institution"},
+    {"id":"nonprofit","label":"Apply through a nonprofit or community group"},
+    {"id":"business","label":"Apply through a company or startup"},
+    {"id":"team","label":"Apply as a team"}
+  ]
+}

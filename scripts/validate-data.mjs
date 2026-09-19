@@ -5,6 +5,7 @@ const readJson = async (path) => JSON.parse(await readFile(resolve(path), "utf8"
 const opportunities = await readJson("dist/data/opportunities.json");
 const openReview = await readJson("dist/data/openreview.json");
 const profileSignals = await readJson("dist/data/profile-signals.json");
+const growthTaxonomy = await readJson("dist/data/growth-taxonomy.json");
 const failures = [];
 const assert = (condition, message) => { if (!condition) failures.push(message); };
 const isHttps = (value) => {
@@ -21,6 +22,13 @@ for (const domain of profileSignals.domains || []) {
   assert(domain.id && domain.label, "Each profile domain must have an id and label");
   assert(Number(domain.weight) > 0, `Profile domain must have a positive weight: ${domain.id}`);
   assert(Array.isArray(domain.terms) && domain.terms.length > 0, `Profile domain must have matching terms: ${domain.id}`);
+}
+assert(growthTaxonomy.schemaVersion === 1, "Growth taxonomy must use schema version 1");
+assert(/^gp\d+$/.test(growthTaxonomy.hashVersion), "Growth taxonomy must use a versioned hash namespace");
+assert(Array.isArray(growthTaxonomy.domains) && growthTaxonomy.domains.length >= 10, "Growth taxonomy must cover broad experience domains");
+for (const domain of growthTaxonomy.domains || []) {
+  assert(domain.id && domain.label, "Each growth domain must have an id and label");
+  assert(Array.isArray(domain.terms) && domain.terms.length > 0, `Growth domain must have matching terms: ${domain.id}`);
 }
 
 const ids = new Set();
