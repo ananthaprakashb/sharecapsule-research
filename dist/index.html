@@ -20,6 +20,7 @@
         <button class="nav-item active" data-view="overview"><span aria-hidden="true">◫</span>Overview</button>
         <button class="nav-item" data-view="profile"><span aria-hidden="true">◇</span>Growth Profile</button>
         <button class="nav-item" data-view="opportunities"><span aria-hidden="true">⌁</span>Opportunities</button>
+        <button class="nav-item" data-view="peerReview"><span aria-hidden="true">✓</span>Peer Review Guide</button>
         <button class="nav-item" data-view="proposal"><span aria-hidden="true">✦</span>Proposal Studio</button>
         <button class="nav-item" data-view="research"><span aria-hidden="true">⌕</span>Research Studio</button>
         <button class="nav-item" data-view="skills"><span aria-hidden="true">↗</span>Skill Lab</button>
@@ -154,7 +155,7 @@
             <article><span>Challenges</span><strong>USA.gov</strong><small class="coverage-live" id="coverage-challenge">Loading</small></article>
             <article><span>Speaking</span><strong>Approved CFP pages</strong><small class="coverage-live" id="coverage-speaking">Loading</small></article>
             <article><span>Judging</span><strong>No verified feed</strong><small class="coverage-gap">Intentionally empty</small></article>
-            <article><span>Peer review</span><strong>OpenReview research only</strong><small class="coverage-gap">No application claims</small></article>
+            <article><span>Peer review</span><strong>Official reviewer programs</strong><small class="coverage-live" id="coverage-peer-review">Loading</small></article>
           </div>
           <div class="toolbar">
             <label class="search"><span aria-hidden="true">⌕</span><input id="opportunity-search" type="search" placeholder="Search official records by topic or agency"></label>
@@ -163,6 +164,70 @@
             </div>
           </div>
           <div class="opportunity-layout"><div id="opportunity-grid" class="opportunity-grid"></div><aside class="insight-rail"><span class="eyebrow">Your opportunity plan</span><div class="shortlist-summary"><strong id="saved-count">0</strong><span>saved opportunities</span></div><p id="saved-summary">Save official opportunities to build a focused shortlist on this device.</p><button class="button shortlist-export" id="export-shortlist" type="button" disabled>Export shortlist</button><hr><span class="eyebrow">Profile match signals</span><h3>Experience used for ranking</h3><div class="topic-cloud" id="profile-theme-cloud"><span>Loading profile…</span></div><hr><h3>Eligibility guardrail</h3><p>Profile alignment is not applicant eligibility. Confirm individual, institutional, citizenship, location, and submission requirements on the official source.</p></aside></div>
+        </section>
+
+        <section class="view" id="view-peerReview">
+          <div class="review-guide-hero">
+            <div><span class="eyebrow mint">Practical reviewer pathway</span><h2>Turn subject expertise into trusted peer-review service.</h2><p>Start with a program that fits your evidence today, learn the ethics, and build a verified review record one assignment at a time.</p></div>
+            <button class="button primary" data-go="opportunities" data-set-filter="Peer review">See open reviewer programs</button>
+          </div>
+
+          <div class="review-route-grid">
+            <article class="panel"><span class="route-number">01</span><h3>Industry engineer</h3><p>Lead with production depth, open-source work, patents, standards, technical writing, and precise topic keywords.</p><strong>Start with JOSS or a matching ACM journal.</strong></article>
+            <article class="panel"><span class="route-number">02</span><h3>Academic researcher</h3><p>Keep ORCID and publication profiles current. Match recent papers and methods to a journal, conference, or grant panel.</p><strong>Use ACM, IEEE, NIH, or agency programs.</strong></article>
+            <article class="panel"><span class="route-number">03</span><h3>Education or health expert</h3><p>Show program evaluation, accreditation, clinical, community, or workforce experience—not only publications.</p><strong>Check HLC and HRSA eligibility.</strong></article>
+          </div>
+
+          <div class="review-guide-layout">
+            <section class="panel review-steps">
+              <div class="panel-head"><div><span class="eyebrow">How to peer review</span><h3>A defensible six-step review</h3></div></div>
+              <ol>
+                <li><b>Accept selectively</b><span>Confirm topic expertise, deadline capacity, confidentiality, and conflicts of interest before accepting.</span></li>
+                <li><b>Read for the claim</b><span>Identify the main question, claimed contribution, evidence, method, and target audience before judging details.</span></li>
+                <li><b>Test the evidence</b><span>Check whether methods support the claim, baselines are fair, limitations are visible, and results are reproducible.</span></li>
+                <li><b>Write constructively</b><span>Open with a neutral summary, then separate major issues, minor issues, and actionable suggestions.</span></li>
+                <li><b>Protect integrity</b><span>Do not reuse confidential material. Declare conflicts and suspected ethics problems privately to the editor.</span></li>
+                <li><b>Record service safely</b><span>Use the publisher's certificate or ORCID integration; never disclose manuscript details or anonymous identities.</span></li>
+              </ol>
+            </section>
+
+            <aside class="panel readiness-card">
+              <span class="eyebrow">Before contacting an editor</span><h3>Reviewer readiness</h3>
+              <label><input type="checkbox"> I can name 3–5 narrow topics I can assess.</label>
+              <label><input type="checkbox"> My résumé, ORCID, and public evidence are current.</label>
+              <label><input type="checkbox"> I understand confidentiality and conflict rules.</label>
+              <label><input type="checkbox"> I can finish a careful review by the deadline.</label>
+              <label><input type="checkbox"> I will make every judgment myself and disclose permitted AI assistance.</label>
+              <p>Never claim eligibility from a profile match. The editor or program makes the selection.</p>
+            </aside>
+          </div>
+
+          <div class="review-guide-layout second-row">
+            <section class="panel reviewer-outreach">
+              <div class="panel-head"><div><span class="eyebrow">Outreach template</span><h3>Ask to join a reviewer pool</h3></div><button class="button secondary" id="copy-reviewer-email" type="button">Copy</button></div>
+              <textarea id="reviewer-email-template" rows="12" readonly>Subject: Interest in reviewing for [journal or program]
+
+Hello [Editor or Program Officer],
+
+I would like to be considered as a reviewer for work related to [3–5 precise topics]. I am a [current role] with experience in [relevant domain and methods]. My relevant evidence includes [publications, open-source projects, patents, standards, talks, or program-evaluation work].
+
+Profile / ORCID: [link]
+Selected evidence: [2–3 links]
+
+I have reviewed your scope and reviewer guidance. I can provide an independent, constructive review, declare conflicts promptly, protect manuscript confidentiality, and meet the agreed deadline.
+
+Thank you,
+[Name]</textarea>
+            </section>
+            <aside class="panel official-learning">
+              <span class="eyebrow">Official learning</span><h3>Train before the first invitation</h3>
+              <a href="https://reviewers.acm.org/" target="_blank" rel="noopener noreferrer"><strong>ACM Peer Reviewer Training</strong><small>Suitability, evaluation, and review quality</small></a>
+              <a href="https://www.elsevier.com/reviewer/how-to-review" target="_blank" rel="noopener noreferrer"><strong>Elsevier review guide</strong><small>Structure, evidence checks, and recommendations</small></a>
+              <a href="https://publicationethics.org/resources/guidelines/cope-ethical-guidelines-peer-reviewers" target="_blank" rel="noopener noreferrer"><strong>COPE ethical guidelines</strong><small>Confidentiality, conflicts, conduct, and integrity</small></a>
+              <a href="https://joss.readthedocs.io/en/latest/reviewer_guidelines.html" target="_blank" rel="noopener noreferrer"><strong>JOSS reviewer guidelines</strong><small>Developer-friendly open software review</small></a>
+              <a href="https://info.orcid.org/documentation/workflows/peer-review-workflow/" target="_blank" rel="noopener noreferrer"><strong>ORCID peer-review record</strong><small>Receive verified credit without exposing confidential work</small></a>
+            </aside>
+          </div>
         </section>
 
         <section class="view" id="view-proposal">

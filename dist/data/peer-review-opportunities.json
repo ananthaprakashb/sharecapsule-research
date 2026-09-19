@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-19T23:00:00.000Z",
+  "source": {
+    "name": "Official peer-review program registry",
+    "authority": "Publisher, scholarly society, accreditor, and government program pages"
+  },
+  "counts": {
+    "Journal of Open Source Software": 1,
+    "Association for Computing Machinery": 1,
+    "IEEE Access": 1,
+    "HRSA": 1,
+    "NIH Center for Scientific Review": 1,
+    "DOE Biological and Environmental Research": 1,
+    "Higher Learning Commission": 1
+  },
+  "records": [
+    {
+      "id": "peer-review:joss-reviewer-pool",
+      "sourceRecordId": "joss-reviewer-pool",
+      "type": "Peer review",
+      "icon": "✓",
+      "title": "Volunteer to review research software for JOSS",
+      "org": "Journal of Open Source Software",
+      "deadline": "Rolling",
+      "status": "open",
+      "why": "JOSS publicly invites experienced developers and researchers to review open-source research software through a transparent GitHub-based process.",
+      "eligibility": "Best for people with practical research-software, open-source, testing, documentation, or domain expertise.",
+      "tags": ["Software engineering", "Open source", "Research software", "Remote", "Global"],
+      "proof": "Public JOSS review and reviewer contribution",
+      "effort": "First review pass in about 2–4 weeks",
+      "applicationUrl": "https://reviewers.joss.theoj.org/",
+      "source": {
+        "name": "Journal of Open Source Software",
+        "authority": "JOSS official reviewer invitation",
+        "url": "https://joss.theoj.org/about",
+        "retrievedAt": "2026-09-19T23:00:00.000Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "peer-review:acm-journal-reviewer",
+      "sourceRecordId": "acm-journal-reviewer",
+      "type": "Peer review",
+      "icon": "✓",
+      "title": "Volunteer as an ACM journal reviewer",
+      "org": "Association for Computing Machinery",
+      "deadline": "Rolling",
+      "status": "open",
+      "why": "ACM directs prospective reviewers to journals in their subject area and invites them to contact the editor-in-chief with relevant expertise.",
+      "eligibility": "Requires subject expertise that fits a specific ACM journal; publications or strong research artifacts improve selection chances.",
+      "tags": ["Computer science", "Software engineering", "Artificial intelligence", "Security", "Research"],
+      "proof": "Completed ACM journal review",
+      "effort": "Varies by journal and manuscript",
+      "applicationUrl": "https://authors.acm.org/volunteer",
+      "source": {
+        "name": "Association for Computing Machinery",
+        "authority": "ACM official volunteer guidance",
+        "url": "https://authors.acm.org/volunteer",
+        "retrievedAt": "2026-09-19T23:00:00.000Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "peer-review:ieee-access-associate-editor",
+      "sourceRecordId": "ieee-access-associate-editor",
+      "type": "Peer review",
+      "icon": "✓",
+      "title": "Apply to the IEEE Access Associate Editor team",
+      "org": "IEEE Access",
+      "deadline": "Rolling while the official call remains open",
+      "status": "open",
+      "why": "IEEE Access is accepting qualified volunteers to coordinate rigorous peer review across IEEE fields of interest.",
+      "eligibility": "PhD in a relevant field, significant publication record, and at least ten years of journal publishing experience expected.",
+      "tags": ["IEEE", "Artificial intelligence", "Computer science", "Engineering", "Editorial leadership"],
+      "proof": "Associate Editor service and peer-review leadership",
+      "effort": "Coordinate review of about four articles per month",
+      "applicationUrl": "https://ieeeaccess.ieee.org/editorial-leadership/associate-editor-application-form/",
+      "source": {
+        "name": "IEEE Access",
+        "authority": "IEEE Access official application",
+        "url": "https://ieeeaccess.ieee.org/editorial-leadership/associate-editor-application-form/",
+        "retrievedAt": "2026-09-19T23:00:00.000Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "peer-review:hrsa-grant-reviewer",
+      "sourceRecordId": "hrsa-grant-reviewer",
+      "type": "Peer review",
+      "icon": "✓",
+      "title": "Register as an HRSA grant reviewer",
+      "org": "U.S. Health Resources and Services Administration",
+      "deadline": "Rolling",
+      "status": "open",
+      "why": "HRSA recruits healthcare and community experts to score federal grant applications; nonfederal reviewers are compensated.",
+      "eligibility": "Healthcare, health workforce, public health, rural health, or underserved-community knowledge and experience.",
+      "tags": ["Healthcare", "Public health", "Federal grants", "Community", "Paid"],
+      "proof": "Federal grant-review panel service",
+      "effort": "Training, written scoring, and panel discussion",
+      "applicationUrl": "https://www.hrsa.gov/grants/reviewers",
+      "source": {
+        "name": "HRSA",
+        "authority": "U.S. Health Resources and Services Administration",
+        "url": "https://www.hrsa.gov/grants/reviewers",
+        "retrievedAt": "2026-09-19T23:00:00.000Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "peer-review:nih-early-career-reviewer",
+      "sourceRecordId": "nih-early-career-reviewer",
+      "type": "Peer review",
+      "icon": "✓",
+      "title": "Enroll in the NIH Early Career Reviewer Program",
+      "org": "NIH Center for Scientific Review",
+      "deadline": "Rolling enrollment",
+      "status": "open",
+      "why": "NIH trains eligible early-career scientists through first-hand grant peer-review service and recruits from the resulting reviewer database.",
+      "eligibility": "Doctorate, qualifying independent U.S.-institution research role, recent senior-authored publications, and prior NIH application required; verify every condition.",
+      "tags": ["Biomedical research", "Federal grants", "Early career", "United States", "Training"],
+      "proof": "NIH study-section peer-review service",
+      "effort": "Training plus 7–9 applications and a 1–2 day meeting",
+      "applicationUrl": "https://public.csr.nih.gov/ForReviewers/BecomeAReviewer/ECR",
+      "source": {
+        "name": "NIH Center for Scientific Review",
+        "authority": "U.S. National Institutes of Health",
+        "url": "https://public.csr.nih.gov/ForReviewers/BecomeAReviewer/ECR",
+        "retrievedAt": "2026-09-19T23:00:00.000Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "peer-review:doe-ber-reviewer",
+      "sourceRecordId": "doe-ber-reviewer",
+      "type": "Peer review",
+      "icon": "✓",
+      "title": "Volunteer to review DOE biological and environmental research proposals",
+      "org": "U.S. Department of Energy Biological and Environmental Research",
+      "deadline": "Rolling",
+      "status": "open",
+      "why": "DOE BER maintains an official volunteer form for experts interested in independent scientific and technical merit review.",
+      "eligibility": "Relevant scientific expertise and freedom from conflicts of interest; selection depends on each panel's needs.",
+      "tags": ["Climate", "Energy", "Data science", "Biological research", "Federal grants"],
+      "proof": "DOE proposal-review service",
+      "effort": "Varies by funding review panel",
+      "applicationUrl": "https://genomicscience.energy.gov/reviewer-application/",
+      "source": {
+        "name": "DOE Biological and Environmental Research",
+        "authority": "U.S. Department of Energy Office of Science",
+        "url": "https://genomicscience.energy.gov/reviewer-application/",
+        "retrievedAt": "2026-09-19T23:00:00.000Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "peer-review:hlc-peer-reviewer-2026",
+      "sourceRecordId": "hlc-peer-reviewer-2026",
+      "type": "Peer review",
+      "icon": "✓",
+      "title": "Apply to become a Higher Learning Commission peer reviewer",
+      "org": "Higher Learning Commission",
+      "deadline": "September 30, 2026",
+      "activeUntil": "2026-10-01T06:59:59Z",
+      "status": "open",
+      "why": "HLC is accepting applications for trained peer reviewers who evaluate colleges and universities and support institutional improvement.",
+      "eligibility": "Higher-education and accreditation experience; applicants should check HLC's current selection criteria before applying.",
+      "tags": ["Higher education", "Accreditation", "Quality assurance", "United States", "Training"],
+      "proof": "Accreditation peer-review service",
+      "effort": "Training plus institutional evaluation assignments",
+      "applicationUrl": "https://www.hlcommission.org/about-hlc/service-opportunities/become-a-peer-reviewer/",
+      "source": {
+        "name": "Higher Learning Commission",
+        "authority": "Higher Learning Commission official call",
+        "url": "https://www.hlcommission.org/about-hlc/service-opportunities/become-a-peer-reviewer/",
+        "retrievedAt": "2026-09-19T23:00:00.000Z",
+        "authoritative": true
+      }
+    }
+  ]
+}
