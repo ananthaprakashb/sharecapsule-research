@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-19T09:34:24.479Z",
+  "generatedAt": "2026-09-20T09:50:34.832Z",
   "source": {
     "name": "Approved authentic-source registry",
     "authority": "Issuers and official public directories"
@@ -23,7 +23,7 @@
     }
   ],
   "counts": {
-    "Grants.gov": 264,
+    "Grants.gov": 262,
     "Sessionize": 2,
     "USA.gov": 13
   },
@@ -55,7 +55,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363708",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -86,7 +86,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363709",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -117,7 +117,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363214",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -148,7 +148,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363215",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -178,7 +178,7 @@
         "authority": "Organizer-published public CFP",
         "documentation": "https://sessionize.com/",
         "url": "https://sessionize.com/open-conf-2026/",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -209,7 +209,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363302",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -240,7 +240,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/361234",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -271,7 +271,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363864",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -302,7 +302,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/357554",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -333,7 +333,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363359",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -364,7 +364,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363355",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -395,7 +395,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363514",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -426,7 +426,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/361249",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -457,7 +457,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/351715",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -488,7 +488,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363375",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -519,7 +519,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/361035",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -550,7 +550,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/361814",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -581,7 +581,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/361931",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -612,7 +612,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363689",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -643,7 +643,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/360678",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -674,7 +674,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/362470",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -705,7 +705,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363364",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -736,7 +736,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/352741",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -767,7 +767,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363631",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -798,7 +798,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/355100",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -829,7 +829,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363467",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -860,7 +860,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363466",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -890,7 +890,7 @@
         "authority": "Organizer-published public CFP",
         "documentation": "https://sessionize.com/",
         "url": "https://sessionize.com/ai-native-devcon-nyc-2026/",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -921,7 +921,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/359949",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -952,7 +952,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/360336",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -983,7 +983,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363797",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1014,7 +1014,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363710",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1045,7 +1045,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363700",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1076,7 +1076,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/353936",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1107,7 +1107,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363396",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1138,7 +1138,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363724",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1169,7 +1169,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/334326",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1197,7 +1197,7 @@
         "authority": "U.S. General Services Administration",
         "directory": "https://www.usa.gov/find-active-challenge",
         "url": "https://www.usa.gov/challenges/ready-set-id-biothreat",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1228,7 +1228,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363843",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1259,7 +1259,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363590",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1290,162 +1290,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/359853",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:359666",
-      "sourceRecordId": "359666",
-      "type": "Funding",
-      "icon": "$",
-      "title": "Model-to-Clinic (M2C) for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (UG3/UH3, Clinical Trial Optional)",
-      "org": "HHS-NIH11",
-      "agencyCode": "HHS-NIH11",
-      "opportunityNumber": "RFA-RM-27-013",
-      "openDate": "2026-06-30T00:00:00.000Z",
-      "deadline": "10/19/2026",
-      "status": "posted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "HHS-NIH11"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/359666",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/359666",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:359270",
-      "sourceRecordId": "359270",
-      "type": "Funding",
-      "icon": "$",
-      "title": "PRIMED-AI: Data-to-Model Academic-Industrial Partnerships (D2M-AIP) for Precision Medicine with AI: Integrating Imaging with Multimodal Data (UG3/UH3 Clinical Trial Optional)",
-      "org": "HHS-NIH11",
-      "agencyCode": "HHS-NIH11",
-      "opportunityNumber": "RFA-RM-27-012",
-      "openDate": "2026-06-30T00:00:00.000Z",
-      "deadline": "10/19/2026",
-      "status": "posted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "HHS-NIH11"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/359270",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/359270",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:363326",
-      "sourceRecordId": "363326",
-      "type": "Funding",
-      "icon": "$",
-      "title": "Plant Protection Act Section 7721 Fiscal Year 2027 National Clean Plant Network (NCPN)",
-      "org": "USDA-APHIS",
-      "agencyCode": "USDA-APHIS",
-      "opportunityNumber": "USDA-APHIS-10031-PPQ-NCPN-2027",
-      "openDate": "2026-07-27T00:00:00.000Z",
-      "deadline": "10/19/2026",
-      "status": "posted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "USDA-APHIS"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/363326",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/363326",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:363869",
-      "sourceRecordId": "363869",
-      "type": "Funding",
-      "icon": "$",
-      "title": "The DOE Quantum Genesis Q Competition",
-      "org": "PAMS-SC",
-      "agencyCode": "PAMS-SC",
-      "opportunityNumber": "DE-FOA-0003657",
-      "openDate": "2026-09-17T00:00:00.000Z",
-      "deadline": "10/19/2026",
-      "status": "posted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "PAMS-SC"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/363869",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/363869",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:359123",
-      "sourceRecordId": "359123",
-      "type": "Funding",
-      "icon": "$",
-      "title": "Community Engagement Evaluation and Data Coordination (CEED) Hub to Advance Data and Practice Transformation for Optimizing Oral Health for All (U01, Clinical Trial Not Allowed)",
-      "org": "HHS-NIH11",
-      "agencyCode": "HHS-NIH11",
-      "opportunityNumber": "RFA-DE-27-001",
-      "openDate": "2026-04-27T00:00:00.000Z",
-      "deadline": "10/19/2026",
-      "status": "posted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "HHS-NIH11"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/359123",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/359123",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1476,7 +1321,162 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/359855",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:359666",
+      "sourceRecordId": "359666",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Model-to-Clinic (M2C) for Precision Medicine with AI: Integrating Imaging with Multimodal Data (PRIMED-AI) (UG3/UH3, Clinical Trial Optional)",
+      "org": "HHS-NIH11",
+      "agencyCode": "HHS-NIH11",
+      "opportunityNumber": "RFA-RM-27-013",
+      "openDate": "2026-06-30T00:00:00.000Z",
+      "deadline": "10/19/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-NIH11"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/359666",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/359666",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:359270",
+      "sourceRecordId": "359270",
+      "type": "Funding",
+      "icon": "$",
+      "title": "PRIMED-AI: Data-to-Model Academic-Industrial Partnerships (D2M-AIP) for Precision Medicine with AI: Integrating Imaging with Multimodal Data (UG3/UH3 Clinical Trial Optional)",
+      "org": "HHS-NIH11",
+      "agencyCode": "HHS-NIH11",
+      "opportunityNumber": "RFA-RM-27-012",
+      "openDate": "2026-06-30T00:00:00.000Z",
+      "deadline": "10/19/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-NIH11"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/359270",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/359270",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:363326",
+      "sourceRecordId": "363326",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Plant Protection Act Section 7721 Fiscal Year 2027 National Clean Plant Network (NCPN)",
+      "org": "USDA-APHIS",
+      "agencyCode": "USDA-APHIS",
+      "opportunityNumber": "USDA-APHIS-10031-PPQ-NCPN-2027",
+      "openDate": "2026-07-27T00:00:00.000Z",
+      "deadline": "10/19/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "USDA-APHIS"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/363326",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/363326",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:363869",
+      "sourceRecordId": "363869",
+      "type": "Funding",
+      "icon": "$",
+      "title": "The DOE Quantum Genesis Q Competition",
+      "org": "PAMS-SC",
+      "agencyCode": "PAMS-SC",
+      "opportunityNumber": "DE-FOA-0003657",
+      "openDate": "2026-09-17T00:00:00.000Z",
+      "deadline": "10/19/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "PAMS-SC"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/363869",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/363869",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:359123",
+      "sourceRecordId": "359123",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Community Engagement Evaluation and Data Coordination (CEED) Hub to Advance Data and Practice Transformation for Optimizing Oral Health for All (U01, Clinical Trial Not Allowed)",
+      "org": "HHS-NIH11",
+      "agencyCode": "HHS-NIH11",
+      "opportunityNumber": "RFA-DE-27-001",
+      "openDate": "2026-04-27T00:00:00.000Z",
+      "deadline": "10/19/2026",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-NIH11"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/359123",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/359123",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1504,7 +1504,7 @@
         "authority": "U.S. General Services Administration",
         "directory": "https://www.usa.gov/find-active-challenge",
         "url": "https://www.usa.gov/challenges/xtech-search-10",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1535,7 +1535,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/362252",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1566,7 +1566,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/362248",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1597,7 +1597,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363325",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1628,7 +1628,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363852",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1656,7 +1656,7 @@
         "authority": "U.S. General Services Administration",
         "directory": "https://www.usa.gov/find-active-challenge",
         "url": "https://www.usa.gov/challenges/1cdp-innovation-challenge",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1687,7 +1687,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/356561",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1718,7 +1718,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/356562",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1749,7 +1749,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/350338",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1780,7 +1780,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/362880",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1811,7 +1811,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/362827",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1839,7 +1839,7 @@
         "authority": "U.S. General Services Administration",
         "directory": "https://www.usa.gov/find-active-challenge",
         "url": "https://www.usa.gov/challenges/nasa-techrise-student-challenge",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1870,7 +1870,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363268",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1901,7 +1901,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/362551",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1932,7 +1932,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/360200",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1963,7 +1963,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363830",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -1994,7 +1994,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363764",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2025,7 +2025,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/360534",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2056,7 +2056,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363766",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2087,7 +2087,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/362836",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2118,7 +2118,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/350018",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2149,7 +2149,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/359966",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2180,7 +2180,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/361604",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2208,7 +2208,7 @@
         "authority": "U.S. General Services Administration",
         "directory": "https://www.usa.gov/find-active-challenge",
         "url": "https://www.usa.gov/challenges/careers-in-your-community-challenge",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2236,7 +2236,7 @@
         "authority": "U.S. General Services Administration",
         "directory": "https://www.usa.gov/find-active-challenge",
         "url": "https://www.usa.gov/challenges/xtech-kinetic-reach",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2267,7 +2267,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363815",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2298,7 +2298,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/347331",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2329,7 +2329,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/355439",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2360,7 +2360,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/348375",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2391,7 +2391,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/351404",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2422,7 +2422,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/361526",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2453,7 +2453,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/359996",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2484,7 +2484,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/356690",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2515,7 +2515,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363510",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2546,7 +2546,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/355219",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2577,7 +2577,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/358004",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2608,7 +2608,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/344124",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2639,7 +2639,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/344608",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2670,7 +2670,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/354269",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2701,7 +2701,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/356129",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2729,7 +2729,7 @@
         "authority": "U.S. General Services Administration",
         "directory": "https://www.usa.gov/find-active-challenge",
         "url": "https://www.usa.gov/challenges/gateways-blue-skies",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2757,7 +2757,7 @@
         "authority": "U.S. General Services Administration",
         "directory": "https://www.usa.gov/find-active-challenge",
         "url": "https://www.usa.gov/challenges/documentation-decision-support",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2788,7 +2788,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/361333",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2819,7 +2819,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/357498",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2850,7 +2850,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/325932",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2881,7 +2881,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/324456",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2912,7 +2912,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/361238",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2943,7 +2943,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/359671",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -2974,7 +2974,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/359757",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3005,7 +3005,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/355196",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3036,7 +3036,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/353413",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3067,7 +3067,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/351923",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3098,7 +3098,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/358036",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3129,7 +3129,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/353821",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3160,7 +3160,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/357288",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3191,7 +3191,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/356530",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3219,7 +3219,7 @@
         "authority": "U.S. General Services Administration",
         "directory": "https://www.usa.gov/find-active-challenge",
         "url": "https://www.usa.gov/challenges/cultivating-connected-communities",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3250,7 +3250,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/361915",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3281,7 +3281,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/339594",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3312,7 +3312,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/362395",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3343,7 +3343,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/362396",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3374,7 +3374,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/356620",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3405,7 +3405,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/343725",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3436,7 +3436,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/360262",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3464,7 +3464,7 @@
         "authority": "U.S. General Services Administration",
         "directory": "https://www.usa.gov/find-active-challenge",
         "url": "https://www.usa.gov/challenges/halt-the-hitchhiker-invasive-species",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3495,7 +3495,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/359892",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3526,7 +3526,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/344592",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3557,7 +3557,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/345083",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3588,7 +3588,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/357030",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3619,7 +3619,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/358118",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3650,7 +3650,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/348830",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3681,7 +3681,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/359701",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3712,7 +3712,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/334971",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3743,7 +3743,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/345938",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3774,7 +3774,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/362755",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3802,7 +3802,7 @@
         "authority": "U.S. General Services Administration",
         "directory": "https://www.usa.gov/find-active-challenge",
         "url": "https://www.usa.gov/challenges/cto-challenge",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3833,7 +3833,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/347858",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3864,7 +3864,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/362034",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3892,7 +3892,7 @@
         "authority": "U.S. General Services Administration",
         "directory": "https://www.usa.gov/find-active-challenge",
         "url": "https://www.usa.gov/challenges/nih-new-approach-methodologies-nams",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3923,7 +3923,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/349804",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3954,7 +3954,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/359696",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -3982,7 +3982,7 @@
         "authority": "U.S. General Services Administration",
         "directory": "https://www.usa.gov/find-active-challenge",
         "url": "https://www.usa.gov/challenges/acl-caregiver-ai-prize",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4013,7 +4013,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/359003",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4044,7 +4044,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/352845",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4075,7 +4075,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/359758",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4106,7 +4106,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/361160",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4137,7 +4137,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/359157",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4168,7 +4168,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/356623",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4199,7 +4199,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/358380",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4230,7 +4230,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/359236",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4261,7 +4261,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/329436",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4292,7 +4292,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363613",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4323,7 +4323,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/362063",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4354,7 +4354,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363614",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4385,7 +4385,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/358684",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4416,7 +4416,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/337460",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4447,7 +4447,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/355211",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4478,7 +4478,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363786",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4509,7 +4509,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/358687",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4540,7 +4540,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/359152",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4571,7 +4571,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/362086",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4602,7 +4602,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/359120",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4633,7 +4633,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/350230",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4664,7 +4664,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363369",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4695,7 +4695,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/362454",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4726,38 +4726,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/347707",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:348258",
-      "sourceRecordId": "348258",
-      "type": "Funding",
-      "icon": "$",
-      "title": "Energy, Power, Control, and Networks (EPCN)",
-      "org": "NSF",
-      "agencyCode": "NSF",
-      "opportunityNumber": "PD-18-7607",
-      "openDate": "2023-05-19T00:00:00.000Z",
-      "deadline": "See official record",
-      "status": "posted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "NSF"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/348258",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/348258",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4788,7 +4757,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/358783",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4819,7 +4788,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/351231",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4850,7 +4819,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/345914",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4881,7 +4850,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/347569",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4912,7 +4881,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/359266",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4943,7 +4912,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/337410",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -4974,7 +4943,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/355967",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5005,7 +4974,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363653",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5036,7 +5005,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/348923",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5067,7 +5036,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/355824",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5098,7 +5067,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/355829",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5129,7 +5098,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/355830",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5160,7 +5129,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/355831",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5191,7 +5160,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/357680",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5222,7 +5191,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/355825",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5253,7 +5222,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/360095",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5284,7 +5253,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363226",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5315,7 +5284,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/350469",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5346,7 +5315,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/327185",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5377,7 +5346,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/327658",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5408,7 +5377,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/357133",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5439,7 +5408,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/361239",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5470,7 +5439,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/334905",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5501,7 +5470,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/355385",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5532,7 +5501,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/325472",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5563,7 +5532,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/358912",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5594,7 +5563,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/355936",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5625,7 +5594,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/355937",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5656,7 +5625,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/329806",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5687,7 +5656,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/331311",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5718,7 +5687,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/327345",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5749,7 +5718,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/334093",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5780,7 +5749,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/58617",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5811,7 +5780,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/356412",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5842,7 +5811,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/358672",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5873,7 +5842,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363509",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5904,7 +5873,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/327763",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5935,7 +5904,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363113",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5966,7 +5935,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/356629",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -5997,38 +5966,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/352238",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:346204",
-      "sourceRecordId": "346204",
-      "type": "Funding",
-      "icon": "$",
-      "title": "Communications, Circuits, and Sensing-Systems (CCSS)",
-      "org": "NSF",
-      "agencyCode": "NSF",
-      "opportunityNumber": "PD-18-7564",
-      "openDate": "2023-02-17T00:00:00.000Z",
-      "deadline": "See official record",
-      "status": "posted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "NSF"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/346204",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/346204",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -6059,7 +5997,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363779",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -6090,255 +6028,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/345645",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:363292",
-      "sourceRecordId": "363292",
-      "type": "Funding",
-      "icon": "$",
-      "title": "NIOSH Robotics and Intelligent Mining Technology and Workplace Safety Research (U60)",
-      "org": "HHS-CDC-HHSCDCERA",
-      "agencyCode": "HHS-CDC-HHSCDCERA",
-      "opportunityNumber": "RFA-OH-27-044",
-      "openDate": "2026-07-22T00:00:00.000Z",
-      "deadline": "See official record",
-      "status": "forecasted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "HHS-CDC-HHSCDCERA"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/363292",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/363292",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:353475",
-      "sourceRecordId": "353475",
-      "type": "Funding",
-      "icon": "$",
-      "title": "Cyberinfrastructure for Public Access and Open Science",
-      "org": "NSF",
-      "agencyCode": "NSF",
-      "opportunityNumber": "PD-24-7414",
-      "openDate": "2024-04-10T00:00:00.000Z",
-      "deadline": "See official record",
-      "status": "posted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "NSF"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/353475",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/353475",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:308873",
-      "sourceRecordId": "308873",
-      "type": "Funding",
-      "icon": "$",
-      "title": "Crosscutting Activities in Materials Research",
-      "org": "NSF",
-      "agencyCode": "NSF",
-      "opportunityNumber": "PD-18-7222",
-      "openDate": "2018-09-08T00:00:00.000Z",
-      "deadline": "See official record",
-      "status": "posted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "NSF"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/308873",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/308873",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:348164",
-      "sourceRecordId": "348164",
-      "type": "Funding",
-      "icon": "$",
-      "title": "Economics",
-      "org": "NSF",
-      "agencyCode": "NSF",
-      "opportunityNumber": "PD-23-1320",
-      "openDate": "2023-05-17T00:00:00.000Z",
-      "deadline": "See official record",
-      "status": "posted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "NSF"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/348164",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/348164",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:345872",
-      "sourceRecordId": "345872",
-      "type": "Funding",
-      "icon": "$",
-      "title": "Electronics, Photonics and Magnetic Devices (EPMD)",
-      "org": "NSF",
-      "agencyCode": "NSF",
-      "opportunityNumber": "PD-18-1517",
-      "openDate": "2023-02-08T00:00:00.000Z",
-      "deadline": "See official record",
-      "status": "posted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "NSF"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/345872",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/345872",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:350730",
-      "sourceRecordId": "350730",
-      "type": "Funding",
-      "icon": "$",
-      "title": "Request for Information (RFI): Community Influence on Human Judgment During Information Processing Tasks",
-      "org": "DOD-AMC",
-      "agencyCode": "DOD-AMC",
-      "opportunityNumber": "DEVCOM-ARL-RFI-24-01-HC",
-      "openDate": "2023-10-25T00:00:00.000Z",
-      "deadline": "See official record",
-      "status": "forecasted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "DOD-AMC"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/350730",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/350730",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:362996",
-      "sourceRecordId": "362996",
-      "type": "Funding",
-      "icon": "$",
-      "title": "Microplastics Research and Resource Coordination Center (U24 - Clinical Trial Not Allowed)",
-      "org": "HHS-NIH11",
-      "agencyCode": "HHS-NIH11",
-      "opportunityNumber": "RFA-ES-27-003",
-      "openDate": "2026-06-29T00:00:00.000Z",
-      "deadline": "See official record",
-      "status": "forecasted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "HHS-NIH11"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/362996",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/362996",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:339728",
-      "sourceRecordId": "339728",
-      "type": "Funding",
-      "icon": "$",
-      "title": "Tactical Behaviors for Autonomous Maneuver",
-      "org": "DOD-AMC",
-      "agencyCode": "DOD-AMC",
-      "opportunityNumber": "W911NF-22-S-0011",
-      "openDate": "2022-04-22T00:00:00.000Z",
-      "deadline": "See official record",
-      "status": "posted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "DOD-AMC"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/339728",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/339728",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -6369,7 +6059,224 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/356536",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:363292",
+      "sourceRecordId": "363292",
+      "type": "Funding",
+      "icon": "$",
+      "title": "NIOSH Robotics and Intelligent Mining Technology and Workplace Safety Research (U60)",
+      "org": "HHS-CDC-HHSCDCERA",
+      "agencyCode": "HHS-CDC-HHSCDCERA",
+      "opportunityNumber": "RFA-OH-27-044",
+      "openDate": "2026-07-22T00:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-CDC-HHSCDCERA"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/363292",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/363292",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:353475",
+      "sourceRecordId": "353475",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Cyberinfrastructure for Public Access and Open Science",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "PD-24-7414",
+      "openDate": "2024-04-10T00:00:00.000Z",
+      "deadline": "See official record",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/353475",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/353475",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:308873",
+      "sourceRecordId": "308873",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Crosscutting Activities in Materials Research",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "PD-18-7222",
+      "openDate": "2018-09-08T00:00:00.000Z",
+      "deadline": "See official record",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/308873",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/308873",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:348164",
+      "sourceRecordId": "348164",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Economics",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "PD-23-1320",
+      "openDate": "2023-05-17T00:00:00.000Z",
+      "deadline": "See official record",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/348164",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/348164",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:350730",
+      "sourceRecordId": "350730",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Request for Information (RFI): Community Influence on Human Judgment During Information Processing Tasks",
+      "org": "DOD-AMC",
+      "agencyCode": "DOD-AMC",
+      "opportunityNumber": "DEVCOM-ARL-RFI-24-01-HC",
+      "openDate": "2023-10-25T00:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOD-AMC"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/350730",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/350730",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:362996",
+      "sourceRecordId": "362996",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Microplastics Research and Resource Coordination Center (U24 - Clinical Trial Not Allowed)",
+      "org": "HHS-NIH11",
+      "agencyCode": "HHS-NIH11",
+      "opportunityNumber": "RFA-ES-27-003",
+      "openDate": "2026-06-29T00:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-NIH11"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/362996",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/362996",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:339728",
+      "sourceRecordId": "339728",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Tactical Behaviors for Autonomous Maneuver",
+      "org": "DOD-AMC",
+      "agencyCode": "DOD-AMC",
+      "opportunityNumber": "W911NF-22-S-0011",
+      "openDate": "2022-04-22T00:00:00.000Z",
+      "deadline": "See official record",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOD-AMC"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/339728",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/339728",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -6400,7 +6307,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363834",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -6431,7 +6338,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363837",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -6462,7 +6369,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/300997",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -6493,7 +6400,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/336962",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -6524,7 +6431,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/334092",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -6555,7 +6462,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/361008",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -6586,7 +6493,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/360634",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -6617,7 +6524,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/329432",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -6648,7 +6555,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/360664",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -6679,7 +6586,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/361952",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -6710,7 +6617,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363697",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -6741,7 +6648,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/361997",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -6772,7 +6679,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/359140",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -6803,7 +6710,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/360926",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -6834,7 +6741,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363342",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -6865,7 +6772,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/359864",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -6896,7 +6803,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/359865",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -6927,7 +6834,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363142",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -6958,7 +6865,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363330",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -6989,7 +6896,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363448",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7020,7 +6927,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363493",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7051,7 +6958,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/359138",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7082,7 +6989,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363049",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7113,7 +7020,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363417",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7144,7 +7051,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/362965",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7175,7 +7082,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/360643",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7206,7 +7113,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/360644",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7237,7 +7144,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363416",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7268,7 +7175,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/362952",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7299,7 +7206,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/361281",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7330,7 +7237,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363244",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7361,7 +7268,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363251",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7392,7 +7299,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/360639",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7423,7 +7330,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/254073",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7454,7 +7361,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/333638",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7485,7 +7392,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/103313",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7516,7 +7423,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/356538",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7547,7 +7454,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/344137",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7578,7 +7485,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/344437",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7609,7 +7516,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/357579",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7640,7 +7547,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/357580",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7671,7 +7578,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/337035",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7702,7 +7609,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/343875",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7733,7 +7640,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/336244",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7764,7 +7671,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/362061",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7795,7 +7702,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363836",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7826,7 +7733,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/363047",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7857,7 +7764,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/361532",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7888,7 +7795,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/360562",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7919,7 +7826,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/346203",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -7950,441 +7857,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/361205",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:362576",
-      "sourceRecordId": "362576",
-      "type": "Funding",
-      "icon": "$",
-      "title": "Small Business Transition Grant for New Entrepreneurs (Parent R43/R44 Clinical Trial Optional)",
-      "org": "HHS-NIH11",
-      "agencyCode": "HHS-NIH11",
-      "opportunityNumber": "PAR-27-039",
-      "openDate": "2026-05-27T00:00:00.000Z",
-      "deadline": "See official record",
-      "status": "forecasted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "HHS-NIH11"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/362576",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/362576",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:359724",
-      "sourceRecordId": "359724",
-      "type": "Funding",
-      "icon": "$",
-      "title": "Forecast to Publish a Notice of Funding Opportunity for Small Business Transition Grant For Early Career Scientists (R41/R42 Clinical Trial Not Allowed)",
-      "org": "HHS-NIH11",
-      "agencyCode": "HHS-NIH11",
-      "opportunityNumber": "FOR-CA-25-087",
-      "openDate": "2025-06-16T00:00:00.000Z",
-      "deadline": "See official record",
-      "status": "forecasted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "HHS-NIH11"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/359724",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/359724",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:325599",
-      "sourceRecordId": "325599",
-      "type": "Funding",
-      "icon": "$",
-      "title": "U.S. Embassy Praia Ambassador&rsquo;s Special Self-Help (SSH) Program",
-      "org": "DOS-CPV",
-      "agencyCode": "DOS-CPV",
-      "opportunityNumber": "AFPRA-20-04",
-      "openDate": "2020-03-19T00:00:00.000Z",
-      "deadline": "See official record",
-      "status": "posted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "DOS-CPV"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/325599",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/325599",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:352290",
-      "sourceRecordId": "352290",
-      "type": "Funding",
-      "icon": "$",
-      "title": "U.S. Embassy Djibouti PDS Annual Program Statement",
-      "org": "DOS-DJI",
-      "agencyCode": "DOS-DJI",
-      "opportunityNumber": "PDS-24-01",
-      "openDate": "2024-02-11T00:00:00.000Z",
-      "deadline": "See official record",
-      "status": "forecasted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "DOS-DJI"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/352290",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/352290",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:350831",
-      "sourceRecordId": "350831",
-      "type": "Funding",
-      "icon": "$",
-      "title": "Alumni Engagement Innovation Fund 2024",
-      "org": "DOS-LVA",
-      "agencyCode": "DOS-LVA",
-      "opportunityNumber": "2024-01",
-      "openDate": "2023-11-02T00:00:00.000Z",
-      "deadline": "See official record",
-      "status": "forecasted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "DOS-LVA"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/350831",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/350831",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:359726",
-      "sourceRecordId": "359726",
-      "type": "Funding",
-      "icon": "$",
-      "title": "Forecast to Publish a Notice of Funding Opportunity for SBIR Phase IIB Bridge Awards to Accelerate the Development of Cancer-Relevant Technologies Toward Commercialization (R44 Clinical Trial Optional)",
-      "org": "HHS-NIH11",
-      "agencyCode": "HHS-NIH11",
-      "opportunityNumber": "FOR-CA-25-086",
-      "openDate": "2025-06-16T00:00:00.000Z",
-      "deadline": "See official record",
-      "status": "forecasted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "HHS-NIH11"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/359726",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/359726",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:45810",
-      "sourceRecordId": "45810",
-      "type": "Funding",
-      "icon": "$",
-      "title": "Sociology",
-      "org": "NSF",
-      "agencyCode": "NSF",
-      "opportunityNumber": "PD-98-1331",
-      "openDate": "2009-03-06T00:00:00.000Z",
-      "deadline": "See official record",
-      "status": "posted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "NSF"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/45810",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/45810",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:360641",
-      "sourceRecordId": "360641",
-      "type": "Funding",
-      "icon": "$",
-      "title": "Toolkits for Dissemination of Genomic Technologies",
-      "org": "HHS-NIH11",
-      "agencyCode": "HHS-NIH11",
-      "opportunityNumber": "PAR-26-037",
-      "openDate": "2025-09-23T00:00:00.000Z",
-      "deadline": "See official record",
-      "status": "forecasted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "HHS-NIH11"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/360641",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/360641",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:360954",
-      "sourceRecordId": "360954",
-      "type": "Funding",
-      "icon": "$",
-      "title": "Space Technology Research, Development, Demonstration, and Infusion (SpaceTech REDDI-2026)",
-      "org": "NASA-HQ",
-      "agencyCode": "NASA-HQ",
-      "opportunityNumber": "NNH26ZTR001N",
-      "openDate": "2025-12-09T00:00:00.000Z",
-      "deadline": "See official record",
-      "status": "posted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "NASA-HQ"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/360954",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/360954",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:363168",
-      "sourceRecordId": "363168",
-      "type": "Funding",
-      "icon": "$",
-      "title": "Advanced Development and Validation of Emerging Technologies for Basic and Clinical Cancer Research (R33 Clinical Trial Not Allowed)",
-      "org": "HHS-NIH11",
-      "agencyCode": "HHS-NIH11",
-      "opportunityNumber": "RFA-CA-28-002",
-      "openDate": "2026-07-14T00:00:00.000Z",
-      "deadline": "See official record",
-      "status": "forecasted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "HHS-NIH11"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/363168",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/363168",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:363860",
-      "sourceRecordId": "363860",
-      "type": "Funding",
-      "icon": "$",
-      "title": "Somatic Mosaicism across Human Tissues (SMaHT) Program: Experimental and Computational Technology Development (RM1 Clinical Trial Not Allowed)",
-      "org": "HHS-NIH11",
-      "agencyCode": "HHS-NIH11",
-      "opportunityNumber": "RFA-RM-28-017",
-      "openDate": "2026-09-14T00:00:00.000Z",
-      "deadline": "See official record",
-      "status": "forecasted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "HHS-NIH11"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/363860",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/363860",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:359070",
-      "sourceRecordId": "359070",
-      "type": "Funding",
-      "icon": "$",
-      "title": "Notice of Intent to Publish a Funding Opportunity Announcement for Impact of Technology and Digital Media Exposure Usage on Child and Adolescent Development",
-      "org": "HHS-NIH11",
-      "agencyCode": "HHS-NIH11",
-      "opportunityNumber": "NOT-HD-25-008",
-      "openDate": "2025-06-25T00:00:00.000Z",
-      "deadline": "See official record",
-      "status": "forecasted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "HHS-NIH11"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/359070",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/359070",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:39841",
-      "sourceRecordId": "39841",
-      "type": "Funding",
-      "icon": "$",
-      "title": "Joint Center of Excellence for Advanced Materials Research",
-      "org": "DOT-FAA-FAA COE-FAA JAMS",
-      "agencyCode": "DOT-FAA-FAA COE-FAA JAMS",
-      "opportunityNumber": "FAA-COE-JAMS",
-      "openDate": "2023-11-01T00:00:00.000Z",
-      "deadline": "See official record",
-      "status": "posted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "DOT-FAA-FAA COE-FAA JAMS"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/39841",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/39841",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
-        "authoritative": true
-      }
-    },
-    {
-      "id": "grantsgov:351254",
-      "sourceRecordId": "351254",
-      "type": "Funding",
-      "icon": "$",
-      "title": "Collaborations to Enhance Drug Development and Regulatory Science",
-      "org": "HHS-FDA",
-      "agencyCode": "HHS-FDA",
-      "opportunityNumber": "FOR-FD-24-014",
-      "openDate": "2023-11-30T00:00:00.000Z",
-      "deadline": "See official record",
-      "status": "forecasted",
-      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
-      "tags": [
-        "Official source",
-        "Federal funding",
-        "HHS-FDA"
-      ],
-      "proof": "Funded research or community program",
-      "effort": "Review eligibility",
-      "applicationUrl": "https://www.grants.gov/search-results-detail/351254",
-      "source": {
-        "name": "Grants.gov",
-        "authority": "U.S. General Services Administration",
-        "api": "https://api.grants.gov/v1/api/search2",
-        "documentation": "https://grants.gov/api/api-guide",
-        "url": "https://www.grants.gov/search-results-detail/351254",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -8415,7 +7888,441 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/356055",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:362576",
+      "sourceRecordId": "362576",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Small Business Transition Grant for New Entrepreneurs (Parent R43/R44 Clinical Trial Optional)",
+      "org": "HHS-NIH11",
+      "agencyCode": "HHS-NIH11",
+      "opportunityNumber": "PAR-27-039",
+      "openDate": "2026-05-27T00:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-NIH11"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/362576",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/362576",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:359724",
+      "sourceRecordId": "359724",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Forecast to Publish a Notice of Funding Opportunity for Small Business Transition Grant For Early Career Scientists (R41/R42 Clinical Trial Not Allowed)",
+      "org": "HHS-NIH11",
+      "agencyCode": "HHS-NIH11",
+      "opportunityNumber": "FOR-CA-25-087",
+      "openDate": "2025-06-16T00:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-NIH11"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/359724",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/359724",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:325599",
+      "sourceRecordId": "325599",
+      "type": "Funding",
+      "icon": "$",
+      "title": "U.S. Embassy Praia Ambassador&rsquo;s Special Self-Help (SSH) Program",
+      "org": "DOS-CPV",
+      "agencyCode": "DOS-CPV",
+      "opportunityNumber": "AFPRA-20-04",
+      "openDate": "2020-03-19T00:00:00.000Z",
+      "deadline": "See official record",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOS-CPV"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/325599",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/325599",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:352290",
+      "sourceRecordId": "352290",
+      "type": "Funding",
+      "icon": "$",
+      "title": "U.S. Embassy Djibouti PDS Annual Program Statement",
+      "org": "DOS-DJI",
+      "agencyCode": "DOS-DJI",
+      "opportunityNumber": "PDS-24-01",
+      "openDate": "2024-02-11T00:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOS-DJI"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/352290",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/352290",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:350831",
+      "sourceRecordId": "350831",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Alumni Engagement Innovation Fund 2024",
+      "org": "DOS-LVA",
+      "agencyCode": "DOS-LVA",
+      "opportunityNumber": "2024-01",
+      "openDate": "2023-11-02T00:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOS-LVA"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/350831",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/350831",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:359726",
+      "sourceRecordId": "359726",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Forecast to Publish a Notice of Funding Opportunity for SBIR Phase IIB Bridge Awards to Accelerate the Development of Cancer-Relevant Technologies Toward Commercialization (R44 Clinical Trial Optional)",
+      "org": "HHS-NIH11",
+      "agencyCode": "HHS-NIH11",
+      "opportunityNumber": "FOR-CA-25-086",
+      "openDate": "2025-06-16T00:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-NIH11"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/359726",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/359726",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:45810",
+      "sourceRecordId": "45810",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Sociology",
+      "org": "NSF",
+      "agencyCode": "NSF",
+      "opportunityNumber": "PD-98-1331",
+      "openDate": "2009-03-06T00:00:00.000Z",
+      "deadline": "See official record",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NSF"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/45810",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/45810",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:360641",
+      "sourceRecordId": "360641",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Toolkits for Dissemination of Genomic Technologies",
+      "org": "HHS-NIH11",
+      "agencyCode": "HHS-NIH11",
+      "opportunityNumber": "PAR-26-037",
+      "openDate": "2025-09-23T00:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-NIH11"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/360641",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/360641",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:360954",
+      "sourceRecordId": "360954",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Space Technology Research, Development, Demonstration, and Infusion (SpaceTech REDDI-2026)",
+      "org": "NASA-HQ",
+      "agencyCode": "NASA-HQ",
+      "opportunityNumber": "NNH26ZTR001N",
+      "openDate": "2025-12-09T00:00:00.000Z",
+      "deadline": "See official record",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "NASA-HQ"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/360954",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/360954",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:363168",
+      "sourceRecordId": "363168",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Advanced Development and Validation of Emerging Technologies for Basic and Clinical Cancer Research (R33 Clinical Trial Not Allowed)",
+      "org": "HHS-NIH11",
+      "agencyCode": "HHS-NIH11",
+      "opportunityNumber": "RFA-CA-28-002",
+      "openDate": "2026-07-14T00:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-NIH11"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/363168",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/363168",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:363860",
+      "sourceRecordId": "363860",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Somatic Mosaicism across Human Tissues (SMaHT) Program: Experimental and Computational Technology Development (RM1 Clinical Trial Not Allowed)",
+      "org": "HHS-NIH11",
+      "agencyCode": "HHS-NIH11",
+      "opportunityNumber": "RFA-RM-28-017",
+      "openDate": "2026-09-14T00:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-NIH11"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/363860",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/363860",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:359070",
+      "sourceRecordId": "359070",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Notice of Intent to Publish a Funding Opportunity Announcement for Impact of Technology and Digital Media Exposure Usage on Child and Adolescent Development",
+      "org": "HHS-NIH11",
+      "agencyCode": "HHS-NIH11",
+      "opportunityNumber": "NOT-HD-25-008",
+      "openDate": "2025-06-25T00:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-NIH11"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/359070",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/359070",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:39841",
+      "sourceRecordId": "39841",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Joint Center of Excellence for Advanced Materials Research",
+      "org": "DOT-FAA-FAA COE-FAA JAMS",
+      "agencyCode": "DOT-FAA-FAA COE-FAA JAMS",
+      "opportunityNumber": "FAA-COE-JAMS",
+      "openDate": "2023-11-01T00:00:00.000Z",
+      "deadline": "See official record",
+      "status": "posted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "DOT-FAA-FAA COE-FAA JAMS"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/39841",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/39841",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:351254",
+      "sourceRecordId": "351254",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Collaborations to Enhance Drug Development and Regulatory Science",
+      "org": "HHS-FDA",
+      "agencyCode": "HHS-FDA",
+      "opportunityNumber": "FOR-FD-24-014",
+      "openDate": "2023-11-30T00:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-FDA"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/351254",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/351254",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -8446,7 +8353,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/360545",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -8477,7 +8384,38 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/326841",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
+        "authoritative": true
+      }
+    },
+    {
+      "id": "grantsgov:359156",
+      "sourceRecordId": "359156",
+      "type": "Funding",
+      "icon": "$",
+      "title": "Small Business Translator: MedTech and Digital Health Technologies",
+      "org": "HHS-NIH11",
+      "agencyCode": "HHS-NIH11",
+      "opportunityNumber": "FOR-NS-25-017",
+      "openDate": "2025-05-28T00:00:00.000Z",
+      "deadline": "See official record",
+      "status": "forecasted",
+      "why": "Official federal funding opportunity returned by the Grants.gov public API.",
+      "tags": [
+        "Official source",
+        "Federal funding",
+        "HHS-NIH11"
+      ],
+      "proof": "Funded research or community program",
+      "effort": "Review eligibility",
+      "applicationUrl": "https://www.grants.gov/search-results-detail/359156",
+      "source": {
+        "name": "Grants.gov",
+        "authority": "U.S. General Services Administration",
+        "api": "https://api.grants.gov/v1/api/search2",
+        "documentation": "https://grants.gov/api/api-guide",
+        "url": "https://www.grants.gov/search-results-detail/359156",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -8508,7 +8446,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/331306",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -8539,7 +8477,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/322814",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -8570,7 +8508,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/322815",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -8601,7 +8539,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/334259",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     },
@@ -8632,7 +8570,7 @@
         "api": "https://api.grants.gov/v1/api/search2",
         "documentation": "https://grants.gov/api/api-guide",
         "url": "https://www.grants.gov/search-results-detail/334791",
-        "retrievedAt": "2026-09-19T09:34:24.479Z",
+        "retrievedAt": "2026-09-20T09:50:34.832Z",
         "authoritative": true
       }
     }
